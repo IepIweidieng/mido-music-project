@@ -1,0 +1,11 @@
+Install_Xfer_OTT.exe
+https://xferrecords.com/freeware/
+
+下載並執行安裝程式，照著程式指示以安裝 VST 外掛程式。
+Download and run the installer, and then follow the instructions to install the VST plugin.
+
+請安裝 VST 外掛程式的 x64 版本。
+Please install the x64 version of the VST plugin.
+
+請將 VST 安裝至 LMMS 的 VST 外掛資料夾。
+Please install the VST to LMMS's VST plugin directory.

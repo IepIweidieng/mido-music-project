@@ -1,0 +1,5269 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<ModuleData Name="%MODULENAME%" Folder="SoundFont (sfz)" Priority="" FileCreator="逃亡者" FileVersion="0.04" WebSite="http://mimikopi.nomaki.jp/">
+	<ControlChangeEventDefault ID="255" />
+	<RhythmTrackDefault Gate="30" />
+	<ProgramChangeEventPropertyDlg AutoPreviewDelay="50" />
+
+<InstrumentList>
+%INSTRUMENTLIST%
+</InstrumentList>
+
+<DrumSetList>
+%DRUMSETLIST%
+</DrumSetList>
+
+<ControlChangeMacroList>
+
+	<Table ID="1">
+		<Entry Label="  0  OFF" Value="0" />
+		<Entry Label="127   ON" Value="127" />
+	</Table>
+
+	<Table ID="2">
+		<Entry Label="  0   ON" Value="0" />
+	</Table>
+
+	<Table ID="4">
+		<Entry Label="  0  -64" Value="0" />
+		<Entry Label="  1  -63" Value="1" />
+		<Entry Label="  2  -62" Value="2" />
+		<Entry Label="  3  -61" Value="3" />
+		<Entry Label="  4  -60" Value="4" />
+		<Entry Label="  5  -59" Value="5" />
+		<Entry Label="  6  -58" Value="6" />
+		<Entry Label="  7  -57" Value="7" />
+		<Entry Label="  8  -56" Value="8" />
+		<Entry Label="  9  -55" Value="9" />
+		<Entry Label=" 10  -54" Value="10" />
+		<Entry Label=" 11  -53" Value="11" />
+		<Entry Label=" 12  -52" Value="12" />
+		<Entry Label=" 13  -51" Value="13" />
+		<Entry Label=" 14  -50" Value="14" />
+		<Entry Label=" 15  -49" Value="15" />
+		<Entry Label=" 16  -48" Value="16" />
+		<Entry Label=" 17  -47" Value="17" />
+		<Entry Label=" 18  -46" Value="18" />
+		<Entry Label=" 19  -45" Value="19" />
+		<Entry Label=" 20  -44" Value="20" />
+		<Entry Label=" 21  -43" Value="21" />
+		<Entry Label=" 22  -42" Value="22" />
+		<Entry Label=" 23  -41" Value="23" />
+		<Entry Label=" 24  -40" Value="24" />
+		<Entry Label=" 25  -39" Value="25" />
+		<Entry Label=" 26  -38" Value="26" />
+		<Entry Label=" 27  -37" Value="27" />
+		<Entry Label=" 28  -36" Value="28" />
+		<Entry Label=" 29  -35" Value="29" />
+		<Entry Label=" 30  -34" Value="30" />
+		<Entry Label=" 31  -33" Value="31" />
+		<Entry Label=" 32  -32" Value="32" />
+		<Entry Label=" 33  -31" Value="33" />
+		<Entry Label=" 34  -30" Value="34" />
+		<Entry Label=" 35  -29" Value="35" />
+		<Entry Label=" 36  -28" Value="36" />
+		<Entry Label=" 37  -27" Value="37" />
+		<Entry Label=" 38  -26" Value="38" />
+		<Entry Label=" 39  -25" Value="39" />
+		<Entry Label=" 40  -24" Value="40" />
+		<Entry Label=" 41  -23" Value="41" />
+		<Entry Label=" 42  -22" Value="42" />
+		<Entry Label=" 43  -21" Value="43" />
+		<Entry Label=" 44  -20" Value="44" />
+		<Entry Label=" 45  -19" Value="45" />
+		<Entry Label=" 46  -18" Value="46" />
+		<Entry Label=" 47  -17" Value="47" />
+		<Entry Label=" 48  -16" Value="48" />
+		<Entry Label=" 49  -15" Value="49" />
+		<Entry Label=" 50  -14" Value="50" />
+		<Entry Label=" 51  -13" Value="51" />
+		<Entry Label=" 52  -12" Value="52" />
+		<Entry Label=" 53  -11" Value="53" />
+		<Entry Label=" 54  -10" Value="54" />
+		<Entry Label=" 55  -09" Value="55" />
+		<Entry Label=" 56  -08" Value="56" />
+		<Entry Label=" 57  -07" Value="57" />
+		<Entry Label=" 58  -06" Value="58" />
+		<Entry Label=" 59  -05" Value="59" />
+		<Entry Label=" 60  -04" Value="60" />
+		<Entry Label=" 61  -03" Value="61" />
+		<Entry Label=" 62  -02" Value="62" />
+		<Entry Label=" 63  -01" Value="63" />
+		<Entry Label=" 64  ±0" Value="64" />
+		<Entry Label=" 65  +01" Value="65" />
+		<Entry Label=" 66  +02" Value="66" />
+		<Entry Label=" 67  +03" Value="67" />
+		<Entry Label=" 68  +04" Value="68" />
+		<Entry Label=" 69  +05" Value="69" />
+		<Entry Label=" 70  +06" Value="70" />
+		<Entry Label=" 71  +07" Value="71" />
+		<Entry Label=" 72  +08" Value="72" />
+		<Entry Label=" 73  +09" Value="73" />
+		<Entry Label=" 74  +10" Value="74" />
+		<Entry Label=" 75  +11" Value="75" />
+		<Entry Label=" 76  +12" Value="76" />
+		<Entry Label=" 77  +13" Value="77" />
+		<Entry Label=" 78  +14" Value="78" />
+		<Entry Label=" 79  +15" Value="79" />
+		<Entry Label=" 80  +16" Value="80" />
+		<Entry Label=" 81  +17" Value="81" />
+		<Entry Label=" 82  +18" Value="82" />
+		<Entry Label=" 83  +19" Value="83" />
+		<Entry Label=" 84  +20" Value="84" />
+		<Entry Label=" 85  +21" Value="85" />
+		<Entry Label=" 86  +22" Value="86" />
+		<Entry Label=" 87  +23" Value="87" />
+		<Entry Label=" 88  +24" Value="88" />
+		<Entry Label=" 89  +25" Value="89" />
+		<Entry Label=" 90  +26" Value="90" />
+		<Entry Label=" 91  +27" Value="91" />
+		<Entry Label=" 92  +28" Value="92" />
+		<Entry Label=" 93  +29" Value="93" />
+		<Entry Label=" 94  +30" Value="94" />
+		<Entry Label=" 95  +31" Value="95" />
+		<Entry Label=" 96  +32" Value="96" />
+		<Entry Label=" 97  +33" Value="97" />
+		<Entry Label=" 98  +34" Value="98" />
+		<Entry Label=" 99  +35" Value="99" />
+		<Entry Label="100  +36" Value="100" />
+		<Entry Label="101  +37" Value="101" />
+		<Entry Label="102  +38" Value="102" />
+		<Entry Label="103  +39" Value="103" />
+		<Entry Label="104  +40" Value="104" />
+		<Entry Label="105  +41" Value="105" />
+		<Entry Label="106  +42" Value="106" />
+		<Entry Label="107  +43" Value="107" />
+		<Entry Label="108  +44" Value="108" />
+		<Entry Label="109  +45" Value="109" />
+		<Entry Label="110  +46" Value="110" />
+		<Entry Label="111  +47" Value="111" />
+		<Entry Label="112  +48" Value="112" />
+		<Entry Label="113  +49" Value="113" />
+		<Entry Label="114  +50" Value="114" />
+		<Entry Label="115  +51" Value="115" />
+		<Entry Label="116  +52" Value="116" />
+		<Entry Label="117  +53" Value="117" />
+		<Entry Label="118  +54" Value="118" />
+		<Entry Label="119  +55" Value="119" />
+		<Entry Label="120  +56" Value="120" />
+		<Entry Label="121  +57" Value="121" />
+		<Entry Label="122  +58" Value="122" />
+		<Entry Label="123  +59" Value="123" />
+		<Entry Label="124  +60" Value="124" />
+		<Entry Label="125  +61" Value="125" />
+		<Entry Label="126  +62" Value="126" />
+		<Entry Label="127  +63" Value="127" />
+	</Table>
+
+	<Table ID="71">
+		<Entry Label="-64" Value="-64" />
+		<Entry Label="-63" Value="-63" />
+		<Entry Label="-62" Value="-62" />
+		<Entry Label="-61" Value="-61" />
+		<Entry Label="-60" Value="-60" />
+		<Entry Label="-59" Value="-59" />
+		<Entry Label="-58" Value="-58" />
+		<Entry Label="-57" Value="-57" />
+		<Entry Label="-56" Value="-56" />
+		<Entry Label="-55" Value="-55" />
+		<Entry Label="-54" Value="-54" />
+		<Entry Label="-53" Value="-53" />
+		<Entry Label="-52" Value="-52" />
+		<Entry Label="-51" Value="-51" />
+		<Entry Label="-50" Value="-50" />
+		<Entry Label="-49" Value="-49" />
+		<Entry Label="-48" Value="-48" />
+		<Entry Label="-47" Value="-47" />
+		<Entry Label="-46" Value="-46" />
+		<Entry Label="-45" Value="-45" />
+		<Entry Label="-44" Value="-44" />
+		<Entry Label="-43" Value="-43" />
+		<Entry Label="-42" Value="-42" />
+		<Entry Label="-41" Value="-41" />
+		<Entry Label="-40" Value="-40" />
+		<Entry Label="-39" Value="-39" />
+		<Entry Label="-38" Value="-38" />
+		<Entry Label="-37" Value="-37" />
+		<Entry Label="-36" Value="-36" />
+		<Entry Label="-35" Value="-35" />
+		<Entry Label="-34" Value="-34" />
+		<Entry Label="-33" Value="-33" />
+		<Entry Label="-32" Value="-32" />
+		<Entry Label="-31" Value="-31" />
+		<Entry Label="-30" Value="-30" />
+		<Entry Label="-29" Value="-29" />
+		<Entry Label="-28" Value="-28" />
+		<Entry Label="-27" Value="-27" />
+		<Entry Label="-26" Value="-26" />
+		<Entry Label="-25" Value="-25" />
+		<Entry Label="-24" Value="-24" />
+		<Entry Label="-23" Value="-23" />
+		<Entry Label="-22" Value="-22" />
+		<Entry Label="-21" Value="-21" />
+		<Entry Label="-20" Value="-20" />
+		<Entry Label="-19" Value="-19" />
+		<Entry Label="-18" Value="-18" />
+		<Entry Label="-17" Value="-17" />
+		<Entry Label="-16" Value="-16" />
+		<Entry Label="-15" Value="-15" />
+		<Entry Label="-14" Value="-14" />
+		<Entry Label="-13" Value="-13" />
+		<Entry Label="-12" Value="-12" />
+		<Entry Label="-11" Value="-11" />
+		<Entry Label="-10" Value="-10" />
+		<Entry Label="-9"  Value=" -9" />
+		<Entry Label="-8"  Value=" -8" />
+		<Entry Label="-7"  Value=" -7" />
+		<Entry Label="-6"  Value=" -6" />
+		<Entry Label="-5"  Value=" -5" />
+		<Entry Label="-4"  Value=" -4" />
+		<Entry Label="-3"  Value=" -3" />
+		<Entry Label="-2"  Value=" -2" />
+		<Entry Label="-1"  Value=" -1" />
+		<Entry Label="+0"  Value="  0" />
+		<Entry Label="+1"  Value="  1" />
+		<Entry Label="+2"  Value="  2" />
+		<Entry Label="+3"  Value="  3" />
+		<Entry Label="+4"  Value="  4" />
+		<Entry Label="+5"  Value="  5" />
+		<Entry Label="+6"  Value="  6" />
+		<Entry Label="+7"  Value="  7" />
+		<Entry Label="+8"  Value="  8" />
+		<Entry Label="+9"  Value="  9" />
+		<Entry Label="+10" Value=" 10" />
+		<Entry Label="+11" Value=" 11" />
+		<Entry Label="+12" Value=" 12" />
+		<Entry Label="+13" Value=" 13" />
+		<Entry Label="+14" Value=" 14" />
+		<Entry Label="+15" Value=" 15" />
+		<Entry Label="+16" Value=" 16" />
+		<Entry Label="+17" Value=" 17" />
+		<Entry Label="+18" Value=" 18" />
+		<Entry Label="+19" Value=" 19" />
+		<Entry Label="+20" Value=" 20" />
+		<Entry Label="+21" Value=" 21" />
+		<Entry Label="+22" Value=" 22" />
+		<Entry Label="+23" Value=" 23" />
+		<Entry Label="+24" Value=" 24" />
+		<Entry Label="+25" Value=" 25" />
+		<Entry Label="+26" Value=" 26" />
+		<Entry Label="+27" Value=" 27" />
+		<Entry Label="+28" Value=" 28" />
+		<Entry Label="+29" Value=" 29" />
+		<Entry Label="+30" Value=" 30" />
+		<Entry Label="+31" Value=" 31" />
+		<Entry Label="+32" Value=" 32" />
+		<Entry Label="+33" Value=" 33" />
+		<Entry Label="+34" Value=" 34" />
+		<Entry Label="+35" Value=" 35" />
+		<Entry Label="+36" Value=" 36" />
+		<Entry Label="+37" Value=" 37" />
+		<Entry Label="+38" Value=" 38" />
+		<Entry Label="+39" Value=" 39" />
+		<Entry Label="+40" Value=" 40" />
+		<Entry Label="+41" Value=" 41" />
+		<Entry Label="+42" Value=" 42" />
+		<Entry Label="+43" Value=" 43" />
+		<Entry Label="+44" Value=" 44" />
+		<Entry Label="+45" Value=" 45" />
+		<Entry Label="+46" Value=" 46" />
+		<Entry Label="+47" Value=" 47" />
+		<Entry Label="+48" Value=" 48" />
+		<Entry Label="+49" Value=" 49" />
+		<Entry Label="+50" Value=" 50" />
+		<Entry Label="+51" Value=" 51" />
+		<Entry Label="+52" Value=" 52" />
+		<Entry Label="+53" Value=" 53" />
+		<Entry Label="+54" Value=" 54" />
+		<Entry Label="+55" Value=" 55" />
+		<Entry Label="+56" Value=" 56" />
+		<Entry Label="+57" Value=" 57" />
+		<Entry Label="+58" Value=" 58" />
+		<Entry Label="+59" Value=" 59" />
+		<Entry Label="+60" Value=" 60" />
+		<Entry Label="+61" Value=" 61" />
+		<Entry Label="+62" Value=" 62" />
+		<Entry Label="+63" Value=" 63" />
+	</Table>
+
+	<Table ID="142">
+		<Entry Label="-24" Value="-24" />
+		<Entry Label="-23" Value="-23" />
+		<Entry Label="-22" Value="-22" />
+		<Entry Label="-21" Value="-21" />
+		<Entry Label="-20" Value="-20" />
+		<Entry Label="-19" Value="-19" />
+		<Entry Label="-18" Value="-18" />
+		<Entry Label="-17" Value="-17" />
+		<Entry Label="-16" Value="-16" />
+		<Entry Label="-15" Value="-15" />
+		<Entry Label="-14" Value="-14" />
+		<Entry Label="-13" Value="-13" />
+		<Entry Label="-12" Value="-12" />
+		<Entry Label="-11" Value="-11" />
+		<Entry Label="-10" Value="-10" />
+		<Entry Label="-9"  Value=" -9" />
+		<Entry Label="-8"  Value=" -8" />
+		<Entry Label="-7"  Value=" -7" />
+		<Entry Label="-6"  Value=" -6" />
+		<Entry Label="-5"  Value=" -5" />
+		<Entry Label="-4"  Value=" -4" />
+		<Entry Label="-3"  Value=" -3" />
+		<Entry Label="-2"  Value=" -2" />
+		<Entry Label="-1"  Value=" -1" />
+		<Entry Label="+0"  Value="  0" />
+		<Entry Label="+1"  Value="  1" />
+		<Entry Label="+2"  Value="  2" />
+		<Entry Label="+3"  Value="  3" />
+		<Entry Label="+4"  Value="  4" />
+		<Entry Label="+5"  Value="  5" />
+		<Entry Label="+6"  Value="  6" />
+		<Entry Label="+7"  Value="  7" />
+		<Entry Label="+8"  Value="  8" />
+		<Entry Label="+9"  Value="  9" />
+		<Entry Label="+10" Value=" 10" />
+		<Entry Label="+11" Value=" 11" />
+		<Entry Label="+12" Value=" 12" />
+		<Entry Label="+13" Value=" 13" />
+		<Entry Label="+14" Value=" 14" />
+		<Entry Label="+15" Value=" 15" />
+		<Entry Label="+16" Value=" 16" />
+		<Entry Label="+17" Value=" 17" />
+		<Entry Label="+18" Value=" 18" />
+		<Entry Label="+19" Value=" 19" />
+		<Entry Label="+20" Value=" 20" />
+		<Entry Label="+21" Value=" 21" />
+		<Entry Label="+22" Value=" 22" />
+		<Entry Label="+23" Value=" 23" />
+		<Entry Label="+24" Value=" 24" />
+	</Table>
+
+
+	<Table ID="240">
+		<Entry Label="CC#0"  Value=" 0" />
+		<Entry Label="CC#1"  Value=" 1" />
+		<Entry Label="CC#2"  Value=" 2" />
+		<Entry Label="CC#3"  Value=" 3" />
+		<Entry Label="CC#4"  Value=" 4" />
+		<Entry Label="CC#5"  Value=" 5" />
+		<Entry Label="CC#6"  Value=" 6" />
+		<Entry Label="CC#7"  Value=" 7" />
+		<Entry Label="CC#8"  Value=" 8" />
+		<Entry Label="CC#9"  Value=" 9" />
+		<Entry Label="CC#10" Value="10" />
+		<Entry Label="CC#11" Value="11" />
+		<Entry Label="CC#12" Value="12" />
+		<Entry Label="CC#13" Value="13" />
+		<Entry Label="CC#14" Value="14" />
+		<Entry Label="CC#15" Value="15" />
+		<Entry Label="CC#16" Value="16" />
+		<Entry Label="CC#17" Value="17" />
+		<Entry Label="CC#18" Value="18" />
+		<Entry Label="CC#19" Value="19" />
+		<Entry Label="CC#20" Value="20" />
+		<Entry Label="CC#21" Value="21" />
+		<Entry Label="CC#22" Value="22" />
+		<Entry Label="CC#23" Value="23" />
+		<Entry Label="CC#24" Value="24" />
+		<Entry Label="CC#25" Value="25" />
+		<Entry Label="CC#26" Value="26" />
+		<Entry Label="CC#27" Value="27" />
+		<Entry Label="CC#28" Value="28" />
+		<Entry Label="CC#29" Value="29" />
+		<Entry Label="CC#30" Value="30" />
+		<Entry Label="CC#31" Value="31" />
+		<Entry Label="CC#64" Value="64" />
+		<Entry Label="CC#65" Value="65" />
+		<Entry Label="CC#66" Value="66" />
+		<Entry Label="CC#67" Value="67" />
+		<Entry Label="CC#68" Value="68" />
+		<Entry Label="CC#69" Value="69" />
+		<Entry Label="CC#70" Value="70" />
+		<Entry Label="CC#71" Value="71" />
+		<Entry Label="CC#72" Value="72" />
+		<Entry Label="CC#73" Value="73" />
+		<Entry Label="CC#74" Value="74" />
+		<Entry Label="CC#75" Value="75" />
+		<Entry Label="CC#76" Value="76" />
+		<Entry Label="CC#77" Value="77" />
+		<Entry Label="CC#78" Value="78" />
+		<Entry Label="CC#79" Value="79" />
+		<Entry Label="CC#80" Value="80" />
+		<Entry Label="CC#81" Value="81" />
+		<Entry Label="CC#82" Value="82" />
+		<Entry Label="CC#83" Value="83" />
+		<Entry Label="CC#84" Value="84" />
+		<Entry Label="CC#85" Value="85" />
+		<Entry Label="CC#86" Value="86" />
+		<Entry Label="CC#87" Value="87" />
+		<Entry Label="CC#88" Value="88" />
+		<Entry Label="CC#89" Value="89" />
+		<Entry Label="CC#90" Value="90" />
+		<Entry Label="CC#91" Value="91" />
+		<Entry Label="CC#92" Value="92" />
+		<Entry Label="CC#93" Value="93" />
+		<Entry Label="CC#94" Value="94" />
+		<Entry Label="CC#95" Value="95" />
+	</Table>
+
+	<CCM ID="88" Name="x 088 High Resolution Velocity Prefix" Color="#000099" Sync="Last">
+		<Value />
+			<Data>@CC 88 #VL</Data>
+	</CCM>
+
+	<CCM ID="255" Name="x 255 Rest (休符)" Color="#6600CC">
+			<Data></Data>
+		<Memo>休符 です。\n「SMF書き出し」 時に削除されます。\nｲﾍﾞﾝﾄの位置調整に ご利用下さい。</Memo>
+	</CCM>
+
+<Folder Name="[000-127] CC">
+
+<Folder Name="基本 (7、39、8、40、10、42、11、43)">
+	<CCM ID="7" Name="007 Channel Volume (MSB)" Color="#000099" Sync="Last">
+		<Value />
+			<Data>@CC 7 #VL</Data>
+		<Memo>ﾊﾟｰﾄの音量。一般的には、発音中の変化には使用しない。\n【Volume と Expression の違い】\n　Volume は 絶対指定 で Expression は 相対指定。\n　Expression は Volume の値に対する割合と考えよう。</Memo>
+	</CCM>
+
+	<CCM ID="39" Name="x 039 Channel Volume (LSB)" Color="#000099" Sync="Last">
+		<Value />
+			<Data>@CC 39 #VL</Data>
+		<Memo>ﾊﾟｰﾄの音量。一般的には、発音中の変化には使用しない。\n【Volume と Expression の違い】\n　Volume は 絶対指定 で Expression は 相対指定。\n　Expression は Volume の値に対する割合と考えよう。</Memo>
+	</CCM>
+
+	<CCM ID="8" Name="x 008 Balance (MSB)" Color="#000099" Sync="Last">
+		<Value />
+			<Data>@CC 8 #VL</Data>
+		<Memo>2音色間の音量バランスをコントロールするためのメッセージです。</Memo>
+	</CCM>
+
+	<CCM ID="40" Name="x 040 Balance (LSB)" Color="#000099" Sync="Last">
+		<Value />
+			<Data>@CC 40 #VL</Data>
+		<Memo>2音色間の音量バランスをコントロールするためのメッセージです。</Memo>
+	</CCM>
+
+	<CCM ID="10" Name="010 Pan (MSB)" Color="#CC0099" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 10 #VL</Data>
+		<Memo>音の定位 (位置)。\n64 を基点として左右の方向に増減。</Memo>
+	</CCM>
+
+	<CCM ID="42" Name="x 010 Pan (LSB)" Color="#CC0099" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 42 #VL</Data>
+		<Memo>音の定位 (位置)。\n64 を基点として左右の方向に増減。</Memo>
+	</CCM>
+
+	<CCM ID="11" Name="011 Expression Controller (MSB)" Color="#660099" Sync="Last">
+		<Value />
+			<Data>@CC 11 #VL</Data>
+		<Memo>音量。一般的には、発音中の音量の変化には こちらを使用する。\n【Volume と Expression の違い】\n　Volume は 絶対指定 で Expression は 相対指定。\n　Expression は Volume の値に対する割合と考えよう。</Memo>
+	</CCM>
+
+	<CCM ID="43" Name="x 043 Expression Controller (LSB)" Color="#660099" Sync="Last">
+		<Value />
+			<Data>@CC 43 #VL</Data>
+		<Memo>音量。一般的には、発音中の音量の変化には こちらを使用する。\n【Volume と Expression の違い】\n　Volume は 絶対指定 で Expression は 相対指定。\n　Expression は Volume の値に対する割合と考えよう。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="Modulation (1、33、76、77、78)">
+	<CCM ID="1" Name="001 Modulation Depth (MSB)" Color="#0000CC" Sync="Last">
+		<Value />
+			<Data>@CC 1 #VL</Data>
+		<Memo>音に ﾋﾞﾌﾞﾗｰﾄ効果 を与える。(音程を揺らす)</Memo>
+	</CCM>
+
+	<CCM ID="33" Name="x 033 Modulation Depth (LSB)" Color="#0000CC" Sync="Last">
+		<Value />
+			<Data>@CC 33 #VL</Data>
+		<Memo>音に ﾋﾞﾌﾞﾗｰﾄ効果 を与える。(音程を揺らす)</Memo>
+	</CCM>
+
+	<CCM ID="76" Name="076 Vibrato Rate" Color="#0000CC" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 76 #VL</Data>
+		<Memo>ピッチをふるわせる速さ（周波数）を調節します。</Memo>
+	</CCM>
+			
+	<CCM ID="77" Name="077 Vibrato Depth" Color="#0000CC" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 77 #VL</Data>
+		<Memo>ピッチをふるわせる深さを調節します。</Memo>
+	</CCM>
+			
+	<CCM ID="78" Name="078 Vibrato Delay" Color="#0000CC" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 78 #VL</Data>
+		<Memo>ビブラート効果がかかり始めるまでの時間を設定します。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="Program Change (0、32)">
+	<CCM ID="0" Name="000 Bank Select (MSB)" Color="#800080">
+		<Value />
+			<Data>@CC 0 #VL</Data>
+		<Memo>[Bank Select MSB] \n楽器の変更に使用。※ Domino では Program Change の 「Gate欄」 で代用可能。\n※ Program Change を受信するまで保留 (CC#0 だけでは音色は変わらない)。\n※ 送信順は 「CC#0 Bank Select MSB → CC#32 Bank Select LSB → Program Change」 。</Memo>
+	</CCM>
+
+	<CCM ID="32" Name="032 Bank Select (LSB)" Color="#800080">
+		<Value />
+			<Data>@CC 32 #VL</Data>
+		<Memo>[Bank Select LSB] \n楽器の変更に使用。※ Domino では Program Change の 「Gate欄」 で代用可能。\n※ Program Change を受信するまで保留 (CC#32 だけでは音色は変わらない)。\n※ 送信順は 「CC#0 Bank Select MSB → CC#32 Bank Select LSB → Program Change」 。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="Pedal 類 (64、66、67、68、69)">
+	<CCM ID="64" Name="064 Hold1 (Damper)" Color="#333333">
+		<Value TableID="1" />
+			<Data>@CC 64 #VL</Data>
+		<Memo>ON にしている間ﾉｰﾄｵﾌを無効化。\n使い終わったら OFF にするのを忘れずに。\n※ 正確には 「OFF ： 0 ～ 63、ON ： 64 ～ 127」 。</Memo>
+	</CCM>
+	
+	<CCM ID="66" Name="066 Sostenuto" Color="#333333">
+		<Value TableID="1" />
+			<Data>@CC 66 #VL</Data>
+		<Memo>ON のままで発音中のﾉｰﾄのﾉｰﾄｵﾌを無効化。\n使い終わったら OFF にするのを忘れずに。\n※ 正確には 「OFF ： 0 ～ 63、ON ： 64 ～ 127」 。</Memo>
+	</CCM>
+
+	<CCM ID="67" Name="067 Soft" Color="#333333">
+		<Value TableID="1" />
+			<Data>@CC 67 #VL</Data>
+		<Memo>ON にしている間ﾉｰﾄ音量を減する。\n使い終わったら OFF にするのを忘れずに。\n※ 正確には 「OFF ： 0 ～ 63、ON ： 64 ～ 127」 。</Memo>
+	</CCM>
+
+	<CCM ID="68" Name="x 068 Legato" Color="#333333">
+		<Value TableID="1" />
+			<Data>@CC 68 #VL</Data>
+		<Memo>ON にしている間ﾉｰﾄｵﾌを無効化。\n使い終わったら OFF にするのを忘れずに。\n※ 正確には 「OFF ： 0 ～ 63、ON ： 64 ～ 127」 。</Memo>
+	</CCM>
+
+	<CCM ID="69" Name="x 069 Hold 2" Color="#333333">
+		<Value TableID="1" />
+			<Data>@CC 69 #VL</Data>
+		<Memo>ON にしている間ﾉｰﾄｵﾌを無効化。\n使い終わったら OFF にするのを忘れずに。\n※ 正確には 「OFF ： 0 ～ 63、ON ： 64 ～ 127」 。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="Portamento (65、5、37、84)">
+	<CCM ID="65" Name="065 Portamento On/Off" Sync="Last">
+		<Value TableID="1" />
+			<Data>@CC 65 #VL</Data>
+		<Memo>ポルタメントのON/OFFを設定します。</Memo>
+	</CCM>
+
+	<CCM ID="5" Name="005 Portamento Time (MSB)" Sync="Last">
+		<Value />
+			<Data>@CC 5 #VL</Data>
+		<Memo>ポルタメントのピッチ変化速度を設定します。</Memo>
+	</CCM>
+
+	<CCM ID="37" Name="x 037 Portamento Time (LSB)" Sync="Last">
+		<Value />
+			<Data>@CC 37 #VL</Data>
+		<Memo>ポルタメントのピッチ変化速度を設定します。</Memo>
+	</CCM>
+			
+	<CCM ID="84" Name="084 Portamento Control" Sync="Last">
+		<Value Type="Key" />
+			<Data>@CC 84 #VL</Data>
+		<Memo></Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="ｴﾌｪｸﾄ類 (12、44、13、45、91、92、93、94、95)">
+	<CCM ID="12" Name="x 012 Effect Control 1 (MSB)" Color="#006600" Sync="Last">
+		<Value Default="64" />
+			<Data>@CC 12 #VL</Data>
+		<Memo>\n※ 「EFFECTS」 を 「On」 にした時に有効。</Memo>
+	</CCM>
+
+	<CCM ID="44" Name="x 044 Effect Control 1 (LSB)" Color="#006600" Sync="Last">
+		<Value Default="64" />
+			<Data>@CC 44 #VL</Data>
+		<Memo>\n※ 「EFFECTS」 を 「On」 にした時に有効。</Memo>
+	</CCM>
+
+	<CCM ID="13" Name="x 013 Effect Control 2 (MSB)" Color="#006633" Sync="Last">
+		<Value />
+			<Data>@CC 13 #VL</Data>
+		<Memo>\n※ 「EFFECTS」 を 「On」 にした時に有効。</Memo>
+	</CCM>
+
+	<CCM ID="45" Name="x 045 Effect Control 2 (LSB)" Color="#006633" Sync="Last">
+		<Value />
+			<Data>@CC 45 #VL</Data>
+		<Memo>\n※ 「EFFECTS」 を 「On」 にした時に有効。</Memo>
+	</CCM>
+
+	<CCM ID="91" Name="091 Reverb Send Level" Color="#006666" Sync="Last">
+		<Value />
+			<Data>@CC 91 #VL</Data>
+		<Memo>ﾘﾊﾞｰﾌﾞの効果量。\n※ 「EFFECTS」 を 「On」 にした時に有効。</Memo>
+	</CCM>
+
+	<CCM ID="92" Name="x 092 Tremolo Depth" Color="#006699" Sync="Last">
+		<Value />
+			<Data>@CC 92 #VL</Data>
+	</CCM>
+
+	<CCM ID="93" Name="093 Chorus Send Level" Color="#0066CC" Sync="Last">
+		<Value />
+			<Data>@CC 93 #VL</Data>
+		<Memo>ｺｰﾗｽの効果量。\n※ 「EFFECTS」 を 「On」 にした時に有効。</Memo>
+	</CCM>
+	
+	<CCM ID="94" Name="x 094 Celeste Depth" Color="#0066FF" Sync="Last">
+		<Value />
+			<Data>@CC 94 #VL</Data>
+	</CCM>
+
+	<CCM ID="95" Name="x 095 Phaser Depth" Color="#0066FF" Sync="Last">
+		<Value />
+			<Data>@CC 95 #VL</Data>
+	</CCM>
+</Folder>
+
+<Folder Name="Filter、ADSR ([70-75])">
+	<CCM ID="70" Name="x 070 Sound Variation" Color="#440000" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 70 #VL</Data>
+		<Memo>サウンドバリエーションコントローラとはギターとミュートギター、ストリングスとピチカートといった 基本音色とそれに関連付けられるバリエーション音色を切り替えます。</Memo>
+	</CCM>
+
+	<CCM ID="74" Name="074 Filter Cutoff" Color="#440000" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 74 #VL</Data>
+		<Memo>音色の明るさ。\n64 を基点として増減。</Memo>
+	</CCM>
+
+	<CCM ID="71" Name="071 Filter Resonance" Color="#440000" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 71 #VL</Data>
+		<Memo>カットオフ周波数付近の倍音成分を調節します。</Memo>
+	</CCM>
+
+	<CCM ID="73" Name="073 Attack Time" Color="#440066" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 73 #VL</Data>
+		<Memo>音の立ち上がりの時間の長さ。\n64 を基点として増減。</Memo>
+	</CCM>
+
+	<CCM ID="75" Name="075 Decay Time" Color="#440066" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 75 #VL</Data>
+		<Memo>音の減衰までの時間の長さ。\n64 を基点として増減。</Memo>
+	</CCM>
+
+	<CCM ID="72" Name="072 Release Time" Color="#440066" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@CC 72 #VL</Data>
+		<Memo>ﾉｰﾄｵﾌ後 (Gate Time 終了後) の余韻の長さ。\n64 を基点として増減。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="RPN、NRPN ([98-101]、6、38、96、97)">
+	<CCM ID="99" Name="099 NRPN (MSB)">
+		<Value />
+			<Data>@CC 99 #VL</Data>
+		<Memo></Memo>
+	</CCM>
+	
+	<CCM ID="98" Name="098 NRPN (LSB)">
+		<Value />
+			<Data>@CC 98 #VL</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="101" Name="101 RPN (MSB)" Color="#006600">
+		<Value>
+			<Entry Label="  0     RPN" Value="0" />
+			<Entry Label="127    Null" Value="127" />
+		</Value>
+			<Data>@CC 101 #VL</Data>
+		<Memo>RPN の設定に使用。\nCC#101 → CC#100 → CC#6 (→ CC#38) の順番で受信させる。\nCC#101 と CC#100 の組み合わせで機能を選択し、CC#6 (と CC#38) で効果量を設定する。</Memo>
+	</CCM>
+
+	<CCM ID="100" Name="100 RPN (LSB)" Color="#003300">
+		<Value>
+			<Entry Label="  0 ﾍﾞﾝﾄﾞ幅" Value="0" />
+			<Entry Label="127    Null" Value="127" />
+		</Value>
+			<Data>@CC 100 #VL</Data>
+		<Memo>RPN の設定に使用。\nCC#101 → CC#100 → CC#6 (→ CC#38) の順番で受信させる。\nCC#101 と CC#100 の組み合わせで機能を選択し、CC#6 (と CC#38) で効果量を設定する。</Memo>
+	</CCM>
+
+	<CCM ID="6" Name="006 Data Entry (MSB)" Color="#996600">
+		<Value TableID="4" />
+			<Data>@CC 6 #VL</Data>
+		<Memo>RPN、NRPN の設定に使用。\n―\n【RPN】\nCC#101 → CC#100 → CC#6 (→ CC#38) の順番で受信させる。\nCC#101 と CC#100 の組み合わせで機能を選択し、CC#6 (と CC#38) で効果量を設定する。\n―\n【NRPN】\nCC#99 → CC#98 → CC#6 の順番で受信させる。\nCC#99 と CC#98 の組み合わせで機能を選択し、CC#6 で効果量を設定する。</Memo>
+	</CCM>
+
+	<CCM ID="38" Name="038 Data Entry (LSB)" Color="#993300">
+		<Value />
+			<Data>@CC 38 #VL</Data>
+		<Memo>RPN の設定に使用。\nCC#101 → CC#100 → CC#6 → CC#38 の順番で受信させる。\nCC#101 と CC#100 の組み合わせで機能を選択し、CC#6 と CC#38 で効果量を設定する。</Memo>
+	</CCM>
+
+	<CCM ID="96" Name="x 096 Data Increment" Color="#996600">
+		<Value />
+			<Data>@CC 96 #VL</Data>
+	</CCM>
+
+	<CCM ID="97" Name="x 097 Data Decrement" Color="#993300">
+		<Value />
+			<Data>@CC 97 #VL</Data>
+	</CCM>
+</Folder>
+
+<Folder Name="x Input類  (2、34、4、36)">
+	<CCM ID="2" Name="x 002 Breath Controller (MSB)" Color="#333333">
+		<Value />
+			<Data>@CC 2 #VL</Data>
+		<Memo>ブレスコントローラは息を吹き込む強さによってコントロールを行うものです。 コントロール対象を音量にしてMIDI楽器を演奏すれば、管楽器の表現を再現できます。</Memo>
+	</CCM>
+
+	<CCM ID="34" Name="x 034 Breath Controller (LSB)" Color="#333333">
+		<Value />
+			<Data>@CC 34 #VL</Data>
+		<Memo>ブレスコントローラは息を吹き込む強さによってコントロールを行うものです。 コントロール対象を音量にしてMIDI楽器を演奏すれば、管楽器の表現を再現できます。</Memo>
+	</CCM>
+
+	<CCM ID="4" Name="x 004 Foot Controller (MSB)" Color="#333333">
+		<Value />
+			<Data>@CC 4 #VL</Data>
+		<Memo>特フットペダルによるコントロール値です。通常はフットペダルを踏んでいないときに0、 最後まで踏み込んだときに127を送信します。コントロール対象は定義されていませんが、 多くの場合は音量を変化させます。</Memo>
+	</CCM>
+
+	<CCM ID="36" Name="x 036 Foot Controller (LSB)" Color="#333333">
+		<Value />
+			<Data>@CC 36 #VL</Data>
+		<Memo>特フットペダルによるコントロール値です。通常はフットペダルを踏んでいないときに0、 最後まで踏み込んだときに127を送信します。コントロール対象は定義されていませんが、 多くの場合は音量を変化させます。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="スイッチ類 [120-127]">
+	<CCM ID="120" Name="120 All Sound Off" Color="#000000" Sync="Last">
+		<Value TableID="2" />
+			<Data>@CC 120 #VL</Data>
+		<Memo>[All Sound Off]</Memo>
+	</CCM>
+
+	<CCM ID="121" Name="121 Reset All Controller" Color="#333333">
+		<Value TableID="2" />
+			<Data>@CC 121 #VL</Data>
+		<Memo>特定の項目にﾘｾｯﾄを掛ける。</Memo>
+	</CCM>
+
+	<CCM ID="122" Name="x 122 Local Control On/Off" Color="#000000" Sync="Last">
+		<Value TableID="1" />
+			<Data>@CC 122 #VL</Data>
+		<Memo>[Local Control On/Off]</Memo>
+	</CCM>
+
+	<CCM ID="123" Name="123 All Note Off" Color="#333333">
+		<Value TableID="2" />
+			<Data>@CC 123 #VL</Data>
+		<Memo>ﾉｰﾄｵﾌを実行する。\n※ CC#64 Hold Pedal が ON の時には無効。</Memo>
+	</CCM>
+
+	<CCM ID="124" Name="x 124 Omni Mode Off" Color="#000000">
+		<Value TableID="2" />
+			<Data>@CC 124 #VL</Data>
+		<Memo>[Omni Mode Off]</Memo>
+	</CCM>
+			
+	<CCM ID="125" Name="x 125 Omni Mode On" Color="#000000">
+		<Value TableID="2" />
+			<Data>@CC 125 #VL</Data>
+		<Memo>[Omni Mode On]</Memo>
+	</CCM>
+			
+	<CCM ID="126" Name="126 Mono Mode On" Color="#000000">
+		<Value TableID="2" />
+			<Data>@CC 126 #VL</Data>
+		<Memo>[Mono Mode On]Note: This equals the number of channels, or zero if the number of channels equals the number of voices in the receiver. </Memo>
+	</CCM>
+			
+	<CCM ID="127" Name="127 Poly Mode On" Color="#000000">
+		<Value TableID="2" />
+			<Data>@CC 127 #VL</Data>
+		<Memo>[Poly Mode On]</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="x Others  ([16-19]、[48-51]、[80-83])">
+	<CCM ID="16" Name="x 016 General Purpose Controller 1 (MSB)" Color="#333333">
+		<Value />
+			<Data>@CC 16 #VL</Data>
+	</CCM>
+
+	<CCM ID="48" Name="x 048 General Purpose Controller 1 (LSB)" Color="#333333">
+		<Value />
+			<Data>@CC 48 #VL</Data>
+	</CCM>
+
+	<CCM ID="17" Name="x 017 General Purpose Controller 2 (MSB)" Color="#333333">
+		<Value />
+			<Data>@CC 17 #VL</Data>
+	</CCM>
+
+	<CCM ID="49" Name="x 049 General Purpose Controller 2 (LSB)" Color="#333333">
+		<Value />
+			<Data>@CC 49 #VL</Data>
+	</CCM>
+
+	<CCM ID="18" Name="x 018 General Purpose Controller 3 (MSB)" Color="#333333">
+		<Value />
+			<Data>@CC 18 #VL</Data>
+	</CCM>
+
+	<CCM ID="50" Name="x 050 General Purpose Controller 3 (LSB)" Color="#333333">
+		<Value />
+			<Data>@CC 50 #VL</Data>
+	</CCM>
+
+	<CCM ID="19" Name="x 019 General Purpose Controller 4 (MSB)" Color="#333333">
+		<Value />
+			<Data>@CC 19 #VL</Data>
+	</CCM>
+
+	<CCM ID="51" Name="x 051 General Purpose Controller 4 (LSB)" Color="#333333">
+		<Value />
+			<Data>@CC 51 #VL</Data>
+	</CCM>
+
+	<CCM ID="80" Name="x 080 General Purpose Controller 5" Color="#333333">
+		<Value />
+			<Data>@CC 80 #VL</Data>
+	</CCM>
+
+	<CCM ID="81" Name="x 081 General Purpose Controller 6" Color="#333333">
+		<Value />
+			<Data>@CC 81 #VL</Data>
+	</CCM>
+
+	<CCM ID="82" Name="x 082 General Purpose Controller 7" Color="#333333">
+		<Value />
+			<Data>@CC 82 #VL</Data>
+	</CCM>
+
+	<CCM ID="83" Name="x 083 General Purpose Controller 8" Color="#333333">
+		<Value />
+			<Data>@CC 83 #VL</Data>
+	</CCM>
+</Folder>
+
+</Folder>
+
+<Folder Name="[128-130] CAT、PAT、Pitch Bend">
+	<CCM ID="128" Name="128 CAT" Color="#660000" Sync="Last">
+		<Value />
+			<Data>@CP #VL</Data>
+		<Memo>[Channel After Touch] ※ 「Channel Pressure」 とも呼ばれる。</Memo>
+	</CCM>
+
+	<CCM ID="129" Name="129 PAT" Color="#440000" Sync="LastEachGate">
+		<Value />
+		<Gate Default="60" Name="Note No. (音階)" Type="Key" />
+			<Data>@PKP #GL #VL</Data>
+		<Memo>[Polyphonic After Touch] ※ 「Polyphonic Key Pressure」 とも呼ばれる。</Memo>
+	</CCM>
+
+	<CCM ID="130" Name="130 Pitch Bend Change" Color="#800000" Sync="Last">
+		<Value Min="-8192" Max="8191" Offset="8192" />
+		<Gate Max="128" Name="ﾒﾓ">
+			<Entry Label=" " Value="0" />
+			<Entry Label=" 683" Value="1" />
+			<Entry Label="1365" Value="2" />
+			<Entry Label="2048" Value="3" />
+			<Entry Label="2731" Value="4" />
+			<Entry Label="3413" Value="5" />
+			<Entry Label="4096" Value="6" />
+			<Entry Label="4779" Value="7" />
+			<Entry Label="5461" Value="8" />
+			<Entry Label="6144" Value="9" />
+			<Entry Label="6827" Value="10" />
+			<Entry Label="7509" Value="11" />
+			<Entry Label="8192" Value="12" />
+			<Entry Label=" " Value="128" />
+		</Gate>
+			<Data>@PB #VH #VL</Data>
+		<Memo>音程を変化させる。\nこの時、音質も変化するため、音色作りにも利用可能。\nRPN：Pitch Bend Sensitivity (CCM#151) で音程の変化幅を設定する。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="[151-157] RPN">
+	<CCM ID="151" Name="151 Pitch Bend Sensitivity" Color="#800000">
+		<Value Default="2" Name="semitones" />
+		<Gate Default="0" Name="cents" />
+			<Data>@RPN 0 0 #VL #GL</Data>
+		<Memo>[Pitch Bend Sensitivity] ※ 「Pitch Bend Range」 とか 「ﾍﾞﾝﾄﾞ幅」 とも呼ばれる。\nCCM#130 Pitch Bend の値が最大 (+8191 または -8192) の時に、どれだけ音程を変化させるかを半音単位 (12 で 1 ｵｸﾀｰﾌﾞ) で設定。\n通常、ﾃﾞﾌｫﾙﾄ (起動時) は 「2」 に設定される。</Memo>
+	</CCM>
+
+	<CCM ID="152" Name="152 Channel Fine Tune">
+		<Value Min="-8192" Max="8191" Offset="8192" />
+		<Gate Max="128" Name="ﾒﾓ">
+			<Entry Label=" " Value="0" />
+			<Entry Label=" 683" Value="1" />
+			<Entry Label="1365" Value="2" />
+			<Entry Label="2048" Value="3" />
+			<Entry Label="2731" Value="4" />
+			<Entry Label="3413" Value="5" />
+			<Entry Label="4096" Value="6" />
+			<Entry Label="4779" Value="7" />
+			<Entry Label="5461" Value="8" />
+			<Entry Label="6144" Value="9" />
+			<Entry Label="6827" Value="10" />
+			<Entry Label="7509" Value="11" />
+			<Entry Label="8192" Value="12" />
+			<Entry Label=" " Value="128" />
+		</Gate>
+			<Data>@RPN 00H 01H #VH #VL</Data>
+		<Memo></Memo>
+	</CCM>
+			
+	<CCM ID="153" Name="153 Channnel Coarse Tune">
+		<Value Min="-64" Max="63" Offset="64" />
+			<Data>@RPN 00H 02H #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="156" Name="x 156 Tuning Program Change">
+		<Value />
+			<Data>@RPN 00H 03H #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="157" Name="x 157 Tuning Bank Select">
+		<Value />
+			<Data>@RPN 00H 04H #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+	
+	<CCM ID="154" Name="154 Modulation Depth Range">
+		<Value Min="0" Max="16383" Offset="16384" />
+		<Gate Max="128" Name="ﾒﾓ">
+			<Entry Label=" " Value="0" />
+			<Entry Label=" 683" Value="1" />
+			<Entry Label="1365" Value="2" />
+			<Entry Label="2048" Value="3" />
+			<Entry Label="2731" Value="4" />
+			<Entry Label="3413" Value="5" />
+			<Entry Label="4096" Value="6" />
+			<Entry Label="4779" Value="7" />
+			<Entry Label="5461" Value="8" />
+			<Entry Label="6144" Value="9" />
+			<Entry Label="6827" Value="10" />
+			<Entry Label="7509" Value="11" />
+			<Entry Label="8192" Value="12" />
+			<Entry Label=" " Value="128" />
+		</Gate>
+			<Data>@RPN 00H 05H #VH #VL</Data>
+		<Memo></Memo>
+	</CCM>
+
+<Folder Name="x [256-263] Three Dimensional Sound Controllers">
+	<CCM ID="256" Name="x 256 AZIMUTH ANGLE">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 00H #VH #VL</Data>
+	</CCM>
+
+	<CCM ID="257" Name="x 257 ELEVATION ANGLE">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 01H #VH #VL</Data>
+	</CCM>
+
+	<CCM ID="258" Name="x 258 GAIN">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 02H #VH #VL</Data>
+	</CCM>
+
+	<CCM ID="259" Name="x 259 DISTANCE RATIO">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 03H #VH #VL</Data>
+	</CCM>
+
+	<CCM ID="260" Name="x 260 MAXIMUM DISTANCE">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 04H #VH #VL</Data>
+	</CCM>
+
+	<CCM ID="261" Name="x 261 GAIN AT MAXIMUM DISTANCE">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 05H #VH #VL</Data>
+	</CCM>
+
+	<CCM ID="262" Name="x 262 REFERENCE DISTANCE RATIO">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 06H #VH #VL</Data>
+	</CCM>
+
+	<CCM ID="263" Name="x 263 PAN SPREAD ANGLE">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 07H #VH #VL</Data>
+	</CCM>
+
+	<CCM ID="264" Name="x 264 ROLL ANGLE">
+		<Value Min="0" Max="16383" Offset="16384" />
+			<Data>@RPN 61H 08H #VH #VL</Data>
+	</CCM>
+</Folder>
+
+	<CCM ID="155" Name="155 RPN Null" Color="#006600">
+			<Data>@RPN 127 127 #NONE #NONE</Data>
+		<Memo>RPN、NRPN の設定を解除することで、CC#6、CC#38 を無効化する。\n消し忘れ等による RPN、NRPN の誤作動を防ぐためのもの。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="[158-174] NRPN">
+
+<Folder Name="DrumEdit ([158-165]、174)">
+	<CCM ID="158" Name="158 Dr:Cutoff Frequency" Sync="LastEachGate">
+		<Value Default="64" TableID="4" />
+		<Gate Type="Key" />
+			<Data>@NRPN 14H #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="159" Name="159 Dr:Resonance" Sync="LastEachGate">
+		<Value Default="64" TableID="4" />
+		<Gate Type="Key" />
+			<Data>@NRPN 15H #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="160" Name="160 Dr:Coarse Tune" Sync="LastEachGate">
+		<Value Min="-64" Max="63" Offset="64" />
+		<Gate Type="Key" />
+			<Data>@NRPN 18H #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="174" Name="174 Dr:Fine Tune" Sync="LastEachGate">
+		<Value Min="-100" Max="100" Offset="100" />
+		<Gate Type="Key" />
+			<Data>@NRPN 19H #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="161" Name="161 Dr:Level" Sync="LastEachGate">
+		<Value />
+		<Gate Type="Key" />
+			<Data>@NRPN 1AH #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+			
+	<CCM ID="162" Name="162 Dr:Panpot" Sync="LastEachGate">
+		<Value Default="64" TableID="4" />
+		<Gate Type="Key" />
+			<Data>@NRPN 1CH #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+			
+	<CCM ID="163" Name="163 Dr:ReverbSendLevel" Sync="LastEachGate">
+		<Value />
+		<Gate Type="Key" />
+			<Data>@NRPN 1DH #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+			
+	<CCM ID="164" Name="164 Dr:Chorus Send" Sync="LastEachGate">
+		<Value />
+		<Gate Type="Key" />
+			<Data>@NRPN 1EH #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="165" Name="x 165 Dr:Delay Send" Sync="LastEachGate">
+		<Value />
+		<Gate Type="Key" />
+			<Data>@NRPN 1FH #GL #VL #NONE</Data>
+		<Memo></Memo>
+	</CCM>
+</Folder>
+
+	<CCM ID="166" Name="166 Vibrato Rate (NRPN)" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@NRPN 01H 08H #VL #NONE</Data>
+		<Memo>ピッチをふるわせる速さ（周波数）を調節します。</Memo>
+	</CCM>
+				
+	<CCM ID="167" Name="167 Vibrato Depth (NRPN)" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@NRPN 01H 09H #VL #NONE</Data>
+		<Memo>ピッチをふるわせる深さを調節します。</Memo>
+	</CCM>
+				
+	<CCM ID="168" Name="168 Vibrato Delay (NRPN)" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@NRPN 01H 0AH #VL #NONE</Data>
+		<Memo>ビブラート効果がかかり始めるまでの時間を設定します。</Memo>
+	</CCM>
+
+	<CCM ID="169" Name="169 Cutoff Frequency (NRPN)" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@NRPN 01H 20H #VL #NONE</Data>
+		<Memo>ローパスフィルターのカットオフ周波数を設定します。</Memo>
+	</CCM>
+
+	<CCM ID="170" Name="170 Resonance (NRPN)" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@NRPN 01H 21H #VL #NONE</Data>
+		<Memo>カットオフ周波数付近の倍音成分を調節します。</Memo>
+	</CCM>
+
+	<CCM ID="171" Name="171 Attack Time (NRPN)" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@NRPN 01H 63H #VL #NONE</Data>
+		<Memo>音の立ち上がりの速さを調節します。</Memo>
+	</CCM>
+
+	<CCM ID="172" Name="172 Decay Time (NRPN)" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@NRPN 01H 64H #VL #NONE</Data>
+		<Memo>音が立ち上がってからサステイン・レベルになるまでの時間を調節します。</Memo>
+	</CCM>
+				
+	<CCM ID="173" Name="173 Release Time (NRPN)" Sync="Last">
+		<Value Default="64" TableID="4" />
+			<Data>@NRPN 01H 66H #VL #NONE</Data>
+		<Memo>ノート・オフ後から音が消えるまでの時間を調節します。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="[180-294] System Exclusive">
+
+<Folder Name="[200-204] Mode Set">
+	<CCM ID="200" Name="200 GM1 System On">
+			<Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
+		<Memo>GM音源を初期化します。</Memo>
+	</CCM>
+			
+	<CCM ID="201" Name="201 GM System Off">
+			<Data>@SYSEX F0H 7EH 7FH 09H 02H F7H</Data>
+	</CCM>
+
+	<CCM ID="202" Name="202 GM2 System On">
+			<Data>@SYSEX F0H 7EH 7FH 09H 03H F7H</Data>
+		<Memo>GM音源を初期化します。</Memo>
+	</CCM>
+
+	<CCM ID="203" Name="203 GS Mode Reset">
+			<Data>@SYSEX F0H 41H 10H 42H 12H 40H 00H 7FH 00H 41H F7H</Data>
+		<Memo></Memo>
+	</CCM>
+
+	<CCM ID="204" Name="204 XG Mode On">
+			<Data>@SYSEX F0H 43H 10H 4CH 00H 00H 7EH 00H F7H</Data>
+		<Memo></Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="Universal Realtime ([210-294]、[800-811])">
+
+<Folder Name="MasterEdit ([210-213]、[800-811])">
+	<CCM ID="210" Name="MasterVolume" Sync="Last">
+		<Value />
+		<Memo>パート全体のマスター・ボリュームを設定します。</Memo>
+			<Data>@SYSEX F0H 7FH 7FH 04H 01H 00H #VL F7H</Data>
+	</CCM>
+
+	<CCM ID="212" Name="212 Master Fine Tuning">
+		<Value Min="-8192" Max="8191" Offset="8192" />
+		<Gate Max="128" Name="ﾒﾓ">
+			<Entry Label=" " Value="0" />
+			<Entry Label=" 683" Value="1" />
+			<Entry Label="1365" Value="2" />
+			<Entry Label="2048" Value="3" />
+			<Entry Label="2731" Value="4" />
+			<Entry Label="3413" Value="5" />
+			<Entry Label="4096" Value="6" />
+			<Entry Label="4779" Value="7" />
+			<Entry Label="5461" Value="8" />
+			<Entry Label="6144" Value="9" />
+			<Entry Label="6827" Value="10" />
+			<Entry Label="7509" Value="11" />
+			<Entry Label="8192" Value="12" />
+			<Entry Label=" " Value="128" />
+		</Gate>
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x04 0x03 #VL #VH 0xF7</Data>
+	</CCM>
+
+	<CCM ID="213" Name="213 Master Coarse Tuning" Color="#808080">
+		<Value Min="-64" Max="63" Offset="64" Name="semitone" TableID="71" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x04 0x04 0x00 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="211" Name="211 Part Mode">
+		<Value Max="2">
+			<Entry Label="Normal" Value="0" />
+			<Entry Label="Drum1" Value="1" />
+			<Entry Label="Drum2" Value="2" />
+		</Value>
+			<Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #1RCH 15H #VL ] F7H</Data>
+		<Memo>通常の楽器パートか、ドラムセットパートかを設定します。</Memo>
+	</CCM>
+
+<Folder Name="[800-811] ScaleTuning">
+	<CCM ID="800" Name="800 Scale Tuning C">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 41H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="801" Name="801 Scale Tuning C#">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 42H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="802" Name="802 Scale Tuning D">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 43H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="803" Name="803 Scale Tuning D#">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 44H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="804" Name="804 Scale Tuning E">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 45H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="805" Name="805 Scale Tuning F">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 46H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="806" Name="806 Scale Tuning F#">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 47H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="807" Name="807 Scale Tuning G">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 48H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="808" Name="808 Scale Tuning G#">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 49H #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="809" Name="809 Scale Tuning A">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 4AH #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="810" Name="810 Scale Tuning A#">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 4BH #VL ] F7H</Data>
+	</CCM>
+
+	<CCM ID="811" Name="811 Scale Tuning B">
+		<Value Default="0" Min="-64" Max="63" Offset="64" Name="Cent" />
+			<Data Value="0">@SYSEX F0H 43H 10H 4CH 08H [ #1RCH 4CH #VL ] F7H</Data>
+	</CCM>
+</Folder>
+
+</Folder>
+
+<Folder Name="x [220-223] Key_Based Sound Control">
+
+	<CCM ID="220" Name="x 220 KBC Volume" Color="#FF0000">
+		<Value Min="-64" Max="63" Offset="64" TableID="71" />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x0A 0x01 #CH #GL 0x07 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="221" Name="x 221 KBC Pan" Color="#669933">
+		<Value Min="-64" Max="63" Offset="64" TableID="4" />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x0A 0x01 #CH #GL 0x0A #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="222" Name="x 222 KBC Reverb Send Level" Color="#996666">
+		<Value Default="127" />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x0A 0x01 #CH #GL 0x5B #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="223" Name="x 223 KBC Chorus Send Level" Color="#666699">
+		<Value Default="127" />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x0A 0x01 #CH #GL 0x5D #VL 0xF7</Data>
+	</CCM>
+</Folder>
+
+<Folder Name="[230-235] Channel Pressure">
+
+	<CCM ID="230" Name="230 CP Pitch Control" Color="#40A040">
+		<Value Min="-24" Max="24" Offset="64" Name="semitone" TableID="142" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x01 #CH 0x00 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="231" Name="231 CP Filter Cutoff Control" Color="#359530">
+		<Value Min="-64" Max="63" Offset="64" TableID="71" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x01 #CH 0x01 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="232" Name="232 CP Amplitude Control" Color="#309020">
+		<Value Min="-64" Max="63" Offset="64" TableID="71" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x01 #CH 0x02 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="233" Name="233 CP LFO Pitch Depth" Color="#258010">
+		<Value />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x01 #CH 0x03 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="234" Name="x 234 CP LFO Filter Depth" Color="#206000">
+		<Value />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x01 #CH 0x04 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="235" Name="x 235 CP LFO Amplitude Depth" Color="#206000">
+		<Value />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x01 #CH 0x05 #VL 0xF7</Data>
+	</CCM>
+
+</Folder>
+
+<Folder Name="[270-275] Channel Pressure">
+
+	<CCM ID="270" Name="270 CP Pitch Control" Color="#40A040">
+		<Value Min="-24" Max="24" Offset="64" Name="semitone" TableID="142" />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x02 #CH #GL 0x00 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="271" Name="271 CP Filter Cutoff Control" Color="#359530">
+		<Value Min="-64" Max="63" Offset="64" TableID="71" />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x02 #CH #GL 0x01 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="272" Name="272 CP Amplitude Control" Color="#309020">
+		<Value Min="-64" Max="63" Offset="64" TableID="71" />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x02 #CH #GL 0x02 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="273" Name="273 CP LFO Pitch Depth" Color="#258010">
+		<Value />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x02 #CH #GL 0x03 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="274" Name="x 274 CP LFO Filter Depth" Color="#206000">
+		<Value />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x02 #CH #GL 0x04 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="275" Name="x 275 CP LFO Amplitude Depth" Color="#206000">
+		<Value />
+		<Gate Type="Key" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x02 #CH #GL 0x05 #VL 0xF7</Data>
+	</CCM>
+
+</Folder>
+
+<Folder Name="x [240-245] Controller Setting">
+
+	<CCM ID="240" Name="x 240 CC Pitch Control" Color="#0080FF">
+		<Value Min="-24" Max="24" Offset="64" Name="semitone" TableID="142" />
+		<Gate Default="16" Max="95" TableID="240" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x03 #CH #GL 0x00 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="241" Name="x 241 CC Filter Cutoff Control" Color="#0075CC">
+		<Value Min="-64" Max="63" Offset="64" TableID="71" />
+		<Gate Default="16" Max="95" TableID="240" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x03 #CH #GL 0x01 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="242" Name="x 242 CC Amplitude Control" Color="#007099">
+		<Value Min="-64" Max="63" Offset="64" TableID="71" />
+		<Gate Default="16" Max="95" TableID="240" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x03 #CH #GL 0x02 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="243" Name="x 243 CC LFO Pitch Depth" Color="#006566">
+		<Value />
+		<Gate Default="16" Max="95" TableID="240" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x03 #CH #GL 0x03 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="244" Name="x 244 CC LFO Filter Depth" Color="#006033">
+		<Value />
+		<Gate Default="16" Max="95" TableID="240" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x03 #CH #GL 0x04 #VL 0xF7</Data>
+	</CCM>
+
+	<CCM ID="245" Name="x 245 CC LFO Amplitude Depth" Color="#006033">
+		<Value />
+		<Gate Default="16" Max="95" TableID="240" />
+			<Data>@SYSEX 0xF0 0x7F 0x7F 0x09 0x03 #CH #GL 0x05 #VL 0xF7</Data>
+	</CCM>
+
+</Folder>
+
+</Folder>
+
+<Folder Name="[270-294] Universal Non-Realtime">
+
+<Folder Name="[533-536] Reverb">
+	<CCM ID="533" Name="x 533 Reverb Type (MU2000EX/S-YXG50)" Color="#006666">
+		<Value Default="128" Max="2432">
+			<Entry Label="000  No Effect" Value="0" />
+			<Entry Label="001     HALL 1" Value="128" />
+			<Entry Label="002     HALL 2" Value="129" />
+			<Entry Label="003M    HALL M" Value="134" />
+			<Entry Label="004M    HALL L" Value="135" />
+			<Entry Label="005     ROOM 1" Value="256" />
+			<Entry Label="006     ROOM 2" Value="257" />
+			<Entry Label="007     ROOM 3" Value="258" />
+			<Entry Label="008M    ROOM S" Value="261" />
+			<Entry Label="009M    ROOM M" Value="262" />
+			<Entry Label="010M    ROOM L" Value="263" />
+			<Entry Label="011    STAGE 1" Value="384" />
+			<Entry Label="012    STAGE 2" Value="385" />
+			<Entry Label="013      PLATE" Value="512" />
+			<Entry Label="014M  GM PLATE" Value="519" />
+			<Entry Label="015 WHITE ROOM" Value="2048" />
+			<Entry Label="016     TUNNEL" Value="2176" />
+			<Entry Label="017M    CANYON" Value="2304" />
+			<Entry Label="018   BASEMENT" Value="2432" />
+		</Value>
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 00H #VH #VL F7H</Data>
+		<Memo>Reverb の種類。</Memo>
+	</CCM>
+
+	<CCM ID="534" Name="534 Reverb Type (BASSMIDI)" Color="#006666">
+		<Value Default="32768" Max="32773">
+			<Entry Label="000  No Effect" Value="0" />
+			<Entry Label="001     ROOM S" Value="32768" />
+			<Entry Label="002     ROOM M" Value="32769" />
+			<Entry Label="003     ROOM L" Value="32770" />
+			<Entry Label="004     HALL M" Value="32771" />
+			<Entry Label="005     HALL L" Value="32772" />
+			<Entry Label="006      PLATE" Value="32773" />
+		</Value>
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 00H #VH #VL F7H</Data>
+		<Memo>Reverb の種類。</Memo>
+	</CCM>
+
+	<CCM ID="535" Name="535 Reverb Return" Color="#006666">
+		<Value Default="64" TableID="4" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 0CH #VL F7H</Data>
+		<Memo>Reverb 成分の音量。
+					64 を基点として増減。</Memo>
+	</CCM>
+
+	<CCM ID="536" Name="x 536 Reverb Pan" Color="#006666">
+		<Value Default="64" Min="1" Max="127" TableID="6" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 0DH #VL F7H</Data>
+		<Memo>Reverb 成分の Panpot。
+					64 を基点として左右の方向に増減。</Memo>
+	</CCM>
+
+</Folder>
+
+<Folder Name="[537-550] Reverb Parameter">
+	<Memo>Reverb Effect のﾊﾟﾗﾒｰﾀｰを細かく設定します。
+	「挿入 → ｺﾝﾄﾛｰﾙﾁｪﾝｼﾞ(複数)」 で 「  Reverb Parameter」 ﾌｫﾙﾀﾞの中の 「CCM#533 (or CCM#534) Reverb Type で設定した Value に表示されているﾅﾝﾊﾞｰのﾌｫﾙﾀﾞ」 にﾁｪｯｸを入れて、Step 「4」 でﾌｫﾙﾀﾞ内のｲﾍﾞﾝﾄをまとめて挿入して下さい。</Memo>
+
+<Folder Name="001 HALL 1">
+	<Memo>ﾎｰﾙでの響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+
+	<CCM ID="537" Name="537 Rev:P   Reverb Time" Color="#006666">
+		<Value Default="18" Max="69" TableID="34" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 02H #VL F7H</Data>
+		<Memo>ﾘﾊﾞｰﾌﾞの長さ。</Memo>
+	</CCM>
+
+	<CCM ID="538" Name="x 538 Rev:P   Diffusion" Color="#006666">
+		<Value Default="10" Max="10" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 03H #VL F7H</Data>
+		<Memo>広がり感をｺﾝﾄﾛｰﾙ。</Memo>
+	</CCM>
+
+	<CCM ID="539" Name="539 Rev:P   Initial Delay" Color="#006666">
+		<Value Default="8" Max="63" TableID="35" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 04H #VL F7H</Data>
+		<Memo>初期反射音までのﾃﾞｨﾚｲﾀｲﾑ。</Memo>
+	</CCM>
+
+	<CCM ID="540" Name="540 Rev:P   HPF Cutoff" Color="#006666">
+		<Value Default="13" Max="52" TableID="31" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 05H #VL F7H</Data>
+		<Memo>低音部をｶｯﾄ。</Memo>
+	</CCM>
+
+	<CCM ID="541" Name="541 Rev:P   LPF Cutoff" Color="#006666">
+		<Value Default="49" Min="34" Max="60" TableID="32" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 06H #VL F7H</Data>
+		<Memo>高音部をｶｯﾄ。</Memo>
+	</CCM>
+
+	<CCM ID="546" Name="x 546 Rev:P   Rev Delay" Color="#006666">
+		<Value Max="63" TableID="35" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 10H #VL F7H</Data>
+		<Memo>初期反射音からﾘﾊﾞｰﾌﾞ音までのﾃﾞｨﾚｲﾀｲﾑ。</Memo>
+	</CCM>
+
+	<CCM ID="547" Name="x 547 Rev:P   Density" Color="#006666">
+		<Value Default="4" Max="4" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 11H #VL F7H</Data>
+		<Memo>反射音の密度。
+					値が大きいほどきめ細かくなる。</Memo>
+	</CCM>
+
+	<CCM ID="548" Name="x 548 Rev:P   Er / Rev Balance" Color="#006666">
+		<Value Default="50" Min="1" Max="127" TableID="55" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 12H #VL F7H</Data>
+		<Memo>Er (初期反射音) と Rev (ﾘﾊﾞｰﾌﾞ音) の音量ﾊﾞﾗﾝｽ。
+					64 を基点として、片方の音量を減少させる。</Memo>
+	</CCM>
+
+	<CCM ID="549" Name="x 549 Rev:P   High Damp" Color="#006666">
+		<Value Default="8" Min="1" Max="10" TableID="89" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 13H #VL F7H</Data>
+		<Memo>高域の減衰の調整 (値が小さいとき高域が速く減衰する)。</Memo>
+	</CCM>
+
+	<CCM ID="550" Name="x 550 Rev:P   Feedback Level" Color="#006666">
+		<Value Default="64" Min="1" Max="127" TableID="6" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 14H #VL F7H</Data>
+		<Memo>Initial Delay のﾌｨｰﾄﾞﾊﾞｯｸ量。
+					64 を基点として増減。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="002 HALL 2">
+	<Memo>ﾎｰﾙでの響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="25" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="28" />
+	<CCMLink ID="540" Value="6" />
+	<CCMLink ID="541" Value="46" />
+	<CCMLink ID="546" Value="13" />
+	<CCMLink ID="547" Value="3" />
+	<CCMLink ID="548" Value="74" />
+	<CCMLink ID="549" Value="7" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="003 HALL M">
+	<Memo>ﾎｰﾙでの響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="18" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="8" />
+	<CCMLink ID="540" Value="13" />
+	<CCMLink ID="541" Value="49" />
+	<CCMLink ID="546" Value="0" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="50" />
+	<CCMLink ID="549" Value="8" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="004 HALL L">
+	<Memo>ﾎｰﾙでの響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="18" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="28" />
+	<CCMLink ID="540" Value="6" />
+	<CCMLink ID="541" Value="46" />
+	<CCMLink ID="546" Value="13" />
+	<CCMLink ID="547" Value="3" />
+	<CCMLink ID="548" Value="74" />
+	<CCMLink ID="549" Value="7" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="005 ROOM 1">
+	<Memo>部屋の響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="5" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="16" />
+	<CCMLink ID="540" Value="4" />
+	<CCMLink ID="541" Value="49" />
+	<CCMLink ID="546" Value="5" />
+	<CCMLink ID="547" Value="3" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="8" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="006 ROOM 2">
+	<Memo>部屋の響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="12" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="5" />
+	<CCMLink ID="540" Value="4" />
+	<CCMLink ID="541" Value="38" />
+	<CCMLink ID="546" Value="0" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="50" />
+	<CCMLink ID="549" Value="8" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="007 ROOM 3">
+	<Memo>部屋の響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="9" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="47" />
+	<CCMLink ID="540" Value="5" />
+	<CCMLink ID="541" Value="36" />
+	<CCMLink ID="546" Value="0" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="60" />
+	<CCMLink ID="549" Value="8" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="008 ROOM S">
+	<Memo>部屋の響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="11" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="5" />
+	<CCMLink ID="540" Value="4" />
+	<CCMLink ID="541" Value="38" />
+	<CCMLink ID="546" Value="0" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="50" />
+	<CCMLink ID="549" Value="8" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="009 ROOM M">
+	<Memo>部屋の響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="13" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="16" />
+	<CCMLink ID="540" Value="4" />
+	<CCMLink ID="541" Value="49" />
+	<CCMLink ID="546" Value="5" />
+	<CCMLink ID="547" Value="3" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="8" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="010 ROOM L">
+	<Memo>部屋の響きをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="15" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="47" />
+	<CCMLink ID="540" Value="5" />
+	<CCMLink ID="541" Value="36" />
+	<CCMLink ID="546" Value="0" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="60" />
+	<CCMLink ID="549" Value="8" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="011 STAGE 1">
+	<Memo>ｿﾛ楽器に適したﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="19" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="16" />
+	<CCMLink ID="540" Value="7" />
+	<CCMLink ID="541" Value="54" />
+	<CCMLink ID="546" Value="0" />
+	<CCMLink ID="547" Value="3" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="6" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="012 STAGE 2">
+	<Memo>ｿﾛ楽器に適したﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="11" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="16" />
+	<CCMLink ID="540" Value="7" />
+	<CCMLink ID="541" Value="51" />
+	<CCMLink ID="546" Value="2" />
+	<CCMLink ID="547" Value="2" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="6" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="013 PLATE">
+	<Memo>鉄板ﾘﾊﾞｰﾌﾞをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="25" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="6" />
+	<CCMLink ID="540" Value="8" />
+	<CCMLink ID="541" Value="49" />
+	<CCMLink ID="546" Value="2" />
+	<CCMLink ID="547" Value="3" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="5" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="014 GM PLATE">
+	<Memo>鉄板ﾘﾊﾞｰﾌﾞをｼﾐｭﾚｰﾄしたﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="13" />
+	<CCMLink ID="538" Value="10" />
+	<CCMLink ID="539" Value="6" />
+	<CCMLink ID="540" Value="8" />
+	<CCMLink ID="541" Value="49" />
+	<CCMLink ID="546" Value="2" />
+	<CCMLink ID="547" Value="3" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="5" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="015 WHITE ROOM">
+	<Memo>若干のｲﾆｼｬﾙﾃﾞｨﾚｲを持った独特のｼｮｰﾄﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="9" />
+	<CCMLink ID="538" Value="5" />
+	<CCMLink ID="539" Value="11" />
+	<CCMLink ID="540" Value="0" />
+	<CCMLink ID="541" Value="46" />
+
+	<CCM ID="542" Name="x 542 Rev:P   Width" Color="#006666">
+		<Value Default="30" Max="37" TableID="42" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 07H #VL F7H</Data>
+		<Memo>ｼﾐｭﾚｰﾄする部屋の幅。</Memo>
+	</CCM>
+
+	<CCM ID="543" Name="x 543 Rev:P   Height" Color="#006666">
+		<Value Default="50" Max="73" TableID="43" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 08H #VL F7H</Data>
+		<Memo>ｼﾐｭﾚｰﾄする部屋の高さ。</Memo>
+	</CCM>
+
+	<CCM ID="544" Name="x 544 Rev:P   Depth" Color="#006666">
+		<Value Default="70" Max="104" TableID="44" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 09H #VL F7H</Data>
+		<Memo>ｼﾐｭﾚｰﾄする部屋の奥行き。</Memo>
+	</CCM>
+
+	<CCM ID="545" Name="x 545 Rev:P   Wall Vary" Color="#006666">
+		<Value Default="7" Max="30" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 0AH #VL F7H</Data>
+		<Memo>ｼﾐｭﾚｰﾄする部屋の壁の状態 (値が大きいほど乱反射する)。</Memo>
+	</CCM>	
+
+	<CCMLink ID="546" Value="34" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="7" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="016 TUNNEL">
+	<Memo>左右に広がった筒状の空間のｼﾐｭﾚｰﾄ。</Memo>
+	<CCMLink ID="537" Value="48" />
+	<CCMLink ID="538" Value="6" />
+	<CCMLink ID="539" Value="19" />
+	<CCMLink ID="540" Value="0" />
+	<CCMLink ID="541" Value="44" />
+	<CCMLink ID="542" Value="33" />
+	<CCMLink ID="543" Value="52" />
+	<CCMLink ID="544" Value="70" />
+	<CCMLink ID="545" Value="16" />
+	<CCMLink ID="546" Value="20" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="7" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="017 CANYON">
+	<Memo>限りなく広がる幻想的な音の世界をイメージしたもの。</Memo>
+	<CCMLink ID="537" Value="59" />
+	<CCMLink ID="538" Value="6" />
+	<CCMLink ID="539" Value="63" />
+	<CCMLink ID="540" Value="0" />
+	<CCMLink ID="541" Value="45" />
+	<CCMLink ID="542" Value="34" />
+	<CCMLink ID="543" Value="62" />
+	<CCMLink ID="544" Value="91" />
+	<CCMLink ID="545" Value="13" />
+	<CCMLink ID="546" Value="25" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="4" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+<Folder Name="018 BASEMENT">
+	<Memo>若干のｲﾆｼｬﾙﾃﾞｨﾚｲの後に、独特の響きを持ったﾘﾊﾞｰﾌﾞ。</Memo>
+	<CCMLink ID="537" Value="3" />
+	<CCMLink ID="538" Value="6" />
+	<CCMLink ID="539" Value="3" />
+	<CCMLink ID="540" Value="0" />
+	<CCMLink ID="541" Value="34" />
+	<CCMLink ID="542" Value="26" />
+	<CCMLink ID="543" Value="29" />
+	<CCMLink ID="544" Value="59" />
+	<CCMLink ID="545" Value="15" />
+	<CCMLink ID="546" Value="32" />
+	<CCMLink ID="547" Value="4" />
+	<CCMLink ID="548" Value="64" />
+	<CCMLink ID="549" Value="8" />
+	<CCMLink ID="550" Value="64" />
+</Folder>
+
+</Folder>
+
+<Folder Name="[551-555] Chorus">
+	<CCM ID="551" Name="x 551 Chorus Type (MU2000EX/S-YXG50)" Color="#0066CC">
+		<Value Default="8320" Max="11136">
+			<Entry Label="000   No Effect" Value="0" />
+			<Entry Label="001    CHORUS 1" Value="8320" />
+			<Entry Label="002    CHORUS 2" Value="8321" />
+			<Entry Label="003    CHORUS 3" Value="8322" />
+			<Entry Label="004    CHORUS 4" Value="8328" />
+			<Entry Label="005M GM CHORUS1" Value="8323" />
+			<Entry Label="006M GM CHORUS2" Value="8324" />
+			<Entry Label="007M GM CHORUS3" Value="8325" />
+			<Entry Label="008M GM CHORUS4" Value="8326" />
+			<Entry Label="009M  FB CHORUS" Value="8327" />
+			<Entry Label="010   CELESTE 1" Value="8448" />
+			<Entry Label="011   CELESTE 2" Value="8449" />
+			<Entry Label="012   CELESTE 3" Value="8450" />
+			<Entry Label="013   CELESTE 4" Value="8456" />
+			<Entry Label="014   FLANGER 1" Value="8576" />
+			<Entry Label="015   FLANGER 2" Value="8577" />
+			<Entry Label="016   FLANGER 3" Value="8584" />
+			<Entry Label="017M GM FLANGER" Value="8583" />
+			<Entry Label="018M  SYMPHONIC" Value="8704" />
+			<Entry Label="019M   PHASER 1" Value="9216" />
+			<Entry Label="020M ENS DETUNE" Value="11136" />
+		</Value>
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 20H #VH #VL F7H</Data>
+		<Memo>Chorus の種類。</Memo>
+	</CCM>
+
+	<CCM ID="552" Name="552 Chorus Type (BASSMIDI)" Color="#0066CC">
+		<Value Default="8320" Max="11136">
+			<Entry Label="000  No Effect" Value="0" />
+			<Entry Label="001   CHORUS 1" Value="32768" />
+			<Entry Label="002   CHORUS 2" Value="32769" />
+			<Entry Label="003   CHORUS 3" Value="32770" />
+			<Entry Label="004   CHORUS 4" Value="32771" />
+			<Entry Label="005  FB CHORUS" Value="32772" />
+			<Entry Label="006    FLANGER" Value="32773" />
+			<Entry Label="007    DELAY S" Value="32774" />
+			<Entry Label="008 FB DELAY S" Value="32775" />
+		</Value>
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 20H #VH #VL F7H</Data>
+		<Memo>Chorus の種類。</Memo>
+	</CCM>
+
+	<CCM ID="553" Name="553 Chorus Return" Color="#0066CC">
+		<Value Default="64" TableID="4" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 2CH #VL F7H</Data>
+		<Memo>Chorus 成分の音量。
+					64 を基点として増減。</Memo>
+	</CCM>
+
+	<CCM ID="554" Name="x 554 Chorus Pan" Color="#0066CC">
+		<Value Default="64" Min="1" Max="127" TableID="6" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 2DH #VL F7H</Data>
+		<Memo>Chorus 成分の Panpot。
+					64 を基点として左右の方向に増減。</Memo>
+	</CCM>
+
+	<CCM ID="555" Name="555 Chorus To Reverb" Color="#0066CC">
+		<Value TableID="4" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 2EH #VL F7H</Data>
+		<Memo>[Send Chorus To Reverb] 
+					Chorus 成分から Reverb に送る量。
+					64 を基点として増減。</Memo>
+	</CCM>
+
+</Folder>
+
+<Folder Name="[556-573] Chorus Parameter">
+
+<Folder Name="001 CHORUS 1">
+	<Memo>一般的なｺｰﾗｽﾌﾟﾛｸﾞﾗﾑ。
+				音を自然に広げる。</Memo>
+
+	<CCM ID="556" Name="556 Crs:P   LFO Frequency" Color="#0066CC">
+		<Value Default="6" TableID="24" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 22H #VL F7H</Data>
+		<Memo>[CHORUS,FLANGER,SYMPHONIC 系]
+					　ﾃﾞｨﾚｲ変調の周波数。
+					[PHASER 系]
+					　位相変調の周波数。</Memo>
+	</CCM>
+
+	<CCM ID="557" Name="557 Crs:P   LFO Depth" Color="#0066CC">
+		<Value Default="54" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 23H #VL F7H</Data>
+		<Memo>[CHORUS,FLANGER,SYMPHONIC 系]
+					　ﾃﾞｨﾚｲ変調の深さ。
+					[PHASER]
+					　位相変調の深さ。</Memo>
+	</CCM>
+
+	<CCM ID="558" Name="558 Crs:P   Feedback Level" Color="#0066CC">
+		<Value Default="77" Min="1" Max="127" TableID="6" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 24H #VL F7H</Data>
+		<Memo>ﾃﾞｨﾚｲの出力を再び入力へ戻すﾚﾍﾞﾙ (ﾏｲﾅｽは位相反転)。
+					64 を基点として増減。</Memo>
+	</CCM>
+
+	<CCM ID="559" Name="559 Crs:P   Delay Offset" Color="#0066CC">
+		<Value Default="106" TableID="27" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 25H #VL F7H</Data>
+		<Memo>ﾃﾞｨﾚｲ変調のｵﾌｾｯﾄ値(ﾃﾞｨﾚｲﾀｲﾑ)。</Memo>
+	</CCM>
+
+	<CCM ID="560" Name="x 560 Crs:P   EQ L-F" Color="#0066CC">
+		<Value Default="28" Min="4" Max="40" TableID="28" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 27H #VL F7H</Data>
+		<Memo>[EQ Low Frequency] 
+					EQ Low の周波数。</Memo>
+	</CCM>
+
+	<CCM ID="561" Name="x 561 Crs:P   EQ L-G" Color="#0066CC">
+		<Value Default="64" Min="52" Max="76" TableID="9" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 28H #VL F7H</Data>
+		<Memo>[EQ Low Gain] 
+					EQ Low の増減量。
+					64 を基点として増減。</Memo>
+	</CCM>
+
+	<CCM ID="562" Name="x 562 Crs:P   EQ H-F" Color="#0066CC">
+		<Value Default="46" Min="28" Max="58" TableID="29" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 29H #VL F7H</Data>
+		<Memo>[EQ High Frequency] 
+					EQ High の周波数。</Memo>
+	</CCM>
+
+	<CCM ID="563" Name="x 563 Crs:P   EQ H-G" Color="#0066CC">
+		<Value Default="64" Min="52" Max="76" TableID="9" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 2AH #VL F7H</Data>
+		<Memo>[EQ High Gain] 
+					EQ High の増減量。
+					64 を基点として増減。</Memo>
+	</CCM>
+
+	<CCM ID="564" Name="x 564 Crs:P   Input Mode" Color="#0066CC">
+		<Value Max="1" TableID="59" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 34H #VL F7H</Data>
+		<Memo>入力の ﾓﾉ / ｽﾃﾚｵ 切り替え。</Memo>
+	</CCM>
+
+</Folder>
+
+<Folder Name="002 CHORUS 2">
+	<Memo>一般的なｺｰﾗｽﾌﾟﾛｸﾞﾗﾑ。
+	音を自然に広げる。</Memo>
+	<CCMLink ID="556" Value="8" />
+	<CCMLink ID="557" Value="63" />
+	<CCMLink ID="558" Value="64" />
+	<CCMLink ID="559" Value="30" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="62" />
+	<CCMLink ID="562" Value="42" />
+	<CCMLink ID="563" Value="58" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="003 CHORUS 3">
+	<Memo>一般的なｺｰﾗｽﾌﾟﾛｸﾞﾗﾑ。
+	音を自然に広げる。</Memo>
+	<CCMLink ID="556" Value="4" />
+	<CCMLink ID="557" Value="44" />
+	<CCMLink ID="558" Value="64" />
+	<CCMLink ID="559" Value="110" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="66" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="004 CHORUS 4">
+	<Memo>一般的なｺｰﾗｽﾌﾟﾛｸﾞﾗﾑ。
+	音を自然に広げる。</Memo>
+	<CCMLink ID="556" Value="9" />
+	<CCMLink ID="557" Value="32" />
+	<CCMLink ID="558" Value="69" />
+	<CCMLink ID="559" Value="104" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+	<CCMLink ID="564" Value="1" />
+</Folder>
+
+<Folder Name="005 GM CHORUS 1">
+	<Memo>一般的なｺｰﾗｽﾌﾟﾛｸﾞﾗﾑ。
+	音を自然に広げる。</Memo>
+	<CCMLink ID="556" Value="9" />
+	<CCMLink ID="557" Value="10" />
+	<CCMLink ID="558" Value="64" />
+	<CCMLink ID="559" Value="109" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="006 GM CHORUS 2">
+	<Memo>一般的なｺｰﾗｽﾌﾟﾛｸﾞﾗﾑ。
+	音を自然に広げる。</Memo>
+	<CCMLink ID="556" Value="26" />
+	<CCMLink ID="557" Value="34" />
+	<CCMLink ID="558" Value="67" />
+	<CCMLink ID="559" Value="105" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="007 GM CHORUS 3">
+	<Memo>一般的なｺｰﾗｽﾌﾟﾛｸﾞﾗﾑ。
+	音を自然に広げる。</Memo>
+	<CCMLink ID="556" Value="9" />
+	<CCMLink ID="557" Value="34" />
+	<CCMLink ID="558" Value="69" />
+	<CCMLink ID="559" Value="105" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="66" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="008 GM CHORUS 4">
+	<Memo>一般的なｺｰﾗｽﾌﾟﾛｸﾞﾗﾑ。
+	音を自然に広げる。</Memo>
+	<CCMLink ID="556" Value="26" />
+	<CCMLink ID="557" Value="29" />
+	<CCMLink ID="558" Value="75" />
+	<CCMLink ID="559" Value="102" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="009 FB CHORUS">
+	<Memo>ﾌｨｰﾄﾞﾊﾞｯｸのあるｺｰﾗｽ。</Memo>
+	<CCMLink ID="556" Value="6" />
+	<CCMLink ID="557" Value="43" />
+	<CCMLink ID="558" Value="107" />
+	<CCMLink ID="559" Value="111" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="010 CELESTE 1">
+	<Memo>3相の LFO により、音にうねりと広がりを与えるﾌﾟﾛｸﾞﾗﾑ。</Memo>
+	<CCMLink ID="556" Value="12" />
+	<CCMLink ID="557" Value="32" />
+	<CCMLink ID="558" Value="64" />
+	<CCMLink ID="559" Value="0" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="011 CELESTE 2">
+	<Memo>3相の LFO により、音にうねりと広がりを与えるﾌﾟﾛｸﾞﾗﾑ。</Memo>
+	<CCMLink ID="556" Value="28" />
+	<CCMLink ID="557" Value="18" />
+	<CCMLink ID="558" Value="90" />
+	<CCMLink ID="559" Value="2" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="62" />
+	<CCMLink ID="562" Value="42" />
+	<CCMLink ID="563" Value="60" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="012 CELESTE 3">
+	<Memo>3相の LFO により、音にうねりと広がりを与えるﾌﾟﾛｸﾞﾗﾑ。</Memo>
+	<CCMLink ID="556" Value="4" />
+	<CCMLink ID="557" Value="63" />
+	<CCMLink ID="558" Value="44" />
+	<CCMLink ID="559" Value="2" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="68" />
+	<CCMLink ID="564" Value="0" />
+</Folder>
+
+<Folder Name="013 CELESTE 4">
+	<Memo>3相の LFO により、音にうねりと広がりを与えるﾌﾟﾛｸﾞﾗﾑ。</Memo>
+	<CCMLink ID="556" Value="8" />
+	<CCMLink ID="557" Value="29" />
+	<CCMLink ID="558" Value="64" />
+	<CCMLink ID="559" Value="0" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="51" />
+	<CCMLink ID="563" Value="66" />
+	<CCMLink ID="564" Value="1" />
+</Folder>
+
+<Folder Name="014 FLANGER 1">
+	<Memo>ｼﾞｪｯﾄｻｳﾝﾄﾞを与える。</Memo>
+	<CCMLink ID="556" Value="14" />
+	<CCMLink ID="557" Value="14" />
+	<CCMLink ID="558" Value="104" />
+	<CCMLink ID="559" Value="2" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+
+	<CCM ID="565" Name="x 565 Crs:P   LFO Phase Difference" Color="#0066CC">
+		<Value Default="4" Min="4" Max="124" TableID="60" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 33H #VL F7H</Data>
+		<Memo>変調波形の L/R 位相差。
+					Odeg (64) で位相なし。</Memo>
+	</CCM>
+</Folder>
+
+<Folder Name="015 FLANGER 2">
+	<Memo>ｼﾞｪｯﾄｻｳﾝﾄﾞを与える。</Memo>
+	<CCMLink ID="556" Value="32" />
+	<CCMLink ID="557" Value="17" />
+	<CCMLink ID="558" Value="26" />
+	<CCMLink ID="559" Value="2" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="60" />
+	<CCMLink ID="565" Value="4" />
+</Folder>
+
+<Folder Name="016 FLANGER 3">
+	<Memo>ｼﾞｪｯﾄｻｳﾝﾄﾞを与える。</Memo>
+	<CCMLink ID="556" Value="4" />
+	<CCMLink ID="557" Value="109" />
+	<CCMLink ID="558" Value="109" />
+	<CCMLink ID="559" Value="2" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+	<CCMLink ID="565" Value="4" />
+</Folder>
+
+<Folder Name="017 GM FLANGER">
+	<Memo>ｼﾞｪｯﾄｻｳﾝﾄﾞを与える。</Memo>
+	<CCMLink ID="556" Value="3" />
+	<CCMLink ID="557" Value="21" />
+	<CCMLink ID="558" Value="120" />
+	<CCMLink ID="559" Value="1" />
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+	<CCMLink ID="565" Value="4" />
+</Folder>
+
+<Folder Name="018 SYMPHONIC">
+	<Memo>CELESTE の変調をより多重化したもの。</Memo>
+	<CCMLink ID="556" Value="12" />
+	<CCMLink ID="557" Value="25" />
+
+	<CCM ID="566" Name="x 566 Crs:P   Delay Offset" Color="#0066CC">
+		<Value Default="16" TableID="27" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 24H #VL F7H</Data>
+		<Memo>ﾃﾞｨﾚｲ変調のｵﾌｾｯﾄ値。</Memo>
+	</CCM>
+
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+</Folder>
+
+<Folder Name="019 PHASER 1">
+	<Memo>位相(ﾌｪｲｽﾞ)を周期的に変化させ音にうねりを持たせる。</Memo>
+	<CCMLink ID="556" Value="8" />
+	<CCMLink ID="557" Value="111" />
+
+	<CCM ID="567" Name="x 567 Crs:P   Phase Shift Offset" Color="#0066CC">
+		<Value Default="74" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 24H #VL F7H</Data>
+		<Memo>位相変調のｵﾌｾｯﾄ値。</Memo>
+	</CCM>
+
+	<CCM ID="568" Name="x 568 Crs:P   Feedback Level" Color="#0066CC">
+		<Value Default="104" Min="1" Max="127" TableID="6" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 25H #VL F7H</Data>
+		<Memo>ﾌｪｲｻﾞｰ出力を再び入力へ戻すﾚﾍﾞﾙ (ﾏｲﾅｽは位相反転)。</Memo>
+	</CCM>
+
+	<CCMLink ID="560" Value="28" />
+	<CCMLink ID="561" Value="64" />
+	<CCMLink ID="562" Value="46" />
+	<CCMLink ID="563" Value="64" />
+
+	<CCM ID="569" Name="x 569 Crs:P   Stage" Color="#0066CC">
+		<Value Default="6" Min="4" Max="6" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 30H #VL F7H</Data>
+		<Memo>ﾌｪｲｽﾞｼﾌﾀｰの段数。</Memo>
+	</CCM>
+
+	<CCM ID="570" Name="x 570 Crs:P   Diffusion" Color="#0066CC">
+		<Value Default="1" Max="1" TableID="59" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 31H #VL F7H</Data>
+		<Memo>拡がり感をｺﾝﾄﾛｰﾙ。</Memo>
+	</CCM>
+
+</Folder>
+
+<Folder Name="020 ENSEMBLE DETUNE">
+	<Memo>音程をわずかにずらした音を付加することによる、うねりのないｺｰﾗｽ。</Memo>
+
+	<CCM ID="571" Name="x 571 Crs:P   Detune" Color="#0066CC">
+		<Value Default="54" Min="14" Max="114" Name="cent" TableID="4" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 22H #VL F7H</Data>
+		<Memo>音程をずらす量。</Memo>
+	</CCM>
+
+	<CCM ID="572" Name="x 572 Crs:P   Lch Init Delay" Color="#0066CC">
+		<Value TableID="27" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 23H #VL F7H</Data>
+		<Memo>左ﾁｬﾝﾈﾙﾃﾞｨﾚｲの長さ。</Memo>
+	</CCM>
+
+	<CCM ID="573" Name="x 573 Crs:P   Rch Init Delay" Color="#0066CC">
+		<Value TableID="27" />
+			<Data>@SYSEX F0H 43H 10H 4CH 02H 01H 24H #VL F7H</Data>
+		<Memo>右ﾁｬﾝﾈﾙﾃﾞｨﾚｲの長さ。</Memo>
+	</CCM>
+
+</Folder>
+
+</Folder>
+
+</Folder>
+	
+</Folder>
+</ControlChangeMacroList>
+
+<TemplateList>
+<Folder Name="ﾄﾗｯｸ初期化用">
+	<Template ID="0" Name="No.0">
+			<CC ID="10" />
+			<CC ID="7" Value="100" />
+			<CC ID="91" />
+			<CC ID="93" />
+			<CC ID="74" />
+			<CC ID="73" />
+			<CC ID="75" />
+			<CC ID="71" />
+			<CC ID="72" />
+			<CC ID="11" Value="127" />
+			<CC ID="1" />
+			<CC ID="76" />
+			<CC ID="77" />
+			<CC ID="78" />
+			<CC ID="151" />
+			<CC ID="130" />
+			<CC ID="155" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+<Folder Name="Pitch Bend ＋">
+
+<Folder Name="[12 + 1] 0 → MAX">
+	<Template Name="[ 1] 0 →  683">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="56" />
+			<CC ID="130" Value="113" />
+			<CC ID="130" Value="170" />
+			<CC ID="130" Value="227" />
+			<CC ID="130" Value="284" />
+			<CC ID="130" Value="341" />
+			<CC ID="130" Value="398" />
+			<CC ID="130" Value="455" />
+			<CC ID="130" Value="512" />
+			<CC ID="130" Value="569" />
+			<CC ID="130" Value="626" />
+			<CC ID="130" Value="683" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 2] 0 → 1365">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="111" />
+			<CC ID="130" Value="225" />
+			<CC ID="130" Value="339" />
+			<CC ID="130" Value="453" />
+			<CC ID="130" Value="567" />
+			<CC ID="130" Value="681" />
+			<CC ID="130" Value="795" />
+			<CC ID="130" Value="909" />
+			<CC ID="130" Value="1023" />
+			<CC ID="130" Value="1137" />
+			<CC ID="130" Value="1251" />
+			<CC ID="130" Value="1365" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 3] 0 → 2048">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="167" />
+			<CC ID="130" Value="338" />
+			<CC ID="130" Value="509" />
+			<CC ID="130" Value="680" />
+			<CC ID="130" Value="851" />
+			<CC ID="130" Value="1022" />
+			<CC ID="130" Value="1193" />
+			<CC ID="130" Value="1364" />
+			<CC ID="130" Value="1535" />
+			<CC ID="130" Value="1706" />
+			<CC ID="130" Value="1877" />
+			<CC ID="130" Value="2048" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 4] 0 → 2731">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="223" />
+			<CC ID="130" Value="451" />
+			<CC ID="130" Value="679" />
+			<CC ID="130" Value="907" />
+			<CC ID="130" Value="1135" />
+			<CC ID="130" Value="1363" />
+			<CC ID="130" Value="1591" />
+			<CC ID="130" Value="1819" />
+			<CC ID="130" Value="2047" />
+			<CC ID="130" Value="2275" />
+			<CC ID="130" Value="2503" />
+			<CC ID="130" Value="2731" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 5] 0 → 3413">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="289" />
+			<CC ID="130" Value="573" />
+			<CC ID="130" Value="857" />
+			<CC ID="130" Value="1141" />
+			<CC ID="130" Value="1425" />
+			<CC ID="130" Value="1709" />
+			<CC ID="130" Value="1993" />
+			<CC ID="130" Value="2277" />
+			<CC ID="130" Value="2561" />
+			<CC ID="130" Value="2845" />
+			<CC ID="130" Value="3129" />
+			<CC ID="130" Value="3413" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 6] 0 → 4096">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="345" />
+			<CC ID="130" Value="686" />
+			<CC ID="130" Value="1027" />
+			<CC ID="130" Value="1368" />
+			<CC ID="130" Value="1709" />
+			<CC ID="130" Value="2050" />
+			<CC ID="130" Value="2391" />
+			<CC ID="130" Value="2732" />
+			<CC ID="130" Value="3073" />
+			<CC ID="130" Value="3414" />
+			<CC ID="130" Value="3755" />
+			<CC ID="130" Value="4096" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 7] 0 → 4779">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="401" />
+			<CC ID="130" Value="799" />
+			<CC ID="130" Value="1197" />
+			<CC ID="130" Value="1595" />
+			<CC ID="130" Value="1993" />
+			<CC ID="130" Value="2391" />
+			<CC ID="130" Value="2789" />
+			<CC ID="130" Value="3187" />
+			<CC ID="130" Value="3585" />
+			<CC ID="130" Value="3983" />
+			<CC ID="130" Value="4381" />
+			<CC ID="130" Value="4779" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 8] 0 → 5461">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="456" />
+			<CC ID="130" Value="911" />
+			<CC ID="130" Value="1366" />
+			<CC ID="130" Value="1821" />
+			<CC ID="130" Value="2276" />
+			<CC ID="130" Value="2731" />
+			<CC ID="130" Value="3186" />
+			<CC ID="130" Value="3641" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="4551" />
+			<CC ID="130" Value="5006" />
+			<CC ID="130" Value="5461" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 9] 0 → 6144">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="512" />
+			<CC ID="130" Value="1024" />
+			<CC ID="130" Value="1536" />
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="2560" />
+			<CC ID="130" Value="3072" />
+			<CC ID="130" Value="3584" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="4608" />
+			<CC ID="130" Value="5120" />
+			<CC ID="130" Value="5632" />
+			<CC ID="130" Value="6144" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[10] 0 → 6827">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="568" />
+			<CC ID="130" Value="1137" />
+			<CC ID="130" Value="1706" />
+			<CC ID="130" Value="2275" />
+			<CC ID="130" Value="2844" />
+			<CC ID="130" Value="3413" />
+			<CC ID="130" Value="3982" />
+			<CC ID="130" Value="4551" />
+			<CC ID="130" Value="5120" />
+			<CC ID="130" Value="5689" />
+			<CC ID="130" Value="6258" />
+			<CC ID="130" Value="6827" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[11] 0 → 7509">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="623" />
+			<CC ID="130" Value="1249" />
+			<CC ID="130" Value="1875" />
+			<CC ID="130" Value="2501" />
+			<CC ID="130" Value="3127" />
+			<CC ID="130" Value="3753" />
+			<CC ID="130" Value="4379" />
+			<CC ID="130" Value="5005" />
+			<CC ID="130" Value="5631" />
+			<CC ID="130" Value="6257" />
+			<CC ID="130" Value="6883" />
+			<CC ID="130" Value="7509" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[12] 0 → 8191">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="683" />
+			<CC ID="130" Value="1365" />
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="2731" />
+			<CC ID="130" Value="3413" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="4779" />
+			<CC ID="130" Value="5461" />
+			<CC ID="130" Value="6144" />
+			<CC ID="130" Value="6827" />
+			<CC ID="130" Value="7509" />
+			<CC ID="130" Value="8191" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+<Folder Name="[12 + 1] MAX → 0">
+	<Template Name="[ 1]  683 → 0">
+			<CC ID="130" Value="683" />
+			<CC ID="130" Value="626" />
+			<CC ID="130" Value="569" />
+			<CC ID="130" Value="512" />
+			<CC ID="130" Value="455" />
+			<CC ID="130" Value="398" />
+			<CC ID="130" Value="341" />
+			<CC ID="130" Value="284" />
+			<CC ID="130" Value="227" />
+			<CC ID="130" Value="170" />
+			<CC ID="130" Value="113" />
+			<CC ID="130" Value="56" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 2] 1365 → 0">
+			<CC ID="130" Value="1365" />
+			<CC ID="130" Value="1251" />
+			<CC ID="130" Value="1137" />
+			<CC ID="130" Value="1023" />
+			<CC ID="130" Value="909" />
+			<CC ID="130" Value="795" />
+			<CC ID="130" Value="681" />
+			<CC ID="130" Value="567" />
+			<CC ID="130" Value="453" />
+			<CC ID="130" Value="339" />
+			<CC ID="130" Value="225" />
+			<CC ID="130" Value="111" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 3] 2048 → 0">
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="1877" />
+			<CC ID="130" Value="1706" />
+			<CC ID="130" Value="1535" />
+			<CC ID="130" Value="1364" />
+			<CC ID="130" Value="1193" />
+			<CC ID="130" Value="1022" />
+			<CC ID="130" Value="851" />
+			<CC ID="130" Value="680" />
+			<CC ID="130" Value="509" />
+			<CC ID="130" Value="338" />
+			<CC ID="130" Value="167" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 4] 2731 → 0">
+			<CC ID="130" Value="2731" />
+			<CC ID="130" Value="2503" />
+			<CC ID="130" Value="2275" />
+			<CC ID="130" Value="2047" />
+			<CC ID="130" Value="1819" />
+			<CC ID="130" Value="1591" />
+			<CC ID="130" Value="1363" />
+			<CC ID="130" Value="1135" />
+			<CC ID="130" Value="907" />
+			<CC ID="130" Value="679" />
+			<CC ID="130" Value="451" />
+			<CC ID="130" Value="223" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 5] 3413 → 0">
+			<CC ID="130" Value="3413" />
+			<CC ID="130" Value="3129" />
+			<CC ID="130" Value="2845" />
+			<CC ID="130" Value="2561" />
+			<CC ID="130" Value="2277" />
+			<CC ID="130" Value="1993" />
+			<CC ID="130" Value="1709" />
+			<CC ID="130" Value="1425" />
+			<CC ID="130" Value="1141" />
+			<CC ID="130" Value="857" />
+			<CC ID="130" Value="573" />
+			<CC ID="130" Value="289" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 6] 4096 → 0">
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="3755" />
+			<CC ID="130" Value="3414" />
+			<CC ID="130" Value="3073" />
+			<CC ID="130" Value="2732" />
+			<CC ID="130" Value="2391" />
+			<CC ID="130" Value="2050" />
+			<CC ID="130" Value="1709" />
+			<CC ID="130" Value="1368" />
+			<CC ID="130" Value="1027" />
+			<CC ID="130" Value="686" />
+			<CC ID="130" Value="345" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 7] 4779 → 0">
+			<CC ID="130" Value="4779" />
+			<CC ID="130" Value="4381" />
+			<CC ID="130" Value="3983" />
+			<CC ID="130" Value="3585" />
+			<CC ID="130" Value="3187" />
+			<CC ID="130" Value="2789" />
+			<CC ID="130" Value="2391" />
+			<CC ID="130" Value="1993" />
+			<CC ID="130" Value="1595" />
+			<CC ID="130" Value="1197" />
+			<CC ID="130" Value="799" />
+			<CC ID="130" Value="401" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 8] 5461 → 0">
+			<CC ID="130" Value="5461" />
+			<CC ID="130" Value="5006" />
+			<CC ID="130" Value="4551" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="3641" />
+			<CC ID="130" Value="3186" />
+			<CC ID="130" Value="2731" />
+			<CC ID="130" Value="2276" />
+			<CC ID="130" Value="1821" />
+			<CC ID="130" Value="1366" />
+			<CC ID="130" Value="911" />
+			<CC ID="130" Value="456" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 9] 6144 → 0">
+			<CC ID="130" Value="6144" />
+			<CC ID="130" Value="5632" />
+			<CC ID="130" Value="5120" />
+			<CC ID="130" Value="4608" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="3584" />
+			<CC ID="130" Value="3072" />
+			<CC ID="130" Value="2560" />
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="1536" />
+			<CC ID="130" Value="1024" />
+			<CC ID="130" Value="512" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[10] 6827 → 0">
+			<CC ID="130" Value="6827" />
+			<CC ID="130" Value="6258" />
+			<CC ID="130" Value="5689" />
+			<CC ID="130" Value="5120" />
+			<CC ID="130" Value="4551" />
+			<CC ID="130" Value="3982" />
+			<CC ID="130" Value="3413" />
+			<CC ID="130" Value="2844" />
+			<CC ID="130" Value="2275" />
+			<CC ID="130" Value="1706" />
+			<CC ID="130" Value="1137" />
+			<CC ID="130" Value="568" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[11] 7509 → 0">
+			<CC ID="130" Value="7509" />
+			<CC ID="130" Value="6883" />
+			<CC ID="130" Value="6257" />
+			<CC ID="130" Value="5631" />
+			<CC ID="130" Value="5005" />
+			<CC ID="130" Value="4379" />
+			<CC ID="130" Value="3753" />
+			<CC ID="130" Value="3127" />
+			<CC ID="130" Value="2501" />
+			<CC ID="130" Value="1875" />
+			<CC ID="130" Value="1249" />
+			<CC ID="130" Value="623" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[12] 8191 → 0">
+			<CC ID="130" Value="8191" />
+			<CC ID="130" Value="7509" />
+			<CC ID="130" Value="6827" />
+			<CC ID="130" Value="6144" />
+			<CC ID="130" Value="5461" />
+			<CC ID="130" Value="4779" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="3413" />
+			<CC ID="130" Value="2731" />
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="1365" />
+			<CC ID="130" Value="683" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+<Folder Name="[24 + 1] 0 → MAX">
+	<Template Name="[ 1] 0 →  683">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="39" />
+			<CC ID="130" Value="67" />
+			<CC ID="130" Value="95" />
+			<CC ID="130" Value="123" />
+			<CC ID="130" Value="151" />
+			<CC ID="130" Value="179" />
+			<CC ID="130" Value="207" />
+			<CC ID="130" Value="235" />
+			<CC ID="130" Value="263" />
+			<CC ID="130" Value="291" />
+			<CC ID="130" Value="319" />
+			<CC ID="130" Value="347" />
+			<CC ID="130" Value="375" />
+			<CC ID="130" Value="403" />
+			<CC ID="130" Value="431" />
+			<CC ID="130" Value="459" />
+			<CC ID="130" Value="487" />
+			<CC ID="130" Value="515" />
+			<CC ID="130" Value="543" />
+			<CC ID="130" Value="571" />
+			<CC ID="130" Value="599" />
+			<CC ID="130" Value="627" />
+			<CC ID="130" Value="655" />
+			<CC ID="130" Value="683" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 2] 0 → 1365">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="54" />
+			<CC ID="130" Value="111" />
+			<CC ID="130" Value="168" />
+			<CC ID="130" Value="225" />
+			<CC ID="130" Value="282" />
+			<CC ID="130" Value="339" />
+			<CC ID="130" Value="396" />
+			<CC ID="130" Value="453" />
+			<CC ID="130" Value="510" />
+			<CC ID="130" Value="567" />
+			<CC ID="130" Value="624" />
+			<CC ID="130" Value="681" />
+			<CC ID="130" Value="738" />
+			<CC ID="130" Value="795" />
+			<CC ID="130" Value="852" />
+			<CC ID="130" Value="909" />
+			<CC ID="130" Value="966" />
+			<CC ID="130" Value="1023" />
+			<CC ID="130" Value="1080" />
+			<CC ID="130" Value="1137" />
+			<CC ID="130" Value="1194" />
+			<CC ID="130" Value="1251" />
+			<CC ID="130" Value="1308" />
+			<CC ID="130" Value="1365" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 3] 0 → 2048">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="93" />
+			<CC ID="130" Value="178" />
+			<CC ID="130" Value="263" />
+			<CC ID="130" Value="348" />
+			<CC ID="130" Value="433" />
+			<CC ID="130" Value="518" />
+			<CC ID="130" Value="603" />
+			<CC ID="130" Value="688" />
+			<CC ID="130" Value="773" />
+			<CC ID="130" Value="858" />
+			<CC ID="130" Value="943" />
+			<CC ID="130" Value="1028" />
+			<CC ID="130" Value="1113" />
+			<CC ID="130" Value="1198" />
+			<CC ID="130" Value="1283" />
+			<CC ID="130" Value="1368" />
+			<CC ID="130" Value="1453" />
+			<CC ID="130" Value="1538" />
+			<CC ID="130" Value="1623" />
+			<CC ID="130" Value="1708" />
+			<CC ID="130" Value="1793" />
+			<CC ID="130" Value="1878" />
+			<CC ID="130" Value="1963" />
+			<CC ID="130" Value="2048" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 4] 0 → 2731">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="109" />
+			<CC ID="130" Value="223" />
+			<CC ID="130" Value="337" />
+			<CC ID="130" Value="451" />
+			<CC ID="130" Value="565" />
+			<CC ID="130" Value="679" />
+			<CC ID="130" Value="793" />
+			<CC ID="130" Value="907" />
+			<CC ID="130" Value="1021" />
+			<CC ID="130" Value="1135" />
+			<CC ID="130" Value="1249" />
+			<CC ID="130" Value="1363" />
+			<CC ID="130" Value="1477" />
+			<CC ID="130" Value="1591" />
+			<CC ID="130" Value="1705" />
+			<CC ID="130" Value="1819" />
+			<CC ID="130" Value="1933" />
+			<CC ID="130" Value="2047" />
+			<CC ID="130" Value="2161" />
+			<CC ID="130" Value="2275" />
+			<CC ID="130" Value="2389" />
+			<CC ID="130" Value="2503" />
+			<CC ID="130" Value="2617" />
+			<CC ID="130" Value="2731" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 5] 0 → 3413">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="147" />
+			<CC ID="130" Value="289" />
+			<CC ID="130" Value="431" />
+			<CC ID="130" Value="573" />
+			<CC ID="130" Value="715" />
+			<CC ID="130" Value="857" />
+			<CC ID="130" Value="999" />
+			<CC ID="130" Value="1141" />
+			<CC ID="130" Value="1283" />
+			<CC ID="130" Value="1425" />
+			<CC ID="130" Value="1567" />
+			<CC ID="130" Value="1709" />
+			<CC ID="130" Value="1851" />
+			<CC ID="130" Value="1993" />
+			<CC ID="130" Value="2135" />
+			<CC ID="130" Value="2277" />
+			<CC ID="130" Value="2419" />
+			<CC ID="130" Value="2561" />
+			<CC ID="130" Value="2703" />
+			<CC ID="130" Value="2845" />
+			<CC ID="130" Value="2987" />
+			<CC ID="130" Value="3129" />
+			<CC ID="130" Value="3271" />
+			<CC ID="130" Value="3413" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 6] 0 → 4096">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="163" />
+			<CC ID="130" Value="334" />
+			<CC ID="130" Value="505" />
+			<CC ID="130" Value="676" />
+			<CC ID="130" Value="847" />
+			<CC ID="130" Value="1018" />
+			<CC ID="130" Value="1189" />
+			<CC ID="130" Value="1360" />
+			<CC ID="130" Value="1531" />
+			<CC ID="130" Value="1702" />
+			<CC ID="130" Value="1873" />
+			<CC ID="130" Value="2044" />
+			<CC ID="130" Value="2215" />
+			<CC ID="130" Value="2386" />
+			<CC ID="130" Value="2557" />
+			<CC ID="130" Value="2728" />
+			<CC ID="130" Value="2899" />
+			<CC ID="130" Value="3070" />
+			<CC ID="130" Value="3241" />
+			<CC ID="130" Value="3412" />
+			<CC ID="130" Value="3583" />
+			<CC ID="130" Value="3754" />
+			<CC ID="130" Value="3925" />
+			<CC ID="130" Value="4096" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 7] 0 → 4779">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="202" />
+			<CC ID="130" Value="401" />
+			<CC ID="130" Value="600" />
+			<CC ID="130" Value="799" />
+			<CC ID="130" Value="998" />
+			<CC ID="130" Value="1197" />
+			<CC ID="130" Value="1396" />
+			<CC ID="130" Value="1595" />
+			<CC ID="130" Value="1794" />
+			<CC ID="130" Value="1993" />
+			<CC ID="130" Value="2192" />
+			<CC ID="130" Value="2391" />
+			<CC ID="130" Value="2590" />
+			<CC ID="130" Value="2789" />
+			<CC ID="130" Value="2988" />
+			<CC ID="130" Value="3187" />
+			<CC ID="130" Value="3386" />
+			<CC ID="130" Value="3585" />
+			<CC ID="130" Value="3784" />
+			<CC ID="130" Value="3983" />
+			<CC ID="130" Value="4182" />
+			<CC ID="130" Value="4381" />
+			<CC ID="130" Value="4580" />
+			<CC ID="130" Value="4779" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 8] 0 → 5461">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="217" />
+			<CC ID="130" Value="445" />
+			<CC ID="130" Value="673" />
+			<CC ID="130" Value="901" />
+			<CC ID="130" Value="1129" />
+			<CC ID="130" Value="1357" />
+			<CC ID="130" Value="1585" />
+			<CC ID="130" Value="1813" />
+			<CC ID="130" Value="2041" />
+			<CC ID="130" Value="2269" />
+			<CC ID="130" Value="2497" />
+			<CC ID="130" Value="2725" />
+			<CC ID="130" Value="2953" />
+			<CC ID="130" Value="3181" />
+			<CC ID="130" Value="3409" />
+			<CC ID="130" Value="3637" />
+			<CC ID="130" Value="3865" />
+			<CC ID="130" Value="4093" />
+			<CC ID="130" Value="4321" />
+			<CC ID="130" Value="4549" />
+			<CC ID="130" Value="4777" />
+			<CC ID="130" Value="5005" />
+			<CC ID="130" Value="5233" />
+			<CC ID="130" Value="5461" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 9] 0 → 6144">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="256" />
+			<CC ID="130" Value="512" />
+			<CC ID="130" Value="768" />
+			<CC ID="130" Value="1024" />
+			<CC ID="130" Value="1280" />
+			<CC ID="130" Value="1536" />
+			<CC ID="130" Value="1792" />
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="2304" />
+			<CC ID="130" Value="2560" />
+			<CC ID="130" Value="2816" />
+			<CC ID="130" Value="3072" />
+			<CC ID="130" Value="3328" />
+			<CC ID="130" Value="3584" />
+			<CC ID="130" Value="3840" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="4352" />
+			<CC ID="130" Value="4608" />
+			<CC ID="130" Value="4864" />
+			<CC ID="130" Value="5120" />
+			<CC ID="130" Value="5376" />
+			<CC ID="130" Value="5632" />
+			<CC ID="130" Value="5888" />
+			<CC ID="130" Value="6144" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[10] 0 → 6827">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="295" />
+			<CC ID="130" Value="579" />
+			<CC ID="130" Value="863" />
+			<CC ID="130" Value="1147" />
+			<CC ID="130" Value="1431" />
+			<CC ID="130" Value="1715" />
+			<CC ID="130" Value="1999" />
+			<CC ID="130" Value="2283" />
+			<CC ID="130" Value="2567" />
+			<CC ID="130" Value="2851" />
+			<CC ID="130" Value="3135" />
+			<CC ID="130" Value="3419" />
+			<CC ID="130" Value="3703" />
+			<CC ID="130" Value="3987" />
+			<CC ID="130" Value="4271" />
+			<CC ID="130" Value="4555" />
+			<CC ID="130" Value="4839" />
+			<CC ID="130" Value="5123" />
+			<CC ID="130" Value="5407" />
+			<CC ID="130" Value="5691" />
+			<CC ID="130" Value="5975" />
+			<CC ID="130" Value="6259" />
+			<CC ID="130" Value="6543" />
+			<CC ID="130" Value="6827" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[11] 0 → 7509">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="310" />
+			<CC ID="130" Value="623" />
+			<CC ID="130" Value="936" />
+			<CC ID="130" Value="1249" />
+			<CC ID="130" Value="1562" />
+			<CC ID="130" Value="1875" />
+			<CC ID="130" Value="2188" />
+			<CC ID="130" Value="2501" />
+			<CC ID="130" Value="2814" />
+			<CC ID="130" Value="3127" />
+			<CC ID="130" Value="3440" />
+			<CC ID="130" Value="3753" />
+			<CC ID="130" Value="4066" />
+			<CC ID="130" Value="4379" />
+			<CC ID="130" Value="4692" />
+			<CC ID="130" Value="5005" />
+			<CC ID="130" Value="5318" />
+			<CC ID="130" Value="5631" />
+			<CC ID="130" Value="5944" />
+			<CC ID="130" Value="6257" />
+			<CC ID="130" Value="6570" />
+			<CC ID="130" Value="6883" />
+			<CC ID="130" Value="7196" />
+			<CC ID="130" Value="7509" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[12] 0 → 8191">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="341" />
+			<CC ID="130" Value="683" />
+			<CC ID="130" Value="1024" />
+			<CC ID="130" Value="1365" />
+			<CC ID="130" Value="1707" />
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="2389" />
+			<CC ID="130" Value="2731" />
+			<CC ID="130" Value="3072" />
+			<CC ID="130" Value="3413" />
+			<CC ID="130" Value="3755" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="4437" />
+			<CC ID="130" Value="4779" />
+			<CC ID="130" Value="5120" />
+			<CC ID="130" Value="5461" />
+			<CC ID="130" Value="5803" />
+			<CC ID="130" Value="6144" />
+			<CC ID="130" Value="6485" />
+			<CC ID="130" Value="6827" />
+			<CC ID="130" Value="7168" />
+			<CC ID="130" Value="7509" />
+			<CC ID="130" Value="7851" />
+			<CC ID="130" Value="8191" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+<Folder Name="[24 + 1] MAX → 0">
+	<Template Name="[ 1]  683 → 0">
+			<CC ID="130" Value="683" />
+			<CC ID="130" Value="655" />
+			<CC ID="130" Value="627" />
+			<CC ID="130" Value="599" />
+			<CC ID="130" Value="571" />
+			<CC ID="130" Value="543" />
+			<CC ID="130" Value="515" />
+			<CC ID="130" Value="487" />
+			<CC ID="130" Value="459" />
+			<CC ID="130" Value="431" />
+			<CC ID="130" Value="403" />
+			<CC ID="130" Value="375" />
+			<CC ID="130" Value="347" />
+			<CC ID="130" Value="319" />
+			<CC ID="130" Value="291" />
+			<CC ID="130" Value="263" />
+			<CC ID="130" Value="235" />
+			<CC ID="130" Value="207" />
+			<CC ID="130" Value="179" />
+			<CC ID="130" Value="151" />
+			<CC ID="130" Value="123" />
+			<CC ID="130" Value="95" />
+			<CC ID="130" Value="67" />
+			<CC ID="130" Value="39" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 2] 1365 → 0">
+			<CC ID="130" Value="1365" />
+			<CC ID="130" Value="1308" />
+			<CC ID="130" Value="1251" />
+			<CC ID="130" Value="1194" />
+			<CC ID="130" Value="1137" />
+			<CC ID="130" Value="1080" />
+			<CC ID="130" Value="1023" />
+			<CC ID="130" Value="966" />
+			<CC ID="130" Value="909" />
+			<CC ID="130" Value="852" />
+			<CC ID="130" Value="795" />
+			<CC ID="130" Value="738" />
+			<CC ID="130" Value="681" />
+			<CC ID="130" Value="624" />
+			<CC ID="130" Value="567" />
+			<CC ID="130" Value="510" />
+			<CC ID="130" Value="453" />
+			<CC ID="130" Value="396" />
+			<CC ID="130" Value="339" />
+			<CC ID="130" Value="282" />
+			<CC ID="130" Value="225" />
+			<CC ID="130" Value="168" />
+			<CC ID="130" Value="111" />
+			<CC ID="130" Value="54" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 3] 2048 → 0">
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="1963" />
+			<CC ID="130" Value="1878" />
+			<CC ID="130" Value="1793" />
+			<CC ID="130" Value="1708" />
+			<CC ID="130" Value="1623" />
+			<CC ID="130" Value="1538" />
+			<CC ID="130" Value="1453" />
+			<CC ID="130" Value="1368" />
+			<CC ID="130" Value="1283" />
+			<CC ID="130" Value="1198" />
+			<CC ID="130" Value="1113" />
+			<CC ID="130" Value="1028" />
+			<CC ID="130" Value="943" />
+			<CC ID="130" Value="858" />
+			<CC ID="130" Value="773" />
+			<CC ID="130" Value="688" />
+			<CC ID="130" Value="603" />
+			<CC ID="130" Value="518" />
+			<CC ID="130" Value="433" />
+			<CC ID="130" Value="348" />
+			<CC ID="130" Value="263" />
+			<CC ID="130" Value="178" />
+			<CC ID="130" Value="93" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 4] 2731 → 0">
+			<CC ID="130" Value="2731" />
+			<CC ID="130" Value="2617" />
+			<CC ID="130" Value="2503" />
+			<CC ID="130" Value="2389" />
+			<CC ID="130" Value="2275" />
+			<CC ID="130" Value="2161" />
+			<CC ID="130" Value="2047" />
+			<CC ID="130" Value="1933" />
+			<CC ID="130" Value="1819" />
+			<CC ID="130" Value="1705" />
+			<CC ID="130" Value="1591" />
+			<CC ID="130" Value="1477" />
+			<CC ID="130" Value="1363" />
+			<CC ID="130" Value="1249" />
+			<CC ID="130" Value="1135" />
+			<CC ID="130" Value="1021" />
+			<CC ID="130" Value="907" />
+			<CC ID="130" Value="793" />
+			<CC ID="130" Value="679" />
+			<CC ID="130" Value="565" />
+			<CC ID="130" Value="451" />
+			<CC ID="130" Value="337" />
+			<CC ID="130" Value="223" />
+			<CC ID="130" Value="109" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 5] 3413 → 0">
+			<CC ID="130" Value="3413" />
+			<CC ID="130" Value="3271" />
+			<CC ID="130" Value="3129" />
+			<CC ID="130" Value="2987" />
+			<CC ID="130" Value="2845" />
+			<CC ID="130" Value="2703" />
+			<CC ID="130" Value="2561" />
+			<CC ID="130" Value="2419" />
+			<CC ID="130" Value="2277" />
+			<CC ID="130" Value="2135" />
+			<CC ID="130" Value="1993" />
+			<CC ID="130" Value="1851" />
+			<CC ID="130" Value="1709" />
+			<CC ID="130" Value="1567" />
+			<CC ID="130" Value="1425" />
+			<CC ID="130" Value="1283" />
+			<CC ID="130" Value="1141" />
+			<CC ID="130" Value="999" />
+			<CC ID="130" Value="857" />
+			<CC ID="130" Value="715" />
+			<CC ID="130" Value="573" />
+			<CC ID="130" Value="431" />
+			<CC ID="130" Value="289" />
+			<CC ID="130" Value="147" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 6] 4096 → 0">
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="3925" />
+			<CC ID="130" Value="3754" />
+			<CC ID="130" Value="3583" />
+			<CC ID="130" Value="3412" />
+			<CC ID="130" Value="3241" />
+			<CC ID="130" Value="3070" />
+			<CC ID="130" Value="2899" />
+			<CC ID="130" Value="2728" />
+			<CC ID="130" Value="2557" />
+			<CC ID="130" Value="2386" />
+			<CC ID="130" Value="2215" />
+			<CC ID="130" Value="2044" />
+			<CC ID="130" Value="1873" />
+			<CC ID="130" Value="1702" />
+			<CC ID="130" Value="1531" />
+			<CC ID="130" Value="1360" />
+			<CC ID="130" Value="1189" />
+			<CC ID="130" Value="1018" />
+			<CC ID="130" Value="847" />
+			<CC ID="130" Value="676" />
+			<CC ID="130" Value="505" />
+			<CC ID="130" Value="334" />
+			<CC ID="130" Value="163" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 7] 4779 → 0">
+			<CC ID="130" Value="4779" />
+			<CC ID="130" Value="4580" />
+			<CC ID="130" Value="4381" />
+			<CC ID="130" Value="4182" />
+			<CC ID="130" Value="3983" />
+			<CC ID="130" Value="3784" />
+			<CC ID="130" Value="3585" />
+			<CC ID="130" Value="3386" />
+			<CC ID="130" Value="3187" />
+			<CC ID="130" Value="2988" />
+			<CC ID="130" Value="2789" />
+			<CC ID="130" Value="2590" />
+			<CC ID="130" Value="2391" />
+			<CC ID="130" Value="2192" />
+			<CC ID="130" Value="1993" />
+			<CC ID="130" Value="1794" />
+			<CC ID="130" Value="1595" />
+			<CC ID="130" Value="1396" />
+			<CC ID="130" Value="1197" />
+			<CC ID="130" Value="998" />
+			<CC ID="130" Value="799" />
+			<CC ID="130" Value="600" />
+			<CC ID="130" Value="401" />
+			<CC ID="130" Value="202" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 8] 5461 → 0">
+			<CC ID="130" Value="5461" />
+			<CC ID="130" Value="5233" />
+			<CC ID="130" Value="5005" />
+			<CC ID="130" Value="4777" />
+			<CC ID="130" Value="4549" />
+			<CC ID="130" Value="4321" />
+			<CC ID="130" Value="4093" />
+			<CC ID="130" Value="3865" />
+			<CC ID="130" Value="3637" />
+			<CC ID="130" Value="3409" />
+			<CC ID="130" Value="3181" />
+			<CC ID="130" Value="2953" />
+			<CC ID="130" Value="2725" />
+			<CC ID="130" Value="2497" />
+			<CC ID="130" Value="2269" />
+			<CC ID="130" Value="2041" />
+			<CC ID="130" Value="1813" />
+			<CC ID="130" Value="1585" />
+			<CC ID="130" Value="1357" />
+			<CC ID="130" Value="1129" />
+			<CC ID="130" Value="901" />
+			<CC ID="130" Value="673" />
+			<CC ID="130" Value="445" />
+			<CC ID="130" Value="217" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 9] 6144 → 0">
+			<CC ID="130" Value="6144" />
+			<CC ID="130" Value="5888" />
+			<CC ID="130" Value="5632" />
+			<CC ID="130" Value="5376" />
+			<CC ID="130" Value="5120" />
+			<CC ID="130" Value="4864" />
+			<CC ID="130" Value="4608" />
+			<CC ID="130" Value="4352" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="3840" />
+			<CC ID="130" Value="3584" />
+			<CC ID="130" Value="3328" />
+			<CC ID="130" Value="3072" />
+			<CC ID="130" Value="2816" />
+			<CC ID="130" Value="2560" />
+			<CC ID="130" Value="2304" />
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="1792" />
+			<CC ID="130" Value="1536" />
+			<CC ID="130" Value="1280" />
+			<CC ID="130" Value="1024" />
+			<CC ID="130" Value="768" />
+			<CC ID="130" Value="512" />
+			<CC ID="130" Value="256" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[10] 6827 → 0">
+			<CC ID="130" Value="6827" />
+			<CC ID="130" Value="6543" />
+			<CC ID="130" Value="6259" />
+			<CC ID="130" Value="5975" />
+			<CC ID="130" Value="5691" />
+			<CC ID="130" Value="5407" />
+			<CC ID="130" Value="5123" />
+			<CC ID="130" Value="4839" />
+			<CC ID="130" Value="4555" />
+			<CC ID="130" Value="4271" />
+			<CC ID="130" Value="3987" />
+			<CC ID="130" Value="3703" />
+			<CC ID="130" Value="3419" />
+			<CC ID="130" Value="3135" />
+			<CC ID="130" Value="2851" />
+			<CC ID="130" Value="2567" />
+			<CC ID="130" Value="2283" />
+			<CC ID="130" Value="1999" />
+			<CC ID="130" Value="1715" />
+			<CC ID="130" Value="1431" />
+			<CC ID="130" Value="1147" />
+			<CC ID="130" Value="863" />
+			<CC ID="130" Value="579" />
+			<CC ID="130" Value="295" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[11] 7509 → 0">
+			<CC ID="130" Value="7509" />
+			<CC ID="130" Value="7196" />
+			<CC ID="130" Value="6883" />
+			<CC ID="130" Value="6570" />
+			<CC ID="130" Value="6257" />
+			<CC ID="130" Value="5944" />
+			<CC ID="130" Value="5631" />
+			<CC ID="130" Value="5318" />
+			<CC ID="130" Value="5005" />
+			<CC ID="130" Value="4692" />
+			<CC ID="130" Value="4379" />
+			<CC ID="130" Value="4066" />
+			<CC ID="130" Value="3753" />
+			<CC ID="130" Value="3440" />
+			<CC ID="130" Value="3127" />
+			<CC ID="130" Value="2814" />
+			<CC ID="130" Value="2501" />
+			<CC ID="130" Value="2188" />
+			<CC ID="130" Value="1875" />
+			<CC ID="130" Value="1562" />
+			<CC ID="130" Value="1249" />
+			<CC ID="130" Value="936" />
+			<CC ID="130" Value="623" />
+			<CC ID="130" Value="310" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[12] 8191 → 0">
+			<CC ID="130" Value="8191" />
+			<CC ID="130" Value="7851" />
+			<CC ID="130" Value="7509" />
+			<CC ID="130" Value="7168" />
+			<CC ID="130" Value="6827" />
+			<CC ID="130" Value="6485" />
+			<CC ID="130" Value="6144" />
+			<CC ID="130" Value="5803" />
+			<CC ID="130" Value="5461" />
+			<CC ID="130" Value="5120" />
+			<CC ID="130" Value="4779" />
+			<CC ID="130" Value="4437" />
+			<CC ID="130" Value="4096" />
+			<CC ID="130" Value="3755" />
+			<CC ID="130" Value="3413" />
+			<CC ID="130" Value="3072" />
+			<CC ID="130" Value="2731" />
+			<CC ID="130" Value="2389" />
+			<CC ID="130" Value="2048" />
+			<CC ID="130" Value="1707" />
+			<CC ID="130" Value="1365" />
+			<CC ID="130" Value="1024" />
+			<CC ID="130" Value="683" />
+			<CC ID="130" Value="341" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+</Folder>
+
+<Folder Name="Pitch Bend －">
+
+<Folder Name="[12 + 1] 0 → MAX">
+	<Template Name="[ 1] 0 → - 683">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-56" />
+			<CC ID="130" Value="-113" />
+			<CC ID="130" Value="-170" />
+			<CC ID="130" Value="-227" />
+			<CC ID="130" Value="-284" />
+			<CC ID="130" Value="-341" />
+			<CC ID="130" Value="-398" />
+			<CC ID="130" Value="-455" />
+			<CC ID="130" Value="-512" />
+			<CC ID="130" Value="-569" />
+			<CC ID="130" Value="-626" />
+			<CC ID="130" Value="-683" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 2] 0 → -1365">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-111" />
+			<CC ID="130" Value="-225" />
+			<CC ID="130" Value="-339" />
+			<CC ID="130" Value="-453" />
+			<CC ID="130" Value="-567" />
+			<CC ID="130" Value="-681" />
+			<CC ID="130" Value="-795" />
+			<CC ID="130" Value="-909" />
+			<CC ID="130" Value="-1023" />
+			<CC ID="130" Value="-1137" />
+			<CC ID="130" Value="-1251" />
+			<CC ID="130" Value="-1365" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 3] 0 → -2048">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-167" />
+			<CC ID="130" Value="-338" />
+			<CC ID="130" Value="-509" />
+			<CC ID="130" Value="-680" />
+			<CC ID="130" Value="-851" />
+			<CC ID="130" Value="-1022" />
+			<CC ID="130" Value="-1193" />
+			<CC ID="130" Value="-1364" />
+			<CC ID="130" Value="-1535" />
+			<CC ID="130" Value="-1706" />
+			<CC ID="130" Value="-1877" />
+			<CC ID="130" Value="-2048" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 4] 0 → -2731">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-223" />
+			<CC ID="130" Value="-451" />
+			<CC ID="130" Value="-679" />
+			<CC ID="130" Value="-907" />
+			<CC ID="130" Value="-1135" />
+			<CC ID="130" Value="-1363" />
+			<CC ID="130" Value="-1591" />
+			<CC ID="130" Value="-1819" />
+			<CC ID="130" Value="-2047" />
+			<CC ID="130" Value="-2275" />
+			<CC ID="130" Value="-2503" />
+			<CC ID="130" Value="-2731" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 5] 0 → -3413">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-289" />
+			<CC ID="130" Value="-573" />
+			<CC ID="130" Value="-857" />
+			<CC ID="130" Value="-1141" />
+			<CC ID="130" Value="-1425" />
+			<CC ID="130" Value="-1709" />
+			<CC ID="130" Value="-1993" />
+			<CC ID="130" Value="-2277" />
+			<CC ID="130" Value="-2561" />
+			<CC ID="130" Value="-2845" />
+			<CC ID="130" Value="-3129" />
+			<CC ID="130" Value="-3413" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 6] 0 → -4096">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-345" />
+			<CC ID="130" Value="-686" />
+			<CC ID="130" Value="-1027" />
+			<CC ID="130" Value="-1368" />
+			<CC ID="130" Value="-1709" />
+			<CC ID="130" Value="-2050" />
+			<CC ID="130" Value="-2391" />
+			<CC ID="130" Value="-2732" />
+			<CC ID="130" Value="-3073" />
+			<CC ID="130" Value="-3414" />
+			<CC ID="130" Value="-3755" />
+			<CC ID="130" Value="-4096" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 7] 0 → -4779">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-401" />
+			<CC ID="130" Value="-799" />
+			<CC ID="130" Value="-1197" />
+			<CC ID="130" Value="-1595" />
+			<CC ID="130" Value="-1993" />
+			<CC ID="130" Value="-2391" />
+			<CC ID="130" Value="-2789" />
+			<CC ID="130" Value="-3187" />
+			<CC ID="130" Value="-3585" />
+			<CC ID="130" Value="-3983" />
+			<CC ID="130" Value="-4381" />
+			<CC ID="130" Value="-4779" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 8] 0 → -5461">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-456" />
+			<CC ID="130" Value="-911" />
+			<CC ID="130" Value="-1366" />
+			<CC ID="130" Value="-1821" />
+			<CC ID="130" Value="-2276" />
+			<CC ID="130" Value="-2731" />
+			<CC ID="130" Value="-3186" />
+			<CC ID="130" Value="-3641" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-4551" />
+			<CC ID="130" Value="-5006" />
+			<CC ID="130" Value="-5461" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 9] 0 → -6144">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-512" />
+			<CC ID="130" Value="-1024" />
+			<CC ID="130" Value="-1536" />
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-2560" />
+			<CC ID="130" Value="-3072" />
+			<CC ID="130" Value="-3584" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-4608" />
+			<CC ID="130" Value="-5120" />
+			<CC ID="130" Value="-5632" />
+			<CC ID="130" Value="-6144" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[10] 0 → -6827">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-568" />
+			<CC ID="130" Value="-1137" />
+			<CC ID="130" Value="-1706" />
+			<CC ID="130" Value="-2275" />
+			<CC ID="130" Value="-2844" />
+			<CC ID="130" Value="-3413" />
+			<CC ID="130" Value="-3982" />
+			<CC ID="130" Value="-4551" />
+			<CC ID="130" Value="-5120" />
+			<CC ID="130" Value="-5689" />
+			<CC ID="130" Value="-6258" />
+			<CC ID="130" Value="-6827" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[11] 0 → -7509">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-623" />
+			<CC ID="130" Value="-1249" />
+			<CC ID="130" Value="-1875" />
+			<CC ID="130" Value="-2501" />
+			<CC ID="130" Value="-3127" />
+			<CC ID="130" Value="-3753" />
+			<CC ID="130" Value="-4379" />
+			<CC ID="130" Value="-5005" />
+			<CC ID="130" Value="-5631" />
+			<CC ID="130" Value="-6257" />
+			<CC ID="130" Value="-6883" />
+			<CC ID="130" Value="-7509" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[12] 0 → -8192">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-683" />
+			<CC ID="130" Value="-1365" />
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-2731" />
+			<CC ID="130" Value="-3413" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-4779" />
+			<CC ID="130" Value="-5461" />
+			<CC ID="130" Value="-6144" />
+			<CC ID="130" Value="-6827" />
+			<CC ID="130" Value="-7509" />
+			<CC ID="130" Value="-8192" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+<Folder Name="[12 + 1] MAX → 0">
+	<Template Name="[ 1] - 683 → 0">
+			<CC ID="130" Value="-683" />
+			<CC ID="130" Value="-626" />
+			<CC ID="130" Value="-569" />
+			<CC ID="130" Value="-512" />
+			<CC ID="130" Value="-455" />
+			<CC ID="130" Value="-398" />
+			<CC ID="130" Value="-341" />
+			<CC ID="130" Value="-284" />
+			<CC ID="130" Value="-227" />
+			<CC ID="130" Value="-170" />
+			<CC ID="130" Value="-113" />
+			<CC ID="130" Value="-56" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 2] -1365 → 0">
+			<CC ID="130" Value="-1365" />
+			<CC ID="130" Value="-1251" />
+			<CC ID="130" Value="-1137" />
+			<CC ID="130" Value="-1023" />
+			<CC ID="130" Value="-909" />
+			<CC ID="130" Value="-795" />
+			<CC ID="130" Value="-681" />
+			<CC ID="130" Value="-567" />
+			<CC ID="130" Value="-453" />
+			<CC ID="130" Value="-339" />
+			<CC ID="130" Value="-225" />
+			<CC ID="130" Value="-111" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 3] -2048 → 0">
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-1877" />
+			<CC ID="130" Value="-1706" />
+			<CC ID="130" Value="-1535" />
+			<CC ID="130" Value="-1364" />
+			<CC ID="130" Value="-1193" />
+			<CC ID="130" Value="-1022" />
+			<CC ID="130" Value="-851" />
+			<CC ID="130" Value="-680" />
+			<CC ID="130" Value="-509" />
+			<CC ID="130" Value="-338" />
+			<CC ID="130" Value="-167" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 4] -2731 → 0">
+			<CC ID="130" Value="-2731" />
+			<CC ID="130" Value="-2503" />
+			<CC ID="130" Value="-2275" />
+			<CC ID="130" Value="-2047" />
+			<CC ID="130" Value="-1819" />
+			<CC ID="130" Value="-1591" />
+			<CC ID="130" Value="-1363" />
+			<CC ID="130" Value="-1135" />
+			<CC ID="130" Value="-907" />
+			<CC ID="130" Value="-679" />
+			<CC ID="130" Value="-451" />
+			<CC ID="130" Value="-223" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 5] -3413 → 0">
+			<CC ID="130" Value="-3413" />
+			<CC ID="130" Value="-3129" />
+			<CC ID="130" Value="-2845" />
+			<CC ID="130" Value="-2561" />
+			<CC ID="130" Value="-2277" />
+			<CC ID="130" Value="-1993" />
+			<CC ID="130" Value="-1709" />
+			<CC ID="130" Value="-1425" />
+			<CC ID="130" Value="-1141" />
+			<CC ID="130" Value="-857" />
+			<CC ID="130" Value="-573" />
+			<CC ID="130" Value="-289" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 6] -4096 → 0">
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-3755" />
+			<CC ID="130" Value="-3414" />
+			<CC ID="130" Value="-3073" />
+			<CC ID="130" Value="-2732" />
+			<CC ID="130" Value="-2391" />
+			<CC ID="130" Value="-2050" />
+			<CC ID="130" Value="-1709" />
+			<CC ID="130" Value="-1368" />
+			<CC ID="130" Value="-1027" />
+			<CC ID="130" Value="-686" />
+			<CC ID="130" Value="-345" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 7] -4779 → 0">
+			<CC ID="130" Value="-4779" />
+			<CC ID="130" Value="-4381" />
+			<CC ID="130" Value="-3983" />
+			<CC ID="130" Value="-3585" />
+			<CC ID="130" Value="-3187" />
+			<CC ID="130" Value="-2789" />
+			<CC ID="130" Value="-2391" />
+			<CC ID="130" Value="-1993" />
+			<CC ID="130" Value="-1595" />
+			<CC ID="130" Value="-1197" />
+			<CC ID="130" Value="-799" />
+			<CC ID="130" Value="-401" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 8] -5461 → 0">
+			<CC ID="130" Value="-5461" />
+			<CC ID="130" Value="-5006" />
+			<CC ID="130" Value="-4551" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-3641" />
+			<CC ID="130" Value="-3186" />
+			<CC ID="130" Value="-2731" />
+			<CC ID="130" Value="-2276" />
+			<CC ID="130" Value="-1821" />
+			<CC ID="130" Value="-1366" />
+			<CC ID="130" Value="-911" />
+			<CC ID="130" Value="-456" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 9] -6144 → 0">
+			<CC ID="130" Value="-6144" />
+			<CC ID="130" Value="-5632" />
+			<CC ID="130" Value="-5120" />
+			<CC ID="130" Value="-4608" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-3584" />
+			<CC ID="130" Value="-3072" />
+			<CC ID="130" Value="-2560" />
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-1536" />
+			<CC ID="130" Value="-1024" />
+			<CC ID="130" Value="-512" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[10] -6827 → 0">
+			<CC ID="130" Value="-6827" />
+			<CC ID="130" Value="-6258" />
+			<CC ID="130" Value="-5689" />
+			<CC ID="130" Value="-5120" />
+			<CC ID="130" Value="-4551" />
+			<CC ID="130" Value="-3982" />
+			<CC ID="130" Value="-3413" />
+			<CC ID="130" Value="-2844" />
+			<CC ID="130" Value="-2275" />
+			<CC ID="130" Value="-1706" />
+			<CC ID="130" Value="-1137" />
+			<CC ID="130" Value="-568" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[11] -7509 → 0">
+			<CC ID="130" Value="-7509" />
+			<CC ID="130" Value="-6883" />
+			<CC ID="130" Value="-6257" />
+			<CC ID="130" Value="-5631" />
+			<CC ID="130" Value="-5005" />
+			<CC ID="130" Value="-4379" />
+			<CC ID="130" Value="-3753" />
+			<CC ID="130" Value="-3127" />
+			<CC ID="130" Value="-2501" />
+			<CC ID="130" Value="-1875" />
+			<CC ID="130" Value="-1249" />
+			<CC ID="130" Value="-623" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[12] -8192 → 0">
+			<CC ID="130" Value="-8192" />
+			<CC ID="130" Value="-7509" />
+			<CC ID="130" Value="-6827" />
+			<CC ID="130" Value="-6144" />
+			<CC ID="130" Value="-5461" />
+			<CC ID="130" Value="-4779" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-3413" />
+			<CC ID="130" Value="-2731" />
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-1365" />
+			<CC ID="130" Value="-683" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+<Folder Name="[24 + 1] 0 → MAX">
+	<Template Name="[ 1] 0 → - 683">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-39" />
+			<CC ID="130" Value="-67" />
+			<CC ID="130" Value="-95" />
+			<CC ID="130" Value="-123" />
+			<CC ID="130" Value="-151" />
+			<CC ID="130" Value="-179" />
+			<CC ID="130" Value="-207" />
+			<CC ID="130" Value="-235" />
+			<CC ID="130" Value="-263" />
+			<CC ID="130" Value="-291" />
+			<CC ID="130" Value="-319" />
+			<CC ID="130" Value="-347" />
+			<CC ID="130" Value="-375" />
+			<CC ID="130" Value="-403" />
+			<CC ID="130" Value="-431" />
+			<CC ID="130" Value="-459" />
+			<CC ID="130" Value="-487" />
+			<CC ID="130" Value="-515" />
+			<CC ID="130" Value="-543" />
+			<CC ID="130" Value="-571" />
+			<CC ID="130" Value="-599" />
+			<CC ID="130" Value="-627" />
+			<CC ID="130" Value="-655" />
+			<CC ID="130" Value="-683" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 2] 0 → -1365">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-54" />
+			<CC ID="130" Value="-111" />
+			<CC ID="130" Value="-168" />
+			<CC ID="130" Value="-225" />
+			<CC ID="130" Value="-282" />
+			<CC ID="130" Value="-339" />
+			<CC ID="130" Value="-396" />
+			<CC ID="130" Value="-453" />
+			<CC ID="130" Value="-510" />
+			<CC ID="130" Value="-567" />
+			<CC ID="130" Value="-624" />
+			<CC ID="130" Value="-681" />
+			<CC ID="130" Value="-738" />
+			<CC ID="130" Value="-795" />
+			<CC ID="130" Value="-852" />
+			<CC ID="130" Value="-909" />
+			<CC ID="130" Value="-966" />
+			<CC ID="130" Value="-1023" />
+			<CC ID="130" Value="-1080" />
+			<CC ID="130" Value="-1137" />
+			<CC ID="130" Value="-1194" />
+			<CC ID="130" Value="-1251" />
+			<CC ID="130" Value="-1308" />
+			<CC ID="130" Value="-1365" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 3] 0 → -2048">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-93" />
+			<CC ID="130" Value="-178" />
+			<CC ID="130" Value="-263" />
+			<CC ID="130" Value="-348" />
+			<CC ID="130" Value="-433" />
+			<CC ID="130" Value="-518" />
+			<CC ID="130" Value="-603" />
+			<CC ID="130" Value="-688" />
+			<CC ID="130" Value="-773" />
+			<CC ID="130" Value="-858" />
+			<CC ID="130" Value="-943" />
+			<CC ID="130" Value="-1028" />
+			<CC ID="130" Value="-1113" />
+			<CC ID="130" Value="-1198" />
+			<CC ID="130" Value="-1283" />
+			<CC ID="130" Value="-1368" />
+			<CC ID="130" Value="-1453" />
+			<CC ID="130" Value="-1538" />
+			<CC ID="130" Value="-1623" />
+			<CC ID="130" Value="-1708" />
+			<CC ID="130" Value="-1793" />
+			<CC ID="130" Value="-1878" />
+			<CC ID="130" Value="-1963" />
+			<CC ID="130" Value="-2048" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 4] 0 → -2731">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-109" />
+			<CC ID="130" Value="-223" />
+			<CC ID="130" Value="-337" />
+			<CC ID="130" Value="-451" />
+			<CC ID="130" Value="-565" />
+			<CC ID="130" Value="-679" />
+			<CC ID="130" Value="-793" />
+			<CC ID="130" Value="-907" />
+			<CC ID="130" Value="-1021" />
+			<CC ID="130" Value="-1135" />
+			<CC ID="130" Value="-1249" />
+			<CC ID="130" Value="-1363" />
+			<CC ID="130" Value="-1477" />
+			<CC ID="130" Value="-1591" />
+			<CC ID="130" Value="-1705" />
+			<CC ID="130" Value="-1819" />
+			<CC ID="130" Value="-1933" />
+			<CC ID="130" Value="-2047" />
+			<CC ID="130" Value="-2161" />
+			<CC ID="130" Value="-2275" />
+			<CC ID="130" Value="-2389" />
+			<CC ID="130" Value="-2503" />
+			<CC ID="130" Value="-2617" />
+			<CC ID="130" Value="-2731" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 5] 0 → -3413">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-147" />
+			<CC ID="130" Value="-289" />
+			<CC ID="130" Value="-431" />
+			<CC ID="130" Value="-573" />
+			<CC ID="130" Value="-715" />
+			<CC ID="130" Value="-857" />
+			<CC ID="130" Value="-999" />
+			<CC ID="130" Value="-1141" />
+			<CC ID="130" Value="-1283" />
+			<CC ID="130" Value="-1425" />
+			<CC ID="130" Value="-1567" />
+			<CC ID="130" Value="-1709" />
+			<CC ID="130" Value="-1851" />
+			<CC ID="130" Value="-1993" />
+			<CC ID="130" Value="-2135" />
+			<CC ID="130" Value="-2277" />
+			<CC ID="130" Value="-2419" />
+			<CC ID="130" Value="-2561" />
+			<CC ID="130" Value="-2703" />
+			<CC ID="130" Value="-2845" />
+			<CC ID="130" Value="-2987" />
+			<CC ID="130" Value="-3129" />
+			<CC ID="130" Value="-3271" />
+			<CC ID="130" Value="-3413" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 6] 0 → -4096">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-163" />
+			<CC ID="130" Value="-334" />
+			<CC ID="130" Value="-505" />
+			<CC ID="130" Value="-676" />
+			<CC ID="130" Value="-847" />
+			<CC ID="130" Value="-1018" />
+			<CC ID="130" Value="-1189" />
+			<CC ID="130" Value="-1360" />
+			<CC ID="130" Value="-1531" />
+			<CC ID="130" Value="-1702" />
+			<CC ID="130" Value="-1873" />
+			<CC ID="130" Value="-2044" />
+			<CC ID="130" Value="-2215" />
+			<CC ID="130" Value="-2386" />
+			<CC ID="130" Value="-2557" />
+			<CC ID="130" Value="-2728" />
+			<CC ID="130" Value="-2899" />
+			<CC ID="130" Value="-3070" />
+			<CC ID="130" Value="-3241" />
+			<CC ID="130" Value="-3412" />
+			<CC ID="130" Value="-3583" />
+			<CC ID="130" Value="-3754" />
+			<CC ID="130" Value="-3925" />
+			<CC ID="130" Value="-4096" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 7] 0 → -4779">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-202" />
+			<CC ID="130" Value="-401" />
+			<CC ID="130" Value="-600" />
+			<CC ID="130" Value="-799" />
+			<CC ID="130" Value="-998" />
+			<CC ID="130" Value="-1197" />
+			<CC ID="130" Value="-1396" />
+			<CC ID="130" Value="-1595" />
+			<CC ID="130" Value="-1794" />
+			<CC ID="130" Value="-1993" />
+			<CC ID="130" Value="-2192" />
+			<CC ID="130" Value="-2391" />
+			<CC ID="130" Value="-2590" />
+			<CC ID="130" Value="-2789" />
+			<CC ID="130" Value="-2988" />
+			<CC ID="130" Value="-3187" />
+			<CC ID="130" Value="-3386" />
+			<CC ID="130" Value="-3585" />
+			<CC ID="130" Value="-3784" />
+			<CC ID="130" Value="-3983" />
+			<CC ID="130" Value="-4182" />
+			<CC ID="130" Value="-4381" />
+			<CC ID="130" Value="-4580" />
+			<CC ID="130" Value="-4779" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 8] 0 → -5461">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-217" />
+			<CC ID="130" Value="-445" />
+			<CC ID="130" Value="-673" />
+			<CC ID="130" Value="-901" />
+			<CC ID="130" Value="-1129" />
+			<CC ID="130" Value="-1357" />
+			<CC ID="130" Value="-1585" />
+			<CC ID="130" Value="-1813" />
+			<CC ID="130" Value="-2041" />
+			<CC ID="130" Value="-2269" />
+			<CC ID="130" Value="-2497" />
+			<CC ID="130" Value="-2725" />
+			<CC ID="130" Value="-2953" />
+			<CC ID="130" Value="-3181" />
+			<CC ID="130" Value="-3409" />
+			<CC ID="130" Value="-3637" />
+			<CC ID="130" Value="-3865" />
+			<CC ID="130" Value="-4093" />
+			<CC ID="130" Value="-4321" />
+			<CC ID="130" Value="-4549" />
+			<CC ID="130" Value="-4777" />
+			<CC ID="130" Value="-5005" />
+			<CC ID="130" Value="-5233" />
+			<CC ID="130" Value="-5461" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 9] 0 → -6144">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-256" />
+			<CC ID="130" Value="-512" />
+			<CC ID="130" Value="-768" />
+			<CC ID="130" Value="-1024" />
+			<CC ID="130" Value="-1280" />
+			<CC ID="130" Value="-1536" />
+			<CC ID="130" Value="-1792" />
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-2304" />
+			<CC ID="130" Value="-2560" />
+			<CC ID="130" Value="-2816" />
+			<CC ID="130" Value="-3072" />
+			<CC ID="130" Value="-3328" />
+			<CC ID="130" Value="-3584" />
+			<CC ID="130" Value="-3840" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-4352" />
+			<CC ID="130" Value="-4608" />
+			<CC ID="130" Value="-4864" />
+			<CC ID="130" Value="-5120" />
+			<CC ID="130" Value="-5376" />
+			<CC ID="130" Value="-5632" />
+			<CC ID="130" Value="-5888" />
+			<CC ID="130" Value="-6144" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[10] 0 → -6827">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-295" />
+			<CC ID="130" Value="-579" />
+			<CC ID="130" Value="-863" />
+			<CC ID="130" Value="-1147" />
+			<CC ID="130" Value="-1431" />
+			<CC ID="130" Value="-1715" />
+			<CC ID="130" Value="-1999" />
+			<CC ID="130" Value="-2283" />
+			<CC ID="130" Value="-2567" />
+			<CC ID="130" Value="-2851" />
+			<CC ID="130" Value="-3135" />
+			<CC ID="130" Value="-3419" />
+			<CC ID="130" Value="-3703" />
+			<CC ID="130" Value="-3987" />
+			<CC ID="130" Value="-4271" />
+			<CC ID="130" Value="-4555" />
+			<CC ID="130" Value="-4839" />
+			<CC ID="130" Value="-5123" />
+			<CC ID="130" Value="-5407" />
+			<CC ID="130" Value="-5691" />
+			<CC ID="130" Value="-5975" />
+			<CC ID="130" Value="-6259" />
+			<CC ID="130" Value="-6543" />
+			<CC ID="130" Value="-6827" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[11] 0 → -7509">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-310" />
+			<CC ID="130" Value="-623" />
+			<CC ID="130" Value="-936" />
+			<CC ID="130" Value="-1249" />
+			<CC ID="130" Value="-1562" />
+			<CC ID="130" Value="-1875" />
+			<CC ID="130" Value="-2188" />
+			<CC ID="130" Value="-2501" />
+			<CC ID="130" Value="-2814" />
+			<CC ID="130" Value="-3127" />
+			<CC ID="130" Value="-3440" />
+			<CC ID="130" Value="-3753" />
+			<CC ID="130" Value="-4066" />
+			<CC ID="130" Value="-4379" />
+			<CC ID="130" Value="-4692" />
+			<CC ID="130" Value="-5005" />
+			<CC ID="130" Value="-5318" />
+			<CC ID="130" Value="-5631" />
+			<CC ID="130" Value="-5944" />
+			<CC ID="130" Value="-6257" />
+			<CC ID="130" Value="-6570" />
+			<CC ID="130" Value="-6883" />
+			<CC ID="130" Value="-7196" />
+			<CC ID="130" Value="-7509" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[12] 0 → -8192">
+			<CC ID="130" Value="0" />
+			<CC ID="130" Value="-341" />
+			<CC ID="130" Value="-683" />
+			<CC ID="130" Value="-1024" />
+			<CC ID="130" Value="-1365" />
+			<CC ID="130" Value="-1707" />
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-2389" />
+			<CC ID="130" Value="-2731" />
+			<CC ID="130" Value="-3072" />
+			<CC ID="130" Value="-3413" />
+			<CC ID="130" Value="-3755" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-4437" />
+			<CC ID="130" Value="-4779" />
+			<CC ID="130" Value="-5120" />
+			<CC ID="130" Value="-5461" />
+			<CC ID="130" Value="-5803" />
+			<CC ID="130" Value="-6144" />
+			<CC ID="130" Value="-6485" />
+			<CC ID="130" Value="-6827" />
+			<CC ID="130" Value="-7168" />
+			<CC ID="130" Value="-7509" />
+			<CC ID="130" Value="-7851" />
+			<CC ID="130" Value="-8192" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+<Folder Name="[24 + 1] MAX → 0">
+	<Template Name="[ 1] - 683 → 0">
+			<CC ID="130" Value="-683" />
+			<CC ID="130" Value="-655" />
+			<CC ID="130" Value="-627" />
+			<CC ID="130" Value="-599" />
+			<CC ID="130" Value="-571" />
+			<CC ID="130" Value="-543" />
+			<CC ID="130" Value="-515" />
+			<CC ID="130" Value="-487" />
+			<CC ID="130" Value="-459" />
+			<CC ID="130" Value="-431" />
+			<CC ID="130" Value="-403" />
+			<CC ID="130" Value="-375" />
+			<CC ID="130" Value="-347" />
+			<CC ID="130" Value="-319" />
+			<CC ID="130" Value="-291" />
+			<CC ID="130" Value="-263" />
+			<CC ID="130" Value="-235" />
+			<CC ID="130" Value="-207" />
+			<CC ID="130" Value="-179" />
+			<CC ID="130" Value="-151" />
+			<CC ID="130" Value="-123" />
+			<CC ID="130" Value="-95" />
+			<CC ID="130" Value="-67" />
+			<CC ID="130" Value="-39" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 2] -1365 → 0">
+			<CC ID="130" Value="-1365" />
+			<CC ID="130" Value="-1308" />
+			<CC ID="130" Value="-1251" />
+			<CC ID="130" Value="-1194" />
+			<CC ID="130" Value="-1137" />
+			<CC ID="130" Value="-1080" />
+			<CC ID="130" Value="-1023" />
+			<CC ID="130" Value="-966" />
+			<CC ID="130" Value="-909" />
+			<CC ID="130" Value="-852" />
+			<CC ID="130" Value="-795" />
+			<CC ID="130" Value="-738" />
+			<CC ID="130" Value="-681" />
+			<CC ID="130" Value="-624" />
+			<CC ID="130" Value="-567" />
+			<CC ID="130" Value="-510" />
+			<CC ID="130" Value="-453" />
+			<CC ID="130" Value="-396" />
+			<CC ID="130" Value="-339" />
+			<CC ID="130" Value="-282" />
+			<CC ID="130" Value="-225" />
+			<CC ID="130" Value="-168" />
+			<CC ID="130" Value="-111" />
+			<CC ID="130" Value="-54" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 3] -2048 → 0">
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-1963" />
+			<CC ID="130" Value="-1878" />
+			<CC ID="130" Value="-1793" />
+			<CC ID="130" Value="-1708" />
+			<CC ID="130" Value="-1623" />
+			<CC ID="130" Value="-1538" />
+			<CC ID="130" Value="-1453" />
+			<CC ID="130" Value="-1368" />
+			<CC ID="130" Value="-1283" />
+			<CC ID="130" Value="-1198" />
+			<CC ID="130" Value="-1113" />
+			<CC ID="130" Value="-1028" />
+			<CC ID="130" Value="-943" />
+			<CC ID="130" Value="-858" />
+			<CC ID="130" Value="-773" />
+			<CC ID="130" Value="-688" />
+			<CC ID="130" Value="-603" />
+			<CC ID="130" Value="-518" />
+			<CC ID="130" Value="-433" />
+			<CC ID="130" Value="-348" />
+			<CC ID="130" Value="-263" />
+			<CC ID="130" Value="-178" />
+			<CC ID="130" Value="-93" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 4] -2731 → 0">
+			<CC ID="130" Value="-2731" />
+			<CC ID="130" Value="-2617" />
+			<CC ID="130" Value="-2503" />
+			<CC ID="130" Value="-2389" />
+			<CC ID="130" Value="-2275" />
+			<CC ID="130" Value="-2161" />
+			<CC ID="130" Value="-2047" />
+			<CC ID="130" Value="-1933" />
+			<CC ID="130" Value="-1819" />
+			<CC ID="130" Value="-1705" />
+			<CC ID="130" Value="-1591" />
+			<CC ID="130" Value="-1477" />
+			<CC ID="130" Value="-1363" />
+			<CC ID="130" Value="-1249" />
+			<CC ID="130" Value="-1135" />
+			<CC ID="130" Value="-1021" />
+			<CC ID="130" Value="-907" />
+			<CC ID="130" Value="-793" />
+			<CC ID="130" Value="-679" />
+			<CC ID="130" Value="-565" />
+			<CC ID="130" Value="-451" />
+			<CC ID="130" Value="-337" />
+			<CC ID="130" Value="-223" />
+			<CC ID="130" Value="-109" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 5] -3413 → 0">
+			<CC ID="130" Value="-3413" />
+			<CC ID="130" Value="-3271" />
+			<CC ID="130" Value="-3129" />
+			<CC ID="130" Value="-2987" />
+			<CC ID="130" Value="-2845" />
+			<CC ID="130" Value="-2703" />
+			<CC ID="130" Value="-2561" />
+			<CC ID="130" Value="-2419" />
+			<CC ID="130" Value="-2277" />
+			<CC ID="130" Value="-2135" />
+			<CC ID="130" Value="-1993" />
+			<CC ID="130" Value="-1851" />
+			<CC ID="130" Value="-1709" />
+			<CC ID="130" Value="-1567" />
+			<CC ID="130" Value="-1425" />
+			<CC ID="130" Value="-1283" />
+			<CC ID="130" Value="-1141" />
+			<CC ID="130" Value="-999" />
+			<CC ID="130" Value="-857" />
+			<CC ID="130" Value="-715" />
+			<CC ID="130" Value="-573" />
+			<CC ID="130" Value="-431" />
+			<CC ID="130" Value="-289" />
+			<CC ID="130" Value="-147" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 6] -4096 → 0">
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-3925" />
+			<CC ID="130" Value="-3754" />
+			<CC ID="130" Value="-3583" />
+			<CC ID="130" Value="-3412" />
+			<CC ID="130" Value="-3241" />
+			<CC ID="130" Value="-3070" />
+			<CC ID="130" Value="-2899" />
+			<CC ID="130" Value="-2728" />
+			<CC ID="130" Value="-2557" />
+			<CC ID="130" Value="-2386" />
+			<CC ID="130" Value="-2215" />
+			<CC ID="130" Value="-2044" />
+			<CC ID="130" Value="-1873" />
+			<CC ID="130" Value="-1702" />
+			<CC ID="130" Value="-1531" />
+			<CC ID="130" Value="-1360" />
+			<CC ID="130" Value="-1189" />
+			<CC ID="130" Value="-1018" />
+			<CC ID="130" Value="-847" />
+			<CC ID="130" Value="-676" />
+			<CC ID="130" Value="-505" />
+			<CC ID="130" Value="-334" />
+			<CC ID="130" Value="-163" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 7] -4779 → 0">
+			<CC ID="130" Value="-4779" />
+			<CC ID="130" Value="-4580" />
+			<CC ID="130" Value="-4381" />
+			<CC ID="130" Value="-4182" />
+			<CC ID="130" Value="-3983" />
+			<CC ID="130" Value="-3784" />
+			<CC ID="130" Value="-3585" />
+			<CC ID="130" Value="-3386" />
+			<CC ID="130" Value="-3187" />
+			<CC ID="130" Value="-2988" />
+			<CC ID="130" Value="-2789" />
+			<CC ID="130" Value="-2590" />
+			<CC ID="130" Value="-2391" />
+			<CC ID="130" Value="-2192" />
+			<CC ID="130" Value="-1993" />
+			<CC ID="130" Value="-1794" />
+			<CC ID="130" Value="-1595" />
+			<CC ID="130" Value="-1396" />
+			<CC ID="130" Value="-1197" />
+			<CC ID="130" Value="-998" />
+			<CC ID="130" Value="-799" />
+			<CC ID="130" Value="-600" />
+			<CC ID="130" Value="-401" />
+			<CC ID="130" Value="-202" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 8] -5461 → 0">
+			<CC ID="130" Value="-5461" />
+			<CC ID="130" Value="-5233" />
+			<CC ID="130" Value="-5005" />
+			<CC ID="130" Value="-4777" />
+			<CC ID="130" Value="-4549" />
+			<CC ID="130" Value="-4321" />
+			<CC ID="130" Value="-4093" />
+			<CC ID="130" Value="-3865" />
+			<CC ID="130" Value="-3637" />
+			<CC ID="130" Value="-3409" />
+			<CC ID="130" Value="-3181" />
+			<CC ID="130" Value="-2953" />
+			<CC ID="130" Value="-2725" />
+			<CC ID="130" Value="-2497" />
+			<CC ID="130" Value="-2269" />
+			<CC ID="130" Value="-2041" />
+			<CC ID="130" Value="-1813" />
+			<CC ID="130" Value="-1585" />
+			<CC ID="130" Value="-1357" />
+			<CC ID="130" Value="-1129" />
+			<CC ID="130" Value="-901" />
+			<CC ID="130" Value="-673" />
+			<CC ID="130" Value="-445" />
+			<CC ID="130" Value="-217" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[ 9] -6144 → 0">
+			<CC ID="130" Value="-6144" />
+			<CC ID="130" Value="-5888" />
+			<CC ID="130" Value="-5632" />
+			<CC ID="130" Value="-5376" />
+			<CC ID="130" Value="-5120" />
+			<CC ID="130" Value="-4864" />
+			<CC ID="130" Value="-4608" />
+			<CC ID="130" Value="-4352" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-3840" />
+			<CC ID="130" Value="-3584" />
+			<CC ID="130" Value="-3328" />
+			<CC ID="130" Value="-3072" />
+			<CC ID="130" Value="-2816" />
+			<CC ID="130" Value="-2560" />
+			<CC ID="130" Value="-2304" />
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-1792" />
+			<CC ID="130" Value="-1536" />
+			<CC ID="130" Value="-1280" />
+			<CC ID="130" Value="-1024" />
+			<CC ID="130" Value="-768" />
+			<CC ID="130" Value="-512" />
+			<CC ID="130" Value="-256" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[10] -6827 → 0">
+			<CC ID="130" Value="-6827" />
+			<CC ID="130" Value="-6543" />
+			<CC ID="130" Value="-6259" />
+			<CC ID="130" Value="-5975" />
+			<CC ID="130" Value="-5691" />
+			<CC ID="130" Value="-5407" />
+			<CC ID="130" Value="-5123" />
+			<CC ID="130" Value="-4839" />
+			<CC ID="130" Value="-4555" />
+			<CC ID="130" Value="-4271" />
+			<CC ID="130" Value="-3987" />
+			<CC ID="130" Value="-3703" />
+			<CC ID="130" Value="-3419" />
+			<CC ID="130" Value="-3135" />
+			<CC ID="130" Value="-2851" />
+			<CC ID="130" Value="-2567" />
+			<CC ID="130" Value="-2283" />
+			<CC ID="130" Value="-1999" />
+			<CC ID="130" Value="-1715" />
+			<CC ID="130" Value="-1431" />
+			<CC ID="130" Value="-1147" />
+			<CC ID="130" Value="-863" />
+			<CC ID="130" Value="-579" />
+			<CC ID="130" Value="-295" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[11] -7509 → 0">
+			<CC ID="130" Value="-7509" />
+			<CC ID="130" Value="-7196" />
+			<CC ID="130" Value="-6883" />
+			<CC ID="130" Value="-6570" />
+			<CC ID="130" Value="-6257" />
+			<CC ID="130" Value="-5944" />
+			<CC ID="130" Value="-5631" />
+			<CC ID="130" Value="-5318" />
+			<CC ID="130" Value="-5005" />
+			<CC ID="130" Value="-4692" />
+			<CC ID="130" Value="-4379" />
+			<CC ID="130" Value="-4066" />
+			<CC ID="130" Value="-3753" />
+			<CC ID="130" Value="-3440" />
+			<CC ID="130" Value="-3127" />
+			<CC ID="130" Value="-2814" />
+			<CC ID="130" Value="-2501" />
+			<CC ID="130" Value="-2188" />
+			<CC ID="130" Value="-1875" />
+			<CC ID="130" Value="-1562" />
+			<CC ID="130" Value="-1249" />
+			<CC ID="130" Value="-936" />
+			<CC ID="130" Value="-623" />
+			<CC ID="130" Value="-310" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+
+	<Template Name="[12] -8192 → 0">
+			<CC ID="130" Value="-8192" />
+			<CC ID="130" Value="-7851" />
+			<CC ID="130" Value="-7509" />
+			<CC ID="130" Value="-7168" />
+			<CC ID="130" Value="-6827" />
+			<CC ID="130" Value="-6485" />
+			<CC ID="130" Value="-6144" />
+			<CC ID="130" Value="-5803" />
+			<CC ID="130" Value="-5461" />
+			<CC ID="130" Value="-5120" />
+			<CC ID="130" Value="-4779" />
+			<CC ID="130" Value="-4437" />
+			<CC ID="130" Value="-4096" />
+			<CC ID="130" Value="-3755" />
+			<CC ID="130" Value="-3413" />
+			<CC ID="130" Value="-3072" />
+			<CC ID="130" Value="-2731" />
+			<CC ID="130" Value="-2389" />
+			<CC ID="130" Value="-2048" />
+			<CC ID="130" Value="-1707" />
+			<CC ID="130" Value="-1365" />
+			<CC ID="130" Value="-1024" />
+			<CC ID="130" Value="-683" />
+			<CC ID="130" Value="-341" />
+			<CC ID="130" Value="0" />
+		<Memo></Memo>
+	</Template>
+</Folder>
+
+</Folder>
+
+<Folder Name="Panpot">
+	<Template Name="L → C → R → C → L">
+			<CC ID="10" Value="0" />
+			<CC ID="10" Value="2" />
+			<CC ID="10" Value="4" />
+			<CC ID="10" Value="6" />
+			<CC ID="10" Value="8" />
+			<CC ID="10" Value="10" />
+			<CC ID="10" Value="12" />
+			<CC ID="10" Value="14" />
+			<CC ID="10" Value="16" />
+			<CC ID="10" Value="18" />
+			<CC ID="10" Value="20" />
+			<CC ID="10" Value="22" />
+			<CC ID="10" Value="24" />
+			<CC ID="10" Value="26" />
+			<CC ID="10" Value="28" />
+			<CC ID="10" Value="30" />
+			<CC ID="10" Value="32" />
+			<CC ID="10" Value="34" />
+			<CC ID="10" Value="36" />
+			<CC ID="10" Value="38" />
+			<CC ID="10" Value="40" />
+			<CC ID="10" Value="42" />
+			<CC ID="10" Value="44" />
+			<CC ID="10" Value="46" />
+			<CC ID="10" Value="48" />
+			<CC ID="10" Value="50" />
+			<CC ID="10" Value="52" />
+			<CC ID="10" Value="54" />
+			<CC ID="10" Value="56" />
+			<CC ID="10" Value="58" />
+			<CC ID="10" Value="60" />
+			<CC ID="10" Value="62" />
+			<CC ID="10" Value="64" />
+			<CC ID="10" Value="66" />
+			<CC ID="10" Value="68" />
+			<CC ID="10" Value="70" />
+			<CC ID="10" Value="72" />
+			<CC ID="10" Value="74" />
+			<CC ID="10" Value="76" />
+			<CC ID="10" Value="78" />
+			<CC ID="10" Value="80" />
+			<CC ID="10" Value="82" />
+			<CC ID="10" Value="84" />
+			<CC ID="10" Value="86" />
+			<CC ID="10" Value="88" />
+			<CC ID="10" Value="90" />
+			<CC ID="10" Value="92" />
+			<CC ID="10" Value="94" />
+			<CC ID="10" Value="96" />
+			<CC ID="10" Value="98" />
+			<CC ID="10" Value="100" />
+			<CC ID="10" Value="102" />
+			<CC ID="10" Value="104" />
+			<CC ID="10" Value="106" />
+			<CC ID="10" Value="108" />
+			<CC ID="10" Value="110" />
+			<CC ID="10" Value="112" />
+			<CC ID="10" Value="114" />
+			<CC ID="10" Value="116" />
+			<CC ID="10" Value="118" />
+			<CC ID="10" Value="120" />
+			<CC ID="10" Value="122" />
+			<CC ID="10" Value="124" />
+			<CC ID="10" Value="126" />
+			<CC ID="10" Value="127" />
+			<CC ID="10" Value="125" />
+			<CC ID="10" Value="123" />
+			<CC ID="10" Value="121" />
+			<CC ID="10" Value="119" />
+			<CC ID="10" Value="117" />
+			<CC ID="10" Value="115" />
+			<CC ID="10" Value="113" />
+			<CC ID="10" Value="111" />
+			<CC ID="10" Value="109" />
+			<CC ID="10" Value="107" />
+			<CC ID="10" Value="105" />
+			<CC ID="10" Value="103" />
+			<CC ID="10" Value="101" />
+			<CC ID="10" Value="99" />
+			<CC ID="10" Value="97" />
+			<CC ID="10" Value="95" />
+			<CC ID="10" Value="93" />
+			<CC ID="10" Value="91" />
+			<CC ID="10" Value="89" />
+			<CC ID="10" Value="87" />
+			<CC ID="10" Value="85" />
+			<CC ID="10" Value="83" />
+			<CC ID="10" Value="81" />
+			<CC ID="10" Value="79" />
+			<CC ID="10" Value="77" />
+			<CC ID="10" Value="75" />
+			<CC ID="10" Value="73" />
+			<CC ID="10" Value="71" />
+			<CC ID="10" Value="69" />
+			<CC ID="10" Value="67" />
+			<CC ID="10" Value="65" />
+			<CC ID="10" Value="64" />
+			<CC ID="10" Value="62" />
+			<CC ID="10" Value="60" />
+			<CC ID="10" Value="58" />
+			<CC ID="10" Value="56" />
+			<CC ID="10" Value="54" />
+			<CC ID="10" Value="52" />
+			<CC ID="10" Value="50" />
+			<CC ID="10" Value="48" />
+			<CC ID="10" Value="46" />
+			<CC ID="10" Value="44" />
+			<CC ID="10" Value="42" />
+			<CC ID="10" Value="40" />
+			<CC ID="10" Value="38" />
+			<CC ID="10" Value="36" />
+			<CC ID="10" Value="34" />
+			<CC ID="10" Value="32" />
+			<CC ID="10" Value="30" />
+			<CC ID="10" Value="28" />
+			<CC ID="10" Value="26" />
+			<CC ID="10" Value="24" />
+			<CC ID="10" Value="22" />
+			<CC ID="10" Value="20" />
+			<CC ID="10" Value="18" />
+			<CC ID="10" Value="16" />
+			<CC ID="10" Value="14" />
+			<CC ID="10" Value="12" />
+			<CC ID="10" Value="10" />
+			<CC ID="10" Value="8" />
+			<CC ID="10" Value="6" />
+			<CC ID="10" Value="4" />
+			<CC ID="10" Value="2" />
+			<CC ID="10" Value="0" />
+		<Memo>※ Step 「30」 で 2小節分になります。</Memo>
+	</Template>
+
+	<Template Name="R → C → L → C → R">
+			<CC ID="10" Value="127" />
+			<CC ID="10" Value="125" />
+			<CC ID="10" Value="123" />
+			<CC ID="10" Value="121" />
+			<CC ID="10" Value="119" />
+			<CC ID="10" Value="117" />
+			<CC ID="10" Value="115" />
+			<CC ID="10" Value="113" />
+			<CC ID="10" Value="111" />
+			<CC ID="10" Value="109" />
+			<CC ID="10" Value="107" />
+			<CC ID="10" Value="105" />
+			<CC ID="10" Value="103" />
+			<CC ID="10" Value="101" />
+			<CC ID="10" Value="99" />
+			<CC ID="10" Value="97" />
+			<CC ID="10" Value="95" />
+			<CC ID="10" Value="93" />
+			<CC ID="10" Value="91" />
+			<CC ID="10" Value="89" />
+			<CC ID="10" Value="87" />
+			<CC ID="10" Value="85" />
+			<CC ID="10" Value="83" />
+			<CC ID="10" Value="81" />
+			<CC ID="10" Value="79" />
+			<CC ID="10" Value="77" />
+			<CC ID="10" Value="75" />
+			<CC ID="10" Value="73" />
+			<CC ID="10" Value="71" />
+			<CC ID="10" Value="69" />
+			<CC ID="10" Value="67" />
+			<CC ID="10" Value="65" />
+			<CC ID="10" Value="64" />
+			<CC ID="10" Value="62" />
+			<CC ID="10" Value="60" />
+			<CC ID="10" Value="58" />
+			<CC ID="10" Value="56" />
+			<CC ID="10" Value="54" />
+			<CC ID="10" Value="52" />
+			<CC ID="10" Value="50" />
+			<CC ID="10" Value="48" />
+			<CC ID="10" Value="46" />
+			<CC ID="10" Value="44" />
+			<CC ID="10" Value="42" />
+			<CC ID="10" Value="40" />
+			<CC ID="10" Value="38" />
+			<CC ID="10" Value="36" />
+			<CC ID="10" Value="34" />
+			<CC ID="10" Value="32" />
+			<CC ID="10" Value="30" />
+			<CC ID="10" Value="28" />
+			<CC ID="10" Value="26" />
+			<CC ID="10" Value="24" />
+			<CC ID="10" Value="22" />
+			<CC ID="10" Value="20" />
+			<CC ID="10" Value="18" />
+			<CC ID="10" Value="16" />
+			<CC ID="10" Value="14" />
+			<CC ID="10" Value="12" />
+			<CC ID="10" Value="10" />
+			<CC ID="10" Value="8" />
+			<CC ID="10" Value="6" />
+			<CC ID="10" Value="4" />
+			<CC ID="10" Value="2" />
+			<CC ID="10" Value="0" />
+			<CC ID="10" Value="2" />
+			<CC ID="10" Value="4" />
+			<CC ID="10" Value="6" />
+			<CC ID="10" Value="8" />
+			<CC ID="10" Value="10" />
+			<CC ID="10" Value="12" />
+			<CC ID="10" Value="14" />
+			<CC ID="10" Value="16" />
+			<CC ID="10" Value="18" />
+			<CC ID="10" Value="20" />
+			<CC ID="10" Value="22" />
+			<CC ID="10" Value="24" />
+			<CC ID="10" Value="26" />
+			<CC ID="10" Value="28" />
+			<CC ID="10" Value="30" />
+			<CC ID="10" Value="32" />
+			<CC ID="10" Value="34" />
+			<CC ID="10" Value="36" />
+			<CC ID="10" Value="38" />
+			<CC ID="10" Value="40" />
+			<CC ID="10" Value="42" />
+			<CC ID="10" Value="44" />
+			<CC ID="10" Value="46" />
+			<CC ID="10" Value="48" />
+			<CC ID="10" Value="50" />
+			<CC ID="10" Value="52" />
+			<CC ID="10" Value="54" />
+			<CC ID="10" Value="56" />
+			<CC ID="10" Value="58" />
+			<CC ID="10" Value="60" />
+			<CC ID="10" Value="62" />
+			<CC ID="10" Value="64" />
+			<CC ID="10" Value="66" />
+			<CC ID="10" Value="68" />
+			<CC ID="10" Value="70" />
+			<CC ID="10" Value="72" />
+			<CC ID="10" Value="74" />
+			<CC ID="10" Value="76" />
+			<CC ID="10" Value="78" />
+			<CC ID="10" Value="80" />
+			<CC ID="10" Value="82" />
+			<CC ID="10" Value="84" />
+			<CC ID="10" Value="86" />
+			<CC ID="10" Value="88" />
+			<CC ID="10" Value="90" />
+			<CC ID="10" Value="92" />
+			<CC ID="10" Value="94" />
+			<CC ID="10" Value="96" />
+			<CC ID="10" Value="98" />
+			<CC ID="10" Value="100" />
+			<CC ID="10" Value="102" />
+			<CC ID="10" Value="104" />
+			<CC ID="10" Value="106" />
+			<CC ID="10" Value="108" />
+			<CC ID="10" Value="110" />
+			<CC ID="10" Value="112" />
+			<CC ID="10" Value="114" />
+			<CC ID="10" Value="116" />
+			<CC ID="10" Value="118" />
+			<CC ID="10" Value="120" />
+			<CC ID="10" Value="122" />
+			<CC ID="10" Value="124" />
+			<CC ID="10" Value="126" />
+			<CC ID="10" Value="127" />
+		<Memo>※ Step 「30」 で 2小節分になります。</Memo>
+	</Template>
+
+	<Template Name="L → C → R (+2)">
+			<CC ID="10" Value="0" />
+			<CC ID="10" Value="2" />
+			<CC ID="10" Value="4" />
+			<CC ID="10" Value="6" />
+			<CC ID="10" Value="8" />
+			<CC ID="10" Value="10" />
+			<CC ID="10" Value="12" />
+			<CC ID="10" Value="14" />
+			<CC ID="10" Value="16" />
+			<CC ID="10" Value="18" />
+			<CC ID="10" Value="20" />
+			<CC ID="10" Value="22" />
+			<CC ID="10" Value="24" />
+			<CC ID="10" Value="26" />
+			<CC ID="10" Value="28" />
+			<CC ID="10" Value="30" />
+			<CC ID="10" Value="32" />
+			<CC ID="10" Value="34" />
+			<CC ID="10" Value="36" />
+			<CC ID="10" Value="38" />
+			<CC ID="10" Value="40" />
+			<CC ID="10" Value="42" />
+			<CC ID="10" Value="44" />
+			<CC ID="10" Value="46" />
+			<CC ID="10" Value="48" />
+			<CC ID="10" Value="50" />
+			<CC ID="10" Value="52" />
+			<CC ID="10" Value="54" />
+			<CC ID="10" Value="56" />
+			<CC ID="10" Value="58" />
+			<CC ID="10" Value="60" />
+			<CC ID="10" Value="62" />
+			<CC ID="10" Value="64" />
+			<CC ID="10" Value="66" />
+			<CC ID="10" Value="68" />
+			<CC ID="10" Value="70" />
+			<CC ID="10" Value="72" />
+			<CC ID="10" Value="74" />
+			<CC ID="10" Value="76" />
+			<CC ID="10" Value="78" />
+			<CC ID="10" Value="80" />
+			<CC ID="10" Value="82" />
+			<CC ID="10" Value="84" />
+			<CC ID="10" Value="86" />
+			<CC ID="10" Value="88" />
+			<CC ID="10" Value="90" />
+			<CC ID="10" Value="92" />
+			<CC ID="10" Value="94" />
+			<CC ID="10" Value="96" />
+			<CC ID="10" Value="98" />
+			<CC ID="10" Value="100" />
+			<CC ID="10" Value="102" />
+			<CC ID="10" Value="104" />
+			<CC ID="10" Value="106" />
+			<CC ID="10" Value="108" />
+			<CC ID="10" Value="110" />
+			<CC ID="10" Value="112" />
+			<CC ID="10" Value="114" />
+			<CC ID="10" Value="116" />
+			<CC ID="10" Value="118" />
+			<CC ID="10" Value="120" />
+			<CC ID="10" Value="122" />
+			<CC ID="10" Value="124" />
+			<CC ID="10" Value="126" />
+			<CC ID="10" Value="127" />
+		<Memo>※ Step 「30」 で 1小節分になります。</Memo>
+	</Template>
+
+	<Template Name="R → C → L (-2)">
+			<CC ID="10" Value="127" />
+			<CC ID="10" Value="125" />
+			<CC ID="10" Value="123" />
+			<CC ID="10" Value="121" />
+			<CC ID="10" Value="119" />
+			<CC ID="10" Value="117" />
+			<CC ID="10" Value="115" />
+			<CC ID="10" Value="113" />
+			<CC ID="10" Value="111" />
+			<CC ID="10" Value="109" />
+			<CC ID="10" Value="107" />
+			<CC ID="10" Value="105" />
+			<CC ID="10" Value="103" />
+			<CC ID="10" Value="101" />
+			<CC ID="10" Value="99" />
+			<CC ID="10" Value="97" />
+			<CC ID="10" Value="95" />
+			<CC ID="10" Value="93" />
+			<CC ID="10" Value="91" />
+			<CC ID="10" Value="89" />
+			<CC ID="10" Value="87" />
+			<CC ID="10" Value="85" />
+			<CC ID="10" Value="83" />
+			<CC ID="10" Value="81" />
+			<CC ID="10" Value="79" />
+			<CC ID="10" Value="77" />
+			<CC ID="10" Value="75" />
+			<CC ID="10" Value="73" />
+			<CC ID="10" Value="71" />
+			<CC ID="10" Value="69" />
+			<CC ID="10" Value="67" />
+			<CC ID="10" Value="65" />
+			<CC ID="10" Value="64" />
+			<CC ID="10" Value="62" />
+			<CC ID="10" Value="60" />
+			<CC ID="10" Value="58" />
+			<CC ID="10" Value="56" />
+			<CC ID="10" Value="54" />
+			<CC ID="10" Value="52" />
+			<CC ID="10" Value="50" />
+			<CC ID="10" Value="48" />
+			<CC ID="10" Value="46" />
+			<CC ID="10" Value="44" />
+			<CC ID="10" Value="42" />
+			<CC ID="10" Value="40" />
+			<CC ID="10" Value="38" />
+			<CC ID="10" Value="36" />
+			<CC ID="10" Value="34" />
+			<CC ID="10" Value="32" />
+			<CC ID="10" Value="30" />
+			<CC ID="10" Value="28" />
+			<CC ID="10" Value="26" />
+			<CC ID="10" Value="24" />
+			<CC ID="10" Value="22" />
+			<CC ID="10" Value="20" />
+			<CC ID="10" Value="18" />
+			<CC ID="10" Value="16" />
+			<CC ID="10" Value="14" />
+			<CC ID="10" Value="12" />
+			<CC ID="10" Value="10" />
+			<CC ID="10" Value="8" />
+			<CC ID="10" Value="6" />
+			<CC ID="10" Value="4" />
+			<CC ID="10" Value="2" />
+			<CC ID="10" Value="0" />
+		<Memo>※ Step 「30」 で 1小節分になります。</Memo>
+	</Template>
+
+	<Template Name="L → C (+2)">
+			<CC ID="10" Value="0" />
+			<CC ID="10" Value="2" />
+			<CC ID="10" Value="4" />
+			<CC ID="10" Value="6" />
+			<CC ID="10" Value="8" />
+			<CC ID="10" Value="10" />
+			<CC ID="10" Value="12" />
+			<CC ID="10" Value="14" />
+			<CC ID="10" Value="16" />
+			<CC ID="10" Value="18" />
+			<CC ID="10" Value="20" />
+			<CC ID="10" Value="22" />
+			<CC ID="10" Value="24" />
+			<CC ID="10" Value="26" />
+			<CC ID="10" Value="28" />
+			<CC ID="10" Value="30" />
+			<CC ID="10" Value="32" />
+			<CC ID="10" Value="34" />
+			<CC ID="10" Value="36" />
+			<CC ID="10" Value="38" />
+			<CC ID="10" Value="40" />
+			<CC ID="10" Value="42" />
+			<CC ID="10" Value="44" />
+			<CC ID="10" Value="46" />
+			<CC ID="10" Value="48" />
+			<CC ID="10" Value="50" />
+			<CC ID="10" Value="52" />
+			<CC ID="10" Value="54" />
+			<CC ID="10" Value="56" />
+			<CC ID="10" Value="58" />
+			<CC ID="10" Value="60" />
+			<CC ID="10" Value="62" />
+			<CC ID="10" Value="64" />
+		<Memo>※ Step 「30」 で 2拍分になります。</Memo>
+	</Template>
+
+	<Template Name="C → R (+2)">
+			<CC ID="10" Value="64" />
+			<CC ID="10" Value="66" />
+			<CC ID="10" Value="68" />
+			<CC ID="10" Value="70" />
+			<CC ID="10" Value="72" />
+			<CC ID="10" Value="74" />
+			<CC ID="10" Value="76" />
+			<CC ID="10" Value="78" />
+			<CC ID="10" Value="80" />
+			<CC ID="10" Value="82" />
+			<CC ID="10" Value="84" />
+			<CC ID="10" Value="86" />
+			<CC ID="10" Value="88" />
+			<CC ID="10" Value="90" />
+			<CC ID="10" Value="92" />
+			<CC ID="10" Value="94" />
+			<CC ID="10" Value="96" />
+			<CC ID="10" Value="98" />
+			<CC ID="10" Value="100" />
+			<CC ID="10" Value="102" />
+			<CC ID="10" Value="104" />
+			<CC ID="10" Value="106" />
+			<CC ID="10" Value="108" />
+			<CC ID="10" Value="110" />
+			<CC ID="10" Value="112" />
+			<CC ID="10" Value="114" />
+			<CC ID="10" Value="116" />
+			<CC ID="10" Value="118" />
+			<CC ID="10" Value="120" />
+			<CC ID="10" Value="122" />
+			<CC ID="10" Value="124" />
+			<CC ID="10" Value="126" />
+			<CC ID="10" Value="127" />
+		<Memo>※ Step 「30」 で 2拍分になります。</Memo>
+	</Template>
+
+	<Template Name="R → C (-2)">
+			<CC ID="10" Value="127" />
+			<CC ID="10" Value="125" />
+			<CC ID="10" Value="123" />
+			<CC ID="10" Value="121" />
+			<CC ID="10" Value="119" />
+			<CC ID="10" Value="117" />
+			<CC ID="10" Value="115" />
+			<CC ID="10" Value="113" />
+			<CC ID="10" Value="111" />
+			<CC ID="10" Value="109" />
+			<CC ID="10" Value="107" />
+			<CC ID="10" Value="105" />
+			<CC ID="10" Value="103" />
+			<CC ID="10" Value="101" />
+			<CC ID="10" Value="99" />
+			<CC ID="10" Value="97" />
+			<CC ID="10" Value="95" />
+			<CC ID="10" Value="93" />
+			<CC ID="10" Value="91" />
+			<CC ID="10" Value="89" />
+			<CC ID="10" Value="87" />
+			<CC ID="10" Value="85" />
+			<CC ID="10" Value="83" />
+			<CC ID="10" Value="81" />
+			<CC ID="10" Value="79" />
+			<CC ID="10" Value="77" />
+			<CC ID="10" Value="75" />
+			<CC ID="10" Value="73" />
+			<CC ID="10" Value="71" />
+			<CC ID="10" Value="69" />
+			<CC ID="10" Value="67" />
+			<CC ID="10" Value="65" />
+			<CC ID="10" Value="64" />
+		<Memo>※ Step 「30」 で 2拍分になります。</Memo>
+	</Template>
+
+	<Template Name="C → L (-2)">
+			<CC ID="10" Value="64" />
+			<CC ID="10" Value="62" />
+			<CC ID="10" Value="60" />
+			<CC ID="10" Value="58" />
+			<CC ID="10" Value="56" />
+			<CC ID="10" Value="54" />
+			<CC ID="10" Value="52" />
+			<CC ID="10" Value="50" />
+			<CC ID="10" Value="48" />
+			<CC ID="10" Value="46" />
+			<CC ID="10" Value="44" />
+			<CC ID="10" Value="42" />
+			<CC ID="10" Value="40" />
+			<CC ID="10" Value="38" />
+			<CC ID="10" Value="36" />
+			<CC ID="10" Value="34" />
+			<CC ID="10" Value="32" />
+			<CC ID="10" Value="30" />
+			<CC ID="10" Value="28" />
+			<CC ID="10" Value="26" />
+			<CC ID="10" Value="24" />
+			<CC ID="10" Value="22" />
+			<CC ID="10" Value="20" />
+			<CC ID="10" Value="18" />
+			<CC ID="10" Value="16" />
+			<CC ID="10" Value="14" />
+			<CC ID="10" Value="12" />
+			<CC ID="10" Value="10" />
+			<CC ID="10" Value="8" />
+			<CC ID="10" Value="6" />
+			<CC ID="10" Value="4" />
+			<CC ID="10" Value="2" />
+			<CC ID="10" Value="0" />
+		<Memo>※ Step 「30」 で 2拍分になります。</Memo>
+	</Template>
+</Folder>
+</TemplateList>
+
+<DefaultData>
+	<Track Mode="Conductor">
+		<Comment Tick="0" Text="[Site Name] URL" />
+			<Tempo Tick="0" Tempo="120.0" Step="0" />
+				<Mark Name="Setup" />
+				<TimeSignature TimeSignature="4/4" />
+			<Tempo Tick="1920" Tempo="120.0" />
+				<Mark Name="Start" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="1" Current="1">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="2">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="3">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="4">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="5">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="6">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="7">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="8">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="9">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="10" Mode="Rhythm">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC MSB="127" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="11">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="12">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="13">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="14">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="15">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+
+	<Track Name="" Ch="16">
+		<Comment Text="---- System Setup --------------------------------------------------" Tick="0" Step="0" />
+		<CC ID="64" Step="60" />
+		<CC ID="123" />
+		<PC LSB="0" MSB="0" PC="1" Mode="Auto" Step="120" />
+		<Template ID="0" Step="10" />
+		<Comment Text="---- End of System Setup --------------------------------------------------" />
+		<CC ID="255" Tick="1920" />
+		<EOT Tick="1920" />
+	</Track>
+</DefaultData>
+
+</ModuleData>

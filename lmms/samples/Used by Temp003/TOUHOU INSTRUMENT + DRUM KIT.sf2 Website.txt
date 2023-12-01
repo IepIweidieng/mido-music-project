@@ -1,0 +1,7 @@
+Touhou.sf2
+https://musical-artifacts.com/artifacts/433
+
+注意要更改下載的 sf2 檔案名。
+Please note that you have to rename the sf2 file you downloaded.
+
+"Touhou.sf2" -> "TOUHOU INSTRUMENT + DRUM KIT.sf2"

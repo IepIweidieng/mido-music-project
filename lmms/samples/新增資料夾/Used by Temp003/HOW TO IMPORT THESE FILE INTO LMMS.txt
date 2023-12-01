@@ -1,0 +1,14 @@
+第一步：下載餘下的所需檔案。
+Step 1: Download the remaining files that are needed.
+
+第二步：移動該資料夾到 LMMS 工作目錄中的 samples 資料夾下。
+Step 2: Move the containing folder into "samples" folder under LMMS's work directory.
+
+第三步：將下載的 sf2 檔案移動到 LMMS 工作目錄中的 samples 資料夾下的 sf2 資料夾下。
+Step 3: Move SF2s into "sf2" folder under "samples" folder under LMMS's work directory.
+
+第四步：將下載的 dll 檔案移動到 LMMS 的 VST 外掛資料夾。
+Step 4: Move DLLs into LMMS's VST plugin directory.
+
+第五步：使用 LMMS 1.2.0-rc3 版本開啟專案。
+Step 5: Open the project in LMMS 1.2.0-rc3.

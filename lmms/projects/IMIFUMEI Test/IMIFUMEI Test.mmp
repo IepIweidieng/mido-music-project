@@ -1,0 +1,836 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="song" creatorversion="1.2.0-rc3" version="1.0" creator="LMMS">
+  <head bpm="140" mastervol="100" timesig_numerator="4" timesig_denominator="4" masterpitch="0"/>
+  <song>
+    <trackcontainer x="3" type="song" height="462" minimized="0" width="840" maximized="0" visible="1" y="4">
+      <track x="1147" type="0" height="463" muted="0" minimized="0" solo="0" width="262" maximized="0" visible="1" name="TripleOscillator" tab="0" y="279">
+        <instrumenttrack fxch="1" vol="100" basenote="81" pan="0" pitchrange="4" usemasterpitch="1">
+          <pitch id="2802" value="152" scale_type="linear"/>
+          <instrument name="tripleoscillator">
+            <tripleoscillator stphdetun1="0" pan1="0" modalgo1="2" finer2="0" finel1="0" pan0="0" vol1="10" finel2="0" finer1="0" coarse0="-13" modalgo2="4" userwavefile2="" userwavefile1="" pan2="0" vol0="33" wavetype1="2" finer0="0" modalgo3="2" phoffset2="0" stphdetun0="0" userwavefile0="Packs/Legacy/Drums/Dance/Kick Basic.wav" wavetype2="0" phoffset0="0" coarse1="0" coarse2="-1" phoffset1="0" finel0="0" wavetype0="7" stphdetun2="0">
+              <vol2 id="25560" value="0" scale_type="linear"/>
+            </tripleoscillator>
+          </instrument>
+          <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
+            <elvol lamt="0" hold="0.29" lspd_syncmode="0" lspd_denominator="4" lspd_numerator="4" userwavefile="" sustain="0.703" rel="0.11" amt="1" ctlenvamt="0" x100="0" dec="0.5" att="0.086" pdel="0" lspd="0.1" lpdel="0" lshp="0" latt="0"/>
+            <elcut lamt="0" hold="0.5" lspd_syncmode="0" lspd_denominator="4" lspd_numerator="4" userwavefile="" sustain="0.5" rel="0.1" amt="0" ctlenvamt="0" x100="0" dec="0.5" att="0" pdel="0" lspd="0.1" lpdel="0" lshp="0" latt="0"/>
+            <elres lamt="0" hold="0.5" lspd_syncmode="0" lspd_denominator="4" lspd_numerator="4" userwavefile="" sustain="0.5" rel="0.1" amt="0" ctlenvamt="0" x100="0" dec="0.5" att="0" pdel="0" lspd="0.1" lpdel="0" lshp="0" latt="0"/>
+          </eldata>
+          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+          <arpeggiator arptime_numerator="4" arpcycle="0" arpdir="0" arptime_denominator="4" arp="0" arptime="100" arpgate="100" arpmiss="0" arptime_syncmode="0" arp-enabled="0" arprange="1" arpmode="0" arpskip="0"/>
+          <midiport fixedoutputnote="-1" inputchannel="0" outputprogram="1" writable="0" inputcontroller="0" fixedinputvelocity="-1" fixedoutputvelocity="-1" basevelocity="63" readable="0" outputcontroller="0" outputchannel="1"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+        <pattern type="1" steps="16" muted="0" pos="0" name="TripleOscillator">
+          <note len="48" vol="100" pan="0" key="60" pos="0"/>
+          <note len="72" vol="100" pan="0" key="56" pos="48"/>
+          <note len="48" vol="100" pan="0" key="57" pos="144"/>
+          <note len="48" vol="100" pan="0" key="56" pos="192"/>
+          <note len="48" vol="100" pan="0" key="57" pos="240"/>
+          <note len="48" vol="100" pan="0" key="60" pos="288"/>
+          <note len="72" vol="100" pan="0" key="61" pos="312"/>
+          <note len="24" vol="100" pan="0" key="59" pos="384"/>
+          <note len="48" vol="100" pan="0" key="55" pos="432"/>
+          <note len="48" vol="100" pan="0" key="56" pos="480"/>
+          <note len="96" vol="100" pan="0" key="60" pos="528"/>
+          <note len="48" vol="100" pan="0" key="60" pos="624"/>
+          <note len="72" vol="100" pan="0" key="55" pos="672"/>
+          <note len="24" vol="100" pan="0" key="58" pos="720"/>
+          <note len="48" vol="100" pan="0" key="56" pos="768"/>
+          <note len="48" vol="100" pan="0" key="59" pos="816"/>
+          <note len="48" vol="100" pan="0" key="60" pos="864"/>
+          <note len="48" vol="100" pan="0" key="62" pos="888"/>
+          <note len="48" vol="100" pan="0" key="57" pos="912"/>
+          <note len="96" vol="100" pan="0" key="55" pos="960"/>
+          <note len="96" vol="100" pan="0" key="59" pos="1008"/>
+          <note len="24" vol="100" pan="0" key="59" pos="1104"/>
+          <note len="96" vol="100" pan="0" key="57" pos="1152"/>
+          <note len="24" vol="100" pan="0" key="59" pos="1248"/>
+          <note len="96" vol="100" pan="0" key="57" pos="1296"/>
+          <note len="96" vol="100" pan="0" key="59" pos="1392"/>
+          <note len="48" vol="100" pan="0" key="57" pos="1488"/>
+        </pattern>
+      </track>
+      <track type="2" muted="0" solo="0" name="採樣軌道">
+        <sampletrack vol="100" pan="0">
+          <fxchain enabled="0" numofeffects="0"/>
+        </sampletrack>
+      </track>
+      <track type="1" muted="0" solo="0" name="節拍/Bassline 0">
+        <bbtrack>
+          <trackcontainer x="610" type="bbtrackcontainer" height="400" minimized="0" width="640" maximized="0" visible="0" y="5">
+            <track type="0" muted="0" solo="0" name="Kicker">
+              <instrumenttrack fxch="0" vol="100" basenote="57" pan="0" pitchrange="1" usemasterpitch="1" pitch="0">
+                <instrument name="kicker">
+                  <kicker decay="440" click="0.4" endnote="0" decay_syncmode="0" noise="0" decay_denominator="4" distend="0.8" endfreq="40" version="1" decay_numerator="4" slope="0.06" startnote="1" startfreq="150" gain="1" env="0.163" dist="0.8"/>
+                </instrument>
+                <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
+                  <elvol lamt="0" hold="0.5" lspd_syncmode="0" lspd_denominator="4" lspd_numerator="4" userwavefile="" sustain="0.5" rel="0.1" amt="0" ctlenvamt="0" x100="0" dec="0.5" att="0" pdel="0" lspd="0.1" lpdel="0" lshp="0" latt="0"/>
+                  <elcut lamt="0" hold="0.5" lspd_syncmode="0" lspd_denominator="4" lspd_numerator="4" userwavefile="" sustain="0.5" rel="0.1" amt="0" ctlenvamt="0" x100="0" dec="0.5" att="0" pdel="0" lspd="0.1" lpdel="0" lshp="0" latt="0"/>
+                  <elres lamt="0" hold="0.5" lspd_syncmode="0" lspd_denominator="4" lspd_numerator="4" userwavefile="" sustain="0.5" rel="0.1" amt="0" ctlenvamt="0" x100="0" dec="0.5" att="0" pdel="0" lspd="0.1" lpdel="0" lshp="0" latt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_numerator="4" arpcycle="0" arpdir="0" arptime_denominator="4" arp="0" arptime="100" arpgate="100" arpmiss="0" arptime_syncmode="0" arp-enabled="0" arprange="1" arpmode="0" arpskip="0"/>
+                <midiport fixedoutputnote="-1" inputchannel="0" outputprogram="1" writable="0" inputcontroller="0" fixedinputvelocity="-1" fixedoutputvelocity="-1" basevelocity="63" readable="0" outputcontroller="0" outputchannel="1"/>
+                <fxchain enabled="0" numofeffects="0"/>
+              </instrumenttrack>
+              <pattern type="0" steps="16" muted="0" pos="0" name="Kicker"/>
+            </track>
+          </trackcontainer>
+        </bbtrack>
+      </track>
+      <track type="5" muted="0" solo="0" name="自動控制軌道">
+        <automationtrack/>
+        <automationpattern len="1536" mute="0" pos="0" name="Equalizer>>Peak 2 freq" prog="2" tens="1">
+          <time value="3710.96" pos="0"/>
+          <time value="3680.46" pos="12"/>
+          <time value="4290.53" pos="24"/>
+          <time value="7401.92" pos="54"/>
+          <time value="3131.39" pos="72"/>
+          <time value="4077.01" pos="78"/>
+          <time value="5693.71" pos="84"/>
+          <time value="2978.87" pos="138"/>
+          <time value="8134.02" pos="180"/>
+          <time value="5358.17" pos="204"/>
+          <time value="6730.84" pos="216"/>
+          <time value="5968.24" pos="222"/>
+          <time value="3436.43" pos="252"/>
+          <time value="8347.54" pos="270"/>
+          <time value="4870.11" pos="324"/>
+          <time value="3192.4" pos="378"/>
+          <time value="8042.5" pos="432"/>
+          <time value="4199.02" pos="474"/>
+          <time value="9415.18" pos="534"/>
+          <time value="3497.44" pos="618"/>
+          <time value="9476.18" pos="654"/>
+          <time value="9079.63" pos="750"/>
+          <time value="9079.63" pos="768"/>
+          <time value="4992.12" pos="810"/>
+          <time value="3985.5" pos="828"/>
+          <time value="8256.03" pos="870"/>
+          <time value="9079.63" pos="972"/>
+          <time value="6059.76" pos="996"/>
+          <time value="3253.41" pos="1014"/>
+          <time value="2643.33" pos="1026"/>
+          <time value="10330.3" pos="1056"/>
+          <time value="9171.15" pos="1146"/>
+          <time value="3131.39" pos="1164"/>
+          <time value="7615.45" pos="1212"/>
+          <time value="4483.73" pos="1224"/>
+          <time value="3893.99" pos="1242"/>
+          <time value="7798.47" pos="1314"/>
+          <time value="3497.44" pos="1344"/>
+          <time value="4168.52" pos="1356"/>
+          <time value="4534.57" pos="1374"/>
+          <time value="5022.63" pos="1386"/>
+          <time value="3283.91" pos="1428"/>
+          <time value="7554.44" pos="1440"/>
+          <time value="7615.45" pos="1488"/>
+          <time value="6578.32" pos="1542"/>
+          <object id="3485"/>
+        </automationpattern>
+      </track>
+      <track type="5" muted="0" solo="0" name="自動控制軌道">
+        <automationtrack/>
+        <automationpattern len="1536" mute="0" pos="0" name="Equalizer>>Peak 3 freq" prog="2" tens="1">
+          <time value="4138.02" pos="0"/>
+          <time value="7950.99" pos="12"/>
+          <time value="5083.63" pos="36"/>
+          <time value="4656.58" pos="48"/>
+          <time value="4290.53" pos="66"/>
+          <time value="3436.43" pos="78"/>
+          <time value="7462.93" pos="126"/>
+          <time value="4199.02" pos="156"/>
+          <time value="2948.37" pos="192"/>
+          <time value="6852.86" pos="204"/>
+          <time value="3283.91" pos="216"/>
+          <time value="8439.05" pos="264"/>
+          <time value="7249.41" pos="366"/>
+          <time value="4260.03" pos="426"/>
+          <time value="3131.39" pos="444"/>
+          <time value="6364.79" pos="468"/>
+          <time value="3588.95" pos="492"/>
+          <time value="7493.44" pos="582"/>
+          <time value="3680.46" pos="600"/>
+          <time value="8286.53" pos="642"/>
+          <time value="3741.47" pos="666"/>
+          <time value="6456.31" pos="678"/>
+          <time value="4046.5" pos="720"/>
+          <time value="7249.41" pos="768"/>
+          <time value="3039.88" pos="822"/>
+          <time value="7310.41" pos="840"/>
+          <time value="3649.95" pos="876"/>
+          <time value="5907.24" pos="894"/>
+          <time value="3527.94" pos="972"/>
+          <time value="3893.99" pos="1020"/>
+          <time value="8347.54" pos="1098"/>
+          <time value="4412.55" pos="1152"/>
+          <time value="7493.44" pos="1176"/>
+          <time value="4961.62" pos="1182"/>
+          <time value="5449.68" pos="1194"/>
+          <time value="3954.99" pos="1206"/>
+          <time value="7706.96" pos="1224"/>
+          <time value="4138.02" pos="1332"/>
+          <time value="7523.94" pos="1338"/>
+          <time value="5998.75" pos="1374"/>
+          <time value="7340.92" pos="1392"/>
+          <time value="7462.93" pos="1398"/>
+          <time value="5449.68" pos="1422"/>
+          <time value="7554.44" pos="1428"/>
+          <time value="3070.38" pos="1446"/>
+          <time value="3710.96" pos="1494"/>
+          <time value="5327.66" pos="1536"/>
+          <object id="30327"/>
+        </automationpattern>
+      </track>
+      <track type="5" muted="0" solo="0" name="自動控制軌道">
+        <automationtrack/>
+        <automationpattern len="1536" mute="0" pos="0" name="TripleOscillator>音高" prog="2" tens="1">
+          <time value="-217" pos="0"/>
+          <time value="-275" pos="6"/>
+          <time value="155" pos="12"/>
+          <time value="284" pos="24"/>
+          <time value="321" pos="30"/>
+          <time value="175" pos="36"/>
+          <time value="203" pos="48"/>
+          <time value="288" pos="60"/>
+          <time value="-60" pos="66"/>
+          <time value="12" pos="72"/>
+          <time value="13" pos="78"/>
+          <time value="-251" pos="84"/>
+          <time value="343" pos="90"/>
+          <time value="207" pos="108"/>
+          <time value="3" pos="126"/>
+          <time value="-78" pos="132"/>
+          <time value="-81" pos="138"/>
+          <time value="64" pos="144"/>
+          <time value="14" pos="168"/>
+          <time value="-15" pos="174"/>
+          <time value="-291" pos="180"/>
+          <time value="115" pos="186"/>
+          <time value="-10.5" pos="210"/>
+          <time value="-9" pos="216"/>
+          <time value="-4" pos="222"/>
+          <time value="-111" pos="246"/>
+          <time value="4" pos="252"/>
+          <time value="-250.333" pos="270"/>
+          <time value="34" pos="282"/>
+          <time value="349" pos="294"/>
+          <time value="187" pos="306"/>
+          <time value="-318" pos="318"/>
+          <time value="34" pos="324"/>
+          <time value="187" pos="336"/>
+          <time value="-60" pos="342"/>
+          <time value="-145" pos="354"/>
+          <time value="21" pos="366"/>
+          <time value="307" pos="384"/>
+          <time value="305" pos="402"/>
+          <time value="-293" pos="408"/>
+          <time value="-7" pos="420"/>
+          <time value="153" pos="438"/>
+          <time value="284" pos="444"/>
+          <time value="-10" pos="456"/>
+          <time value="198" pos="474"/>
+          <time value="-245" pos="480"/>
+          <time value="30" pos="492"/>
+          <time value="-275" pos="504"/>
+          <time value="322" pos="519"/>
+          <time value="164" pos="534"/>
+          <time value="198" pos="540"/>
+          <time value="-14" pos="549"/>
+          <time value="319" pos="555"/>
+          <time value="52" pos="564"/>
+          <time value="-328" pos="570"/>
+          <time value="74" pos="576"/>
+          <time value="21" pos="594"/>
+          <time value="-212" pos="606"/>
+          <time value="-63" pos="618"/>
+          <time value="344" pos="654"/>
+          <time value="-278" pos="666"/>
+          <time value="10" pos="672"/>
+          <time value="51" pos="684"/>
+          <time value="-150" pos="690"/>
+          <time value="273" pos="708"/>
+          <time value="-165" pos="732"/>
+          <time value="164" pos="738"/>
+          <time value="-15" pos="750"/>
+          <time value="277" pos="774"/>
+          <time value="36" pos="786"/>
+          <time value="183" pos="792"/>
+          <time value="-268" pos="798"/>
+          <time value="340" pos="810"/>
+          <time value="-274" pos="816"/>
+          <time value="-206" pos="840"/>
+          <time value="-58" pos="852"/>
+          <time value="246" pos="861"/>
+          <time value="-117" pos="885"/>
+          <time value="26" pos="888"/>
+          <time value="296" pos="894"/>
+          <time value="52" pos="900"/>
+          <time value="179" pos="906"/>
+          <time value="268" pos="912"/>
+          <time value="37" pos="924"/>
+          <time value="307" pos="930"/>
+          <time value="7" pos="954"/>
+          <time value="194" pos="966"/>
+          <time value="-206" pos="972"/>
+          <time value="20" pos="978"/>
+          <time value="367" pos="999"/>
+          <time value="-35" pos="1002"/>
+          <time value="-275" pos="1014"/>
+          <time value="-119" pos="1032"/>
+          <time value="284" pos="1044"/>
+          <time value="-288" pos="1056"/>
+          <time value="4" pos="1062"/>
+          <time value="-302" pos="1074"/>
+          <time value="293" pos="1098"/>
+          <time value="194" pos="1110"/>
+          <time value="323" pos="1122"/>
+          <time value="178" pos="1128"/>
+          <time value="156" pos="1146"/>
+          <time value="-175" pos="1152"/>
+          <time value="-122" pos="1182"/>
+          <time value="305" pos="1200"/>
+          <time value="170" pos="1206"/>
+          <time value="-294" pos="1218"/>
+          <time value="-98" pos="1230"/>
+          <time value="114" pos="1254"/>
+          <time value="335" pos="1260"/>
+          <time value="-305" pos="1266"/>
+          <time value="-302" pos="1272"/>
+          <time value="16" pos="1278"/>
+          <time value="5" pos="1284"/>
+          <time value="-201" pos="1296"/>
+          <time value="45" pos="1308"/>
+          <time value="307" pos="1314"/>
+          <time value="-155" pos="1320"/>
+          <time value="255" pos="1332"/>
+          <time value="284" pos="1338"/>
+          <time value="-313" pos="1356"/>
+          <time value="323" pos="1362"/>
+          <time value="-172" pos="1386"/>
+          <time value="225" pos="1410"/>
+          <time value="152" pos="1488"/>
+          <object id="2802"/>
+        </automationpattern>
+      </track>
+      <track type="5" muted="0" solo="0" name="自動控制軌道">
+        <automationtrack/>
+        <automationpattern len="1536" mute="0" pos="0" name="TripleOscillator>>Osc 3 音量" prog="2" tens="0">
+          <time value="3" pos="0"/>
+          <time value="5" pos="12"/>
+          <time value="5" pos="18"/>
+          <time value="6.66667" pos="24"/>
+          <time value="9" pos="48"/>
+          <time value="2" pos="54"/>
+          <time value="8" pos="60"/>
+          <time value="5" pos="78"/>
+          <time value="7" pos="90"/>
+          <time value="5" pos="102"/>
+          <time value="2" pos="108"/>
+          <time value="8" pos="120"/>
+          <time value="8" pos="126"/>
+          <time value="8.6" pos="132"/>
+          <time value="3" pos="144"/>
+          <time value="9" pos="150"/>
+          <time value="6" pos="156"/>
+          <time value="8" pos="162"/>
+          <time value="7" pos="180"/>
+          <time value="9" pos="186"/>
+          <time value="6" pos="198"/>
+          <time value="2" pos="210"/>
+          <time value="7" pos="228"/>
+          <time value="4" pos="240"/>
+          <time value="3" pos="258"/>
+          <time value="3" pos="264"/>
+          <time value="6.66667" pos="276"/>
+          <time value="7" pos="282"/>
+          <time value="7.33333" pos="288"/>
+          <time value="7" pos="294"/>
+          <time value="4" pos="300"/>
+          <time value="5" pos="306"/>
+          <time value="5" pos="312"/>
+          <time value="8" pos="324"/>
+          <time value="6" pos="330"/>
+          <time value="5" pos="336"/>
+          <time value="7" pos="342"/>
+          <time value="8" pos="348"/>
+          <time value="7" pos="360"/>
+          <time value="6" pos="366"/>
+          <time value="6.66667" pos="384"/>
+          <time value="7" pos="396"/>
+          <time value="5" pos="402"/>
+          <time value="4" pos="420"/>
+          <time value="4" pos="426"/>
+          <time value="8" pos="438"/>
+          <time value="1" pos="444"/>
+          <time value="5" pos="456"/>
+          <time value="4" pos="468"/>
+          <time value="7.91892" pos="474"/>
+          <time value="6" pos="480"/>
+          <time value="5" pos="498"/>
+          <time value="4" pos="504"/>
+          <time value="8" pos="534"/>
+          <time value="8.51351" pos="540"/>
+          <time value="8.56757" pos="546"/>
+          <time value="8.62162" pos="552"/>
+          <time value="4" pos="558"/>
+          <time value="2" pos="564"/>
+          <time value="7" pos="570"/>
+          <time value="8.83784" pos="576"/>
+          <time value="7" pos="594"/>
+          <time value="4" pos="636"/>
+          <time value="9" pos="642"/>
+          <time value="7" pos="654"/>
+          <time value="4" pos="660"/>
+          <time value="2" pos="666"/>
+          <time value="4" pos="678"/>
+          <time value="8" pos="684"/>
+          <time value="4" pos="696"/>
+          <time value="6" pos="702"/>
+          <time value="2" pos="708"/>
+          <time value="7" pos="720"/>
+          <time value="6" pos="738"/>
+          <time value="3" pos="768"/>
+          <time value="5.75" pos="774"/>
+          <time value="6" pos="780"/>
+          <time value="5" pos="786"/>
+          <time value="7.5" pos="798"/>
+          <time value="5" pos="816"/>
+          <time value="3.33333" pos="840"/>
+          <time value="5" pos="846"/>
+          <time value="8" pos="876"/>
+          <time value="2" pos="882"/>
+          <time value="6" pos="888"/>
+          <time value="4" pos="894"/>
+          <time value="4" pos="900"/>
+          <time value="5" pos="924"/>
+          <time value="1" pos="930"/>
+          <time value="6.09091" pos="954"/>
+          <time value="9" pos="966"/>
+          <time value="4" pos="978"/>
+          <time value="3" pos="990"/>
+          <time value="2" pos="1002"/>
+          <time value="8.5" pos="1008"/>
+          <time value="6" pos="1020"/>
+          <time value="3" pos="1056"/>
+          <time value="6" pos="1068"/>
+          <time value="5" pos="1080"/>
+          <time value="4" pos="1104"/>
+          <time value="2" pos="1158"/>
+          <time value="2" pos="1164"/>
+          <time value="3" pos="1176"/>
+          <time value="3" pos="1194"/>
+          <time value="7" pos="1200"/>
+          <time value="7" pos="1206"/>
+          <time value="3" pos="1224"/>
+          <time value="8" pos="1230"/>
+          <time value="3" pos="1248"/>
+          <time value="6" pos="1254"/>
+          <time value="7" pos="1266"/>
+          <time value="5" pos="1278"/>
+          <time value="4" pos="1284"/>
+          <time value="6" pos="1326"/>
+          <time value="8" pos="1332"/>
+          <time value="4" pos="1350"/>
+          <time value="5" pos="1380"/>
+          <time value="2" pos="1398"/>
+          <time value="4" pos="1410"/>
+          <time value="3" pos="1416"/>
+          <time value="4" pos="1428"/>
+          <time value="7" pos="1440"/>
+          <time value="3" pos="1452"/>
+          <time value="3" pos="1458"/>
+          <time value="9" pos="1470"/>
+          <time value="5" pos="1488"/>
+          <time value="9" pos="1500"/>
+          <time value="3" pos="1512"/>
+          <time value="9" pos="1530"/>
+          <time value="7" pos="1536"/>
+          <time value="6" pos="1548"/>
+          <object id="25560"/>
+        </automationpattern>
+      </track>
+      <track type="5" muted="0" solo="0" name="自動控制軌道">
+        <automationtrack/>
+        <automationpattern len="1536" mute="0" pos="0" name="Equalizer>>Peak 2 gain" prog="2" tens="1">
+          <time value="-11.899" pos="0"/>
+          <time value="13.713" pos="12"/>
+          <time value="-11.734" pos="24"/>
+          <time value="13.548" pos="42"/>
+          <time value="-11.789" pos="48"/>
+          <time value="13.548" pos="102"/>
+          <time value="-12.064" pos="114"/>
+          <time value="-0.027" pos="138"/>
+          <time value="13.603" pos="162"/>
+          <time value="-7.337" pos="186"/>
+          <time value="-12.064" pos="192"/>
+          <time value="0.247" pos="216"/>
+          <time value="9.206" pos="234"/>
+          <time value="13.658" pos="240"/>
+          <time value="11.24" pos="246"/>
+          <time value="-11.954" pos="282"/>
+          <time value="13.603" pos="300"/>
+          <time value="-12.174" pos="330"/>
+          <time value="13.713" pos="384"/>
+          <time value="-11.954" pos="426"/>
+          <time value="-8.382" pos="438"/>
+          <time value="7.173" pos="444"/>
+          <time value="13.438" pos="450"/>
+          <time value="10.69" pos="456"/>
+          <time value="-12.064" pos="474"/>
+          <time value="10.69" pos="486"/>
+          <time value="13.438" pos="498"/>
+          <time value="7.502" pos="510"/>
+          <time value="0.082" pos="546"/>
+          <time value="13.713" pos="588"/>
+          <time value="11.46" pos="600"/>
+          <time value="-12.284" pos="636"/>
+          <time value="13.548" pos="672"/>
+          <time value="-12.394" pos="702"/>
+          <time value="13.383" pos="732"/>
+          <time value="-12.229" pos="756"/>
+          <time value="13.548" pos="828"/>
+          <time value="0.137" pos="834"/>
+          <time value="13.493" pos="870"/>
+          <time value="-12.559" pos="900"/>
+          <time value="13.438" pos="942"/>
+          <time value="-12.394" pos="960"/>
+          <time value="-8.492" pos="966"/>
+          <time value="9.261" pos="1008"/>
+          <time value="12.394" pos="1044"/>
+          <time value="-12.669" pos="1074"/>
+          <time value="-11.789" pos="1080"/>
+          <time value="10.25" pos="1122"/>
+          <time value="13.328" pos="1128"/>
+          <time value="12.669" pos="1134"/>
+          <time value="-12.504" pos="1152"/>
+          <time value="-7.227" pos="1164"/>
+          <time value="13.218" pos="1206"/>
+          <time value="-12.339" pos="1218"/>
+          <time value="13.493" pos="1278"/>
+          <time value="-12.559" pos="1302"/>
+          <time value="13.383" pos="1326"/>
+          <time value="-12.669" pos="1344"/>
+          <time value="13.438" pos="1380"/>
+          <time value="-12.779" pos="1398"/>
+          <time value="13.603" pos="1446"/>
+          <time value="0.302" pos="1470"/>
+          <time value="13.548" pos="1488"/>
+          <time value="0.192" pos="1506"/>
+          <time value="13.438" pos="1518"/>
+          <time value="-0.247" pos="1536"/>
+          <object id="22061"/>
+        </automationpattern>
+      </track>
+      <track type="5" muted="0" solo="0" name="自動控制軌道">
+        <automationtrack/>
+        <automationpattern len="1536" mute="0" pos="0" name="Equalizer>>Peak 3 gain" prog="2" tens="1">
+          <time value="-13.548" pos="0"/>
+          <time value="13.438" pos="18"/>
+          <time value="-13.603" pos="36"/>
+          <time value="11.35" pos="54"/>
+          <time value="13.603" pos="60"/>
+          <time value="-13.658" pos="90"/>
+          <time value="11.405" pos="132"/>
+          <time value="13.603" pos="138"/>
+          <time value="-13.053" pos="162"/>
+          <time value="-13.713" pos="168"/>
+          <time value="13.438" pos="192"/>
+          <time value="-10.635" pos="210"/>
+          <time value="-13.713" pos="216"/>
+          <time value="11.24" pos="240"/>
+          <time value="13.438" pos="252"/>
+          <time value="0.137" pos="282"/>
+          <time value="13.548" pos="348"/>
+          <time value="-7.118" pos="384"/>
+          <time value="-13.658" pos="396"/>
+          <time value="4.754" pos="456"/>
+          <time value="9.701" pos="468"/>
+          <time value="13.383" pos="474"/>
+          <time value="-13.713" pos="522"/>
+          <time value="-10.91" pos="528"/>
+          <time value="13.438" pos="570"/>
+          <time value="-13.713" pos="594"/>
+          <time value="0.192" pos="648"/>
+          <time value="-13.823" pos="690"/>
+          <time value="13.438" pos="774"/>
+          <time value="-13.438" pos="792"/>
+          <time value="13.493" pos="828"/>
+          <time value="-13.658" pos="858"/>
+          <time value="13.218" pos="900"/>
+          <time value="-13.603" pos="912"/>
+          <time value="13.273" pos="948"/>
+          <time value="-4.095" pos="984"/>
+          <time value="-13.273" pos="1008"/>
+          <time value="13.493" pos="1068"/>
+          <time value="-13.328" pos="1086"/>
+          <time value="0.027" pos="1098"/>
+          <time value="13.383" pos="1122"/>
+          <time value="-0.027" pos="1140"/>
+          <time value="-12.394" pos="1158"/>
+          <time value="-13.218" pos="1164"/>
+          <time value="13.328" pos="1188"/>
+          <time value="-13.383" pos="1230"/>
+          <time value="13.383" pos="1284"/>
+          <time value="10.855" pos="1290"/>
+          <time value="-13.273" pos="1320"/>
+          <time value="3.27" pos="1338"/>
+          <time value="9.701" pos="1344"/>
+          <time value="10.91" pos="1410"/>
+          <time value="-13.383" pos="1434"/>
+          <time value="-9.151" pos="1446"/>
+          <time value="13.438" pos="1470"/>
+          <time value="-13.493" pos="1488"/>
+          <time value="-0.302" pos="1506"/>
+          <time value="-13.273" pos="1524"/>
+          <time value="-0.137" pos="1536"/>
+          <object id="25733"/>
+        </automationpattern>
+      </track>
+    </trackcontainer>
+    <track type="6" muted="0" solo="0" name="自動控制軌道">
+      <automationtrack/>
+      <automationpattern len="192" mute="0" pos="0" name="Numerator" prog="0" tens="1">
+        <object id="30436"/>
+      </automationpattern>
+      <automationpattern len="192" mute="0" pos="0" name="Denominator" prog="0" tens="1">
+        <object id="3320"/>
+      </automationpattern>
+      <automationpattern len="192" mute="0" pos="0" name="節奏" prog="0" tens="1">
+        <object id="31114"/>
+      </automationpattern>
+      <automationpattern len="192" mute="0" pos="0" name="主音量" prog="0" tens="1">
+        <object id="5639"/>
+      </automationpattern>
+      <automationpattern len="192" mute="0" pos="0" name="主音高" prog="0" tens="1">
+        <object id="30697"/>
+      </automationpattern>
+    </track>
+    <fxmixer x="5" height="333" minimized="0" width="538" maximized="0" visible="1" y="412">
+      <fxchannel num="0" muted="0" soloed="0" volume="1" name="主控">
+        <fxchain enabled="0" numofeffects="0"/>
+      </fxchannel>
+      <fxchannel num="1" muted="0" soloed="0" volume="1" name="FX 1">
+        <fxchain enabled="1" numofeffects="1">
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="eq" autoquit_syncmode="0">
+            <Eq HP="0" LP="0" Peak4gain="0" LowShelfres="1.4" LP12="1" Peak1active="0" HPactive="0" Peak3active="1" Lowshelfgain="0" LPres="0.707" Highshelfactive="0" HPres="0.707" Lowshelfactive="0" Outputgain="0" Peak1bw="0.3" Peak4active="0" LPactive="0" HP24="0" Peak2bw="1" Peak4bw="0.3" HP48="0" Peak2active="1" LP24="0" HighShelfgain="0" HP12="1" AnalyseOut="1" LP48="0" HighShelfres="1.4" AnalyseIn="1" Peak3bw="1">
+              <Inputgain id="20121" value="0" scale_type="log"/>
+              <Peak1gain id="20417" value="-0.36" scale_type="log"/>
+              <Peak2gain id="22061" value="-0.247" scale_type="linear"/>
+              <Peak3gain id="25733" value="-0.137" scale_type="linear"/>
+              <HPfreq id="2014" value="31" scale_type="log"/>
+              <LowShelffreq id="18013" value="80" scale_type="log"/>
+              <Peak1freq id="22543" value="135.68" scale_type="log"/>
+              <Peak2freq id="3485" value="987.126" scale_type="log"/>
+              <Peak3freq id="30327" value="564.129" scale_type="log"/>
+              <Peak4freq id="777" value="4000" scale_type="log"/>
+              <Highshelffreq id="7392" value="12000" scale_type="log"/>
+              <LPfreq id="4576" value="18000" scale_type="log"/>
+            </Eq>
+            <key/>
+          </effect>
+        </fxchain>
+        <send amount="1" channel="2"/>
+        <send amount="1" channel="3"/>
+        <send amount="1" channel="4"/>
+      </fxchannel>
+      <fxchannel num="2" muted="0" soloed="0" volume="1" name="FX 2">
+        <fxchain enabled="1" numofeffects="2">
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="eq" autoquit_syncmode="0">
+            <Eq HP="0" LP="0" Peak4gain="0" LowShelfres="1.4" LP12="1" Peak1active="0" HPactive="0" Peak3active="0" Lowshelfgain="0" LPres="1" Highshelfactive="0" HPres="0.707" Lowshelfactive="0" Peak3gain="0" Outputgain="0" Peak1bw="0.3" Peak4active="0" LPactive="1" HP24="0" Peak2bw="0.3" Peak4bw="0.3" HP48="0" Peak2active="0" LP24="0" HighShelfgain="0" HP12="1" AnalyseOut="1" LP48="0" HighShelfres="1.4" AnalyseIn="1" Peak3bw="0.3" Peak2gain="0">
+              <Inputgain id="18753" value="0" scale_type="log"/>
+              <Peak1gain id="8435" value="0" scale_type="log"/>
+              <HPfreq id="24446" value="38.4322" scale_type="log"/>
+              <LowShelffreq id="28821" value="80" scale_type="log"/>
+              <Peak1freq id="30522" value="120" scale_type="log"/>
+              <Peak2freq id="17219" value="250" scale_type="log"/>
+              <Peak3freq id="22062" value="2000" scale_type="log"/>
+              <Peak4freq id="13200" value="4000" scale_type="log"/>
+              <Highshelffreq id="10100" value="12000" scale_type="log"/>
+              <LPfreq id="31822" value="68.047" scale_type="log"/>
+            </Eq>
+            <key/>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="dynamicsprocessor" autoquit_syncmode="0">
+            <dynamicsprocessor_controls release="67" inputGain="1" stereoMode="0" attack="36" waveShape="CtejOwrXIzyPwnU8CtejPM3MzDyPwvU8KVwPPQrXIz3sUTg9zcxMPa5HYT2PwnU9uB6FPSlcjz2amZk9CtejPXsUrj3sUbg9XI/CPc3MzD09Ctc9rkfhPR+F6z2PwvU9AAAAPrgeBT5xPQo+KVwPPuF6FD6amRk+UrgePgrXIz7D9Sg+exQuPjMzMz7sUTg+pHA9PlyPQj4Urkc+zcxMPoXrUT49Clc+9ihcPq5HYT5mZmY+H4VrPtejcD6PwnU+SOF6PgAAgD5cj4I+uB6FPhSuhz5xPYo+zcyMPilcjz6F65E+4XqUPj0Klz6amZk+9iicPlK4nj6uR6E+CtejPmZmpj7D9ag+H4WrPnsUrj7Xo7A+MzOzPo/CtT7sUbg+SOG6PqRwvT4AAMA+XI/CPrgexT4Ursc+cT3KPs3MzD4pXM8+hevRPuF61D49Ctc+mpnZPvYo3D5SuN4+rkfhPgrX4z5mZuY+w/XoPh+F6z57FO4+16PwPjMz8z6PwvU+7FH4Pkjh+j6kcP0+AAAAP65HAT9cjwI/CtcDP7geBT9mZgY/FK4HP8P1CD9xPQo/H4ULP83MDD97FA4/KVwPP9ejED+F6xE/MzMTP+F6FD+PwhU/PQoXP+xRGD+amRk/SOEaP/YoHD+kcB0/UrgePwAAID+uRyE/XI8iPwrXIz+4HiU/ZmYmPxSuJz/D9Sg/cT0qPx+FKz/NzCw/exQuPylcLz/XozA/hesxPzMzMz/hejQ/j8I1Pz0KNz/sUTg/mpk5P0jhOj/2KDw/pHA9P1K4Pj8AAEA/rkdBP1yPQj8K10M/uB5FP2ZmRj8Urkc/w/VIP3E9Sj8fhUs/zcxMP3sUTj8pXE8/16NQP4XrUT8zM1M/4XpUP4/CVT89Clc/7FFYP5qZWT9I4Vo/9ihcP6RwXT9SuF4/AABgP65HYT9cj2I/CtdjP7geZT9mZmY/FK5nP8P1aD9xPWo/H4VrP83MbD97FG4/KVxvP9ejcD+F63E/MzNzP+F6dD+PwnU/PQp3P+xReD+amXk/SOF6P/YofD+kcH0/Urh+PwAAgD8=" outputGain="1"/>
+            <key/>
+          </effect>
+        </fxchain>
+        <send amount="1" channel="5"/>
+      </fxchannel>
+      <fxchannel num="3" muted="0" soloed="0" volume="1" name="FX 3">
+        <fxchain enabled="1" numofeffects="2">
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="eq" autoquit_syncmode="0">
+            <Eq HP="0" LP="0" Peak4gain="0" LowShelfres="1.4" LP12="1" Peak1active="0" HPactive="1" Peak3active="0" Lowshelfgain="0" LPres="1" Highshelfactive="0" HPres="1" Lowshelfactive="0" Peak3gain="0" Outputgain="0" Peak1bw="0.3" Peak4active="0" LPactive="1" HP24="0" Peak2bw="0.3" Peak4bw="0.3" HP48="0" Peak2active="0" LP24="0" HighShelfgain="0" HP12="1" AnalyseOut="1" LP48="0" HighShelfres="1.4" AnalyseIn="1" Peak3bw="0.3" Peak2gain="0">
+              <Inputgain id="31196" value="0" scale_type="log"/>
+              <Peak1gain id="1302" value="0" scale_type="log"/>
+              <HPfreq id="22097" value="96.982" scale_type="log"/>
+              <LowShelffreq id="26779" value="80" scale_type="log"/>
+              <Peak1freq id="23057" value="120" scale_type="log"/>
+              <Peak2freq id="6368" value="250" scale_type="log"/>
+              <Peak3freq id="15953" value="2000" scale_type="log"/>
+              <Peak4freq id="5648" value="4000" scale_type="log"/>
+              <Highshelffreq id="11663" value="12000" scale_type="log"/>
+              <LPfreq id="26126" value="1367.12" scale_type="log"/>
+            </Eq>
+            <key/>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="dynamicsprocessor" autoquit_syncmode="0">
+            <dynamicsprocessor_controls release="71" inputGain="1" stereoMode="0" attack="23" waveShape="AAAAANBMozzusRg9+KhRPYKufz3drZM9egSmPZwWuD1Bp8o9aoPdPSCl7z1LBgA+liwHPgZqDT74NRM+zFoZPi/CID6qACo+WNo0PjIpQD5Ac0o+quBSPu62WT5t6l8+U0xmPtwabT4SIXQ+cA97PpnegD7WHoQ+PWmHPvzeij5Bgo4+NDGSPm3XlT5qn5k+XMydPvZeoj6kCac+eoSrPoXArz7Dx7M+Uqm3Plyfuz4KF8A+AGjFPqSAyz5xfdE+UojUPpC2zj7sObk+6xGTPoVLSz4edf49ehSoPXvUjj2aqZg9pZCvPQwHyT3jmuE9U8j4PVyfBz6P2hI+uC4ePlKYKT7rGTU+R6lAPj0yTD49wlc+w41jPqC7bz7vPnw+cHGEPlaxij5gwJA+vJuWPuxpnD4bTKI+IhaoPhhfrT5u8LE+KQC2PtvsuT6X6L0+FPbBPjMLxj56FMo+6+3NPjZ80T54z9Q+exjYPsZy2z6Pxt4+ye/hPlL85D7wKug+/KbrPmpf7z7yLPM+vgD3PvDV+j5Ukf4+9gcBPwalAj/xKAQ/yJoFP6H4Bj/0PAg/7GQJP3FxCj9oZQs/SEQMP3YRDT8F0A0/noIOP3QrDz9VzA8/uGYQP9D7ED+YjBE/5xkSP3akEj/uLBM/87MTPyU6FD8ZwBQ/V0YVP0fNFT8mVRY/A94WP8BnFz8Y8hc/rHwYPwwHGT/CkBk/WBkaP1qgGj9XJRs/66cbP8knHD/QpBw/FB8dP/CWHT8GDR4/OIIeP5b3Hj9Ebh8/UucfP6pjID/q4yA/YGghPwTxIT+BfSI/SA0jP6GfIz+4MyQ/sMgkP6hdJT+98SU/E4QmP9sTJz9eoCc/CikoP3itKD9zLSk/5qgpP9cfKj9Ckio/CwArP+BoKz81zCs/TSksP0V/LD8+zSw/fhItP5xOLT+YgS0/6astP37OLT+l6i0/9AEuPxwWLj/QKC4/qzsuPyRQLj+YZy4/XIMuP9ikLj+tzS4/yv8uP3Y9Lz82iS8/quUvPyRVMD9D2TA/gHIxP8AfMj8s3jI/MKkzP+J6ND8=" outputGain="1"/>
+            <key/>
+          </effect>
+        </fxchain>
+        <send amount="1" channel="5"/>
+      </fxchannel>
+      <fxchannel num="4" muted="0" soloed="0" volume="1" name="FX 4">
+        <fxchain enabled="1" numofeffects="2">
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="eq" autoquit_syncmode="0">
+            <Eq HP="0" LP="0" Peak4gain="0" LowShelfres="1.4" LP12="1" Peak1active="0" HPactive="1" Peak3active="0" Lowshelfgain="0" LPres="0.707" Highshelfactive="0" HPres="1" Lowshelfactive="0" Peak3gain="0" Outputgain="0" Peak1bw="0.3" Peak4active="0" LPactive="0" HP24="0" Peak2bw="0.3" Peak4bw="0.3" HP48="0" Peak2active="0" LP24="0" HighShelfgain="0" HP12="1" AnalyseOut="1" LP48="0" HighShelfres="1.4" AnalyseIn="1" Peak3bw="0.3" Peak2gain="0">
+              <Inputgain id="3107" value="0" scale_type="log"/>
+              <Peak1gain id="28891" value="0" scale_type="log"/>
+              <HPfreq id="1041" value="2291.61" scale_type="log"/>
+              <LowShelffreq id="17049" value="80" scale_type="log"/>
+              <Peak1freq id="6080" value="120" scale_type="log"/>
+              <Peak2freq id="7359" value="250" scale_type="log"/>
+              <Peak3freq id="7248" value="2000" scale_type="log"/>
+              <Peak4freq id="24101" value="4000" scale_type="log"/>
+              <Highshelffreq id="21118" value="12000" scale_type="log"/>
+              <LPfreq id="5535" value="18000" scale_type="log"/>
+            </Eq>
+            <key/>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="dynamicsprocessor" autoquit_syncmode="0">
+            <dynamicsprocessor_controls release="32" inputGain="1" stereoMode="0" attack="12" waveShape="J0POOydDTjxespo8KUPOPPrpAD1esho9w3o0PSlDTj2PC2g9+umAPSzOjT1espo9kZanPcR6tD32XsE9KEPOPVon2z2OC+g9we/0PfrpAD4TXAc+LM4NPkVAFD5esho+eCQhPpKWJz6qCC4+vno0PtLsOj7tXkE+EtFHPlBDTj60tVQ+TShbPiCbYT4ODmg+sIBuPiDydD62YHs+3+SAPqQUhD4SPYc+EluKPmRrjT4Ua5A+IViTPggylj42+pg+JrSbPhplnj53E6E+4MWjPjaCpj66TKk+diesPgYSrz69CbI+GAq1PmwNuD6eDbs+8AS+PqzuwD60x8M+5o7GPjlFyT6h7cs+oIzOPqgn0T5QxNM+iGfWPuEU2T4bzts+85LePj5h4T5ONeQ+fArnPsDb6T5PpOw+EGDvPuoL8j72pfQ+fi33Ptyi+T5OB/w+olz+PnhSAD8ocQE/SIsCP4OhAz88tAQ/hsMFPzjPBj/w1gc/NdoIP4vYCT+H0Qo/3MQLP2uyDD85mg0/cXwOP1lZDz9EMRA/iQQRP3fTET9QnhI/RGUTP2goFD+75xQ/IqMVP2haFj8+DRc/PLsXP+pjGD++Bhk/KaMZP5w4Gj+Sxho/lEwbP0LKGz9aPxw/r6scPzIPHT/saR0/+rsdP4wFHj/kRh4/VIAePz6yHj8W3R4/YgEfP7YfHz+4OB8/GE0fP5BdHz/jah8/0nUfPx5/Hz+Ihx8/yI8fP46YHz98oh8/KK4fPwq8Hz+DzB8/zt8fP/71Hz/4DiA/cyogP/pHID/1ZiA/roYgP2KmID9OxSA/vuIgPxv+ID/sFiE/5iwhP+U/IT/tTyE/Il0hP8RnIT8ecCE/hXYhP1F7IT/TfiE/VYEhPxaDIT9IhCE/FIUhP5iFIT/thSE/IoYhP0KGIT9WhiE/YYYhP2eGIT9qhiE/a4YhP2uGIT9rhiE/a4YhP2uGIT9rhiE/a4YhP2uGIT9rhiE/a4YhP2uGIT9rhiE/a4YhP2uGIT9rhiE/a4YhP2uGIT9rhiE/a4YhP2uGIT9rhiE/a4YhP2uGIT8=" outputGain="1"/>
+            <key/>
+          </effect>
+        </fxchain>
+        <send amount="1" channel="5"/>
+      </fxchannel>
+      <fxchannel num="5" muted="0" soloed="0" volume="1" name="FX 5">
+        <fxchain enabled="1" numofeffects="8">
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="ladspaeffect" autoquit_syncmode="0">
+            <ladspacontrols ports="12" link="1">
+              <port01 data_numerator="4" data_denominator="4" data_syncmode="0" link="1">
+                <data id="25022" value="13.7344" scale_type="log"/>
+              </port01>
+              <port02 data_numerator="4" data="10" data_denominator="4" data_syncmode="0" link="1"/>
+              <port03 data="0.75" link="1"/>
+              <port04 data="1" link="1"/>
+              <port05 data="0.1325" link="1"/>
+              <port06 data="0.3675" link="1"/>
+              <port11 data_numerator="4" data_denominator="4" data_syncmode="0">
+                <data id="14991" value="13.7344" scale_type="log"/>
+              </port11>
+              <port12 data_numerator="4" data="10" data_denominator="4" data_syncmode="0"/>
+              <port13 data="0.75"/>
+              <port14 data="1"/>
+              <port15 data="0.1325"/>
+              <port16 data="0.3675"/>
+            </ladspacontrols>
+            <key>
+              <attribute value="caps" name="file"/>
+              <attribute value="ChorusI" name="plugin"/>
+            </key>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="ladspaeffect" autoquit_syncmode="0">
+            <ladspacontrols ports="4" link="1">
+              <port00 data="440" link="1"/>
+              <port01 data="-0.4653" link="1"/>
+              <port10 data="440"/>
+              <port11 data="-0.4653"/>
+            </ladspacontrols>
+            <key>
+              <attribute value="comb_1190" name="file"/>
+              <attribute value="comb" name="plugin"/>
+            </key>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="ladspaeffect" autoquit_syncmode="0">
+            <ladspacontrols ports="4">
+              <port02 data="0.999"/>
+              <port03 data="0.293046"/>
+              <port04 data="0.947026"/>
+              <port05 data="0.285"/>
+            </ladspacontrols>
+            <key>
+              <attribute value="caps" name="file"/>
+              <attribute value="Plate2x2" name="plugin"/>
+            </key>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="dynamicsprocessor" autoquit_syncmode="0">
+            <dynamicsprocessor_controls release="75" inputGain="1" stereoMode="0" attack="29" waveShape="AAAAAOL6pTweqyM9cBNwPZZvmz2furs90/nYPZ+E8z2U7wU+mE4RPp4kHD7bqSY+tgUxPnVPOz4pkkU+7NFPPmAQWj7QTmQ+i41uPkLJeD4bfIE+mISGPp9yiz4kOpA+ZtGUPnMzmT5OYZ0+XGGhPlY9pT6l/6g+H7GsPuRXsD6A97M+2JG3Pjgouz7Xu74+qE3CPsvdxT4Ja8k+yvLMPnxx0D4y49M+CkTXPkqQ2j5WxN0+xNzgPpjW4z7Er+Y+gWfpPln+6z7Cde4+ps/wPhwO8z6OM/U+NEP3PpJB+T6ENPs+rCL9PkYS/z70gwA/uYIBP9qEAj9ZiAM/NYoEP/SGBT8lewY/wGMHP3g+CD/eCQk/cMUJP5BxCj9wDws/8KALP3soDD/WqAw/9iQNP8qfDT8EHA4/6JsOPyQhDz+zrA8/2T4QPy7XED+5dBE/GBYSP6C5Ej+CXRM/5v8TPwWfFD9gORU/8s0VP3BcFj+B5RY/vmoXP3juFz88cxg/FvsYP9qGGT+qFRo/66QaP7wwGz/ctBs/vC0cP2CZHD/a9xw/J0sdP5mWHT/x3R0/eCQeP2VsHj+Wth4/ugIfP8BPHz9lnB8/uecfP34xID9OeiA/kMMgPzIPIT9UXyE/zrUhP8QTIj9oeSI/5OUiP45XIz9IzCM/90EkP9a2JD+kKSU/kpklPxAGJj+SbiY/f9ImPzgxJz9Biic/eN0nPzArKD82dCg/vrkoPzH9KD8KQCk/qoMpP0DJKT+iESo/LF0qP5irKj/e+yo/QkwrP4SaKz9K5Cs/mScsPzpjLD/4liw/nMMsP7TqLD9CDi0/cjAtP2JTLT8KeS0/HqMtP//SLT+VCS4/G0cuP/iKLj+s0y4//R4vP0JqLz/ksi8/1vYvP+s0MD8GbTA/8Z8wPyLPMD9j/DA/fCkxPwlYMT9oiTE/sr4xP7j4MT/uNzI/THwyPzjFMj+DETM/hV8zP1atMz8U+TM/F0E0PxCEND8IwTQ/WPc0P5QmNT+GTjU/OW81PwCJNT97nDU/jKo1P0W0NT/GujU/Lr81P5DCNT8=" outputGain="1"/>
+            <key/>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="eq" autoquit_syncmode="0">
+            <Eq HP="0" LP="0" Peak4gain="0" LowShelfres="0.862" LP12="1" Peak1active="1" HPactive="0" Peak3active="1" Lowshelfgain="1.983" LPres="0.529" Highshelfactive="1" HPres="0.707" Lowshelfactive="1" Peak3gain="-18" Outputgain="0" Peak1bw="0.1" Peak4active="0" LPactive="1" HP24="0" Peak2bw="0.1" Peak4bw="0.3" HP48="0" Peak2active="1" LP24="0" HighShelfgain="3.24" HP12="1" AnalyseOut="1" LP48="0" HighShelfres="0.55" AnalyseIn="1" Peak3bw="0.1" Peak2gain="-18">
+              <Inputgain id="1826" value="0" scale_type="log"/>
+              <Peak1gain id="13813" value="-17.82" scale_type="log"/>
+              <HPfreq id="26722" value="31" scale_type="log"/>
+              <LowShelffreq id="13581" value="105.287" scale_type="log"/>
+              <Peak1freq id="16641" value="218.364" scale_type="log"/>
+              <Peak2freq id="630" value="427.832" scale_type="log"/>
+              <Peak3freq id="7317" value="1186.76" scale_type="log"/>
+              <Peak4freq id="18288" value="4000" scale_type="log"/>
+              <Highshelffreq id="23849" value="905.921" scale_type="log"/>
+              <LPfreq id="4948" value="9446.53" scale_type="log"/>
+            </Eq>
+            <key/>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="dynamicsprocessor" autoquit_syncmode="0">
+            <dynamicsprocessor_controls release="73" inputGain="1" stereoMode="0" attack="6" waveShape="AAAAAEc5OTyfyrg8ABIKPZspNz15jGM95pOHPQj7nD0n/7E9NKnGPV8G2z3HJu89EY4BPkJ8Cz6pZhU+KlUfPolOKT4dWDM+qnU9PkCpRz4181E+OFJcPnrDZj7mQnE+cMt7Prgrgz5+cIg+IrGNPu/qkj6SG5g+K0GdPnRaoj7HZqc+NmasPoZZsT4zQrY+UCK7PnT8vz5/08Q+YKrJPsqDzj7wYdM+QUbYPigx3T72IeI+1hbnPugM7D5uAPE+EO31PjLO+j5Kn/8+FS4CP6eABD8CxgY/Rf0IPxAmCz94QA0//kwPP3hMET/8PxM/yigVPzEIFz9/3xg/768aP5p6HD93QB4/VAIgP9vAIT+VfCM/7zUlPzvtJj+4oig/kFYqP9gILD+QuS0/nWgvP9IVMT/uwDI/oGk0P5YPNj9+sjc/ElI5PxfuOj9nhjw/4Ro+P3CrPz8AOEE/eMBCP7RERD+PxEU/4j9HP462SD+PKEo/AJZLPyb/TD9uZE4/aMZPP7clUT/+glI/wd5TP1U5VT/IklY/1upXP+xAWT8vlFo/jONbP9gtXT/rcV4/ua5fP23jYD9yD2I/gjJjP5xMZD/2XWU/+WZmPyVoZz8AYmg/BVVpP5xBaj8MKGs/fghsP/bibD9gt20/j4VuP0lNbz9NDnA/WshwPzR7cT+rJnI/ncpyP/Rmcz+s+3M/z4h0P3UOdT/CjHU/7AN2PzN0dj/m3XY/YkF3PxKfdz9w93c//kp4P0iaeD/h5Xg/Vy55PzJ0eT/yt3k/Bvp5P8M6ej9oeno/Frl6P8r2ej9mM3s/q257P0Koez/F33s/wxR8P85GfD+KdXw/sqB8PyfIfD/v63w/Pwx9P3QpfT8SRH0/tlx9PxF0fT/Qin0/oKF9PxS5fT+j0X0/oOt9Pz0Hfj+BJH4/UkN+P3xjfj+rhH4/fqZ+P4LIfj8+6n4/Ogt/P/wqfz8WSX8/JmV/P9x+fz8Aln8/bKp/Pxy8fz8cy38/kdd/P7Dhfz+76X8//O9/P7z0fz9E+H8/2Pp/P7b8fz8S/n8/HP9/PwAAgD8=" outputGain="0.61"/>
+            <key/>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="ladspaeffect" autoquit_syncmode="0">
+            <ladspacontrols ports="10">
+              <port04 data="0"/>
+              <port05 data="1"/>
+              <port010 data="0.651863"/>
+              <port011 data="2.5"/>
+              <port012>
+                <data id="5375" value="0.01" scale_type="log"/>
+              </port012>
+              <port013>
+                <data id="16772" value="74.9996" scale_type="log"/>
+              </port013>
+              <port014 data="1"/>
+              <port015 data="2.75"/>
+              <port016 data="0"/>
+              <port017 data="1"/>
+            </ladspacontrols>
+            <key>
+              <attribute value="calf" name="file"/>
+              <attribute value="Compressor" name="plugin"/>
+            </key>
+          </effect>
+          <effect on="1" autoquit_numerator="4" wet="1" autoquit_denominator="4" gate="0" autoquit="1" name="eq" autoquit_syncmode="0">
+            <Eq HP="0" LP="0" Peak4gain="0" LowShelfres="0.911" LP12="1" Peak1active="0" HPactive="0" Peak3active="0" Lowshelfgain="-2.7" LPres="0.707" Highshelfactive="1" HPres="0.707" Lowshelfactive="1" Peak3gain="0" Outputgain="0" Peak1bw="0.3" Peak4active="0" LPactive="0" HP24="0" Peak2bw="1.403" Peak4bw="0.3" HP48="0" Peak2active="1" LP24="0" HighShelfgain="0.72" HP12="1" AnalyseOut="1" LP48="0" HighShelfres="0.817" AnalyseIn="1" Peak3bw="0.3" Peak2gain="-1.62">
+              <Inputgain id="13416" value="0" scale_type="log"/>
+              <Peak1gain id="3322" value="0" scale_type="log"/>
+              <HPfreq id="3238" value="31" scale_type="log"/>
+              <LowShelffreq id="18259" value="52.0503" scale_type="log"/>
+              <Peak1freq id="27729" value="120" scale_type="log"/>
+              <Peak2freq id="31796" value="572.717" scale_type="log"/>
+              <Peak3freq id="5672" value="2000" scale_type="log"/>
+              <Peak4freq id="22760" value="4000" scale_type="log"/>
+              <Highshelffreq id="22151" value="1377.78" scale_type="log"/>
+              <LPfreq id="25846" value="18000" scale_type="log"/>
+            </Eq>
+            <key/>
+          </effect>
+        </fxchain>
+        <send amount="1" channel="0"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView x="320" height="300" minimized="0" width="400" maximized="0" visible="0" y="531"/>
+    <pianoroll x="-126" height="480" minimized="0" width="640" maximized="1" visible="0" y="36"/>
+    <automationeditor x="-23" height="400" minimized="0" width="640" maximized="1" visible="0" y="22"/>
+    <projectnotes x="821" height="199" minimized="0" width="743" maximized="0" visible="1" y="6"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'PMingLiU'; font-size:9pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'標楷體'; font-size:72pt; font-weight:600; font-style:italic; color:#ff0004;">意</span><span style=" font-family:'標楷體'; font-size:72pt; font-weight:600; font-style:italic; color:#ffbf00;">味</span><span style=" font-family:'標楷體'; font-size:72pt; font-weight:600; font-style:italic; color:#11ff00;">不</span><span style=" font-family:'標楷體'; font-size:72pt; font-weight:600; font-style:italic; color:#00ffd9;">明</span></p></body></html>]]></projectnotes>
+    <timeline lp0pos="0" lp1pos="1536" lpstate="0"/>
+    <controllers/>
+  </song>
+</lmms-project>
